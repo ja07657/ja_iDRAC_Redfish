@@ -1,4 +1,4 @@
-- Data collection timestamp: 2019-4-1  14:24:54
+- Data collection timestamp: 2019-4-1  16:15:51
 
 --- BIOS Attributes ---
 Attribute Name: IscsiDev1Con1EnDis	Attribute Value: Disabled
@@ -24,7 +24,7 @@ Attribute Name: Proc2Brand	Attribute Value: Intel(R) Xeon(R) Gold 5120 CPU @ 2.2
 Attribute Name: SysProfile	Attribute Value: Custom
 Attribute Name: PxeDev4Protocol	Attribute Value: IPv4
 Attribute Name: SataPortAModel	Attribute Value: Unknown
-Attribute Name: Proc2TurboCoreNum	Attribute Value: All
+Attribute Name: Proc2TurboCoreNum	Attribute Value: 2
 Attribute Name: HddPlaceholder	Attribute Value: Disabled
 Attribute Name: SetBootOrderFqdd10	Attribute Value: 
 Attribute Name: SetBootOrderFqdd11	Attribute Value: 
@@ -176,7 +176,7 @@ Attribute Name: SataPortB	Attribute Value: Auto
 Attribute Name: SataPortE	Attribute Value: Auto
 Attribute Name: SataPortD	Attribute Value: Auto
 Attribute Name: SataPortG	Attribute Value: Auto
-Attribute Name: Proc1TurboCoreNum	Attribute Value: All
+Attribute Name: Proc1TurboCoreNum	Attribute Value: 1
 Attribute Name: SataPortI	Attribute Value: Auto
 Attribute Name: AcPwrRcvry	Attribute Value: Last
 Attribute Name: SataPortK	Attribute Value: Auto
