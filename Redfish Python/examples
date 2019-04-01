@@ -1,0 +1,13 @@
+#get bios attribs into txt file, run ./main.sh and enter: 
+BiosGetAttributesREDFISH_ja.py 
+
+#delete all job queue: 
+DeleteJobIdREDFISH.py -c y
+
+#get job queue: 
+DeleteJobIdREDFISH.py -q y
+
+#change bios setting, run ./main.sh and feed it: 
+BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av 1,2
+
+

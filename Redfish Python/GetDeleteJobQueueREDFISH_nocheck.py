@@ -38,8 +38,7 @@ idrac_password=args["p"]
 
 
 def check_supported_idrac_version():
-    ##response = requests.get('https://%s/redfish/v1/Dell/Managers/iDRAC.Embedded.1/DellJobService/' % idrac_ip,verify=False,auth=(idrac_username, idrac_password))
-    response = requests.get('https://%s/redfish/v1/Dell/Managers/iDRAC.Embedded.1' % idrac_ip,verify=False,auth=(idrac_username, idrac_password))
+    response = requests.get('https://%s/redfish/v1/Dell/Managers/iDRAC.Embedded.1/DellJobService/' % idrac_ip,verify=False,auth=(idrac_username, idrac_password))
     data = response.json()
     if response.status_code != 200:
         print("\n- WARNING, iDRAC version installed does not support this feature using Redfish API")
@@ -95,7 +94,7 @@ def delete_job_queue():
     
 
 if __name__ == "__main__":
-    check_supported_idrac_version()
+    #check_supported_idrac_version()
     if args["d"]:
         delete_job_queue()
     elif args["g"]:
