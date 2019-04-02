@@ -25,3 +25,20 @@
 #
 # update firwmare single DUP
 #./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -l /export/repo/14G_old -f BIOS_YJXXX_WN64_1.6.13.EXE -i NextReboot'
+#
+#
+#
+## get system info
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -a y'
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -c y'
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -ps y'
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -n y'
+##
+#./main.sh 'GetStorageInventoryREDFISH.py -c y'
+#./main.sh 'GetStorageInventoryREDFISH.py -c yy'
+##
+#SCP
+#export#./main.sh 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
+#import#./main.sh 'ImportSystemConfigurationLocalFilenameREDFISH.py -t ALL -s NoReboot -f /export/file.json'
+#import from share#nfs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t ALL --ipaddress 10.40.196.211 --sharetype NFS --sharename /export/nfs --filename ile.json'
+##import from share#cifs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t BIOS --ipaddress 192.168.0.140 --sharetype CIFS --sharename /export/cifs --filename file.json --username Dell --password password'

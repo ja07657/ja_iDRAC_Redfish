@@ -10,6 +10,7 @@
 
 #change bios setting, run ./main.sh and feed it: 
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av 1,2'
+#./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av All,All'
 #
 #get powerstate
 #./main.sh 'SetPowerStateREDFISH.py -g y'
@@ -24,3 +25,14 @@
 #
 # update firwmare single DUP
 #./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -l /export/repo/14G_old -f BIOS_YJXXX_WN64_1.6.13.EXE -i NextReboot'
+#
+#
+#
+## get system info
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -a y'
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -c y'
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -ps y'
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -n y'
+##
+#./main.sh 'GetStorageInventoryREDFISH.py -c y'
+#./main.sh 'GetStorageInventoryREDFISH.py -c yy'
