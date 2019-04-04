@@ -1,0 +1,4 @@
+grep for status: HealthRollup: "Critical" on a controller
+list drives in that controller with Health: Critical or FailurePredicted: true
+get that bad drive
+then blink that drive
