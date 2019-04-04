@@ -11,11 +11,15 @@
 #change bios setting, run ./main.sh and feed it: 
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av 1,2'
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av All,All'
+#./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an OneTimeBootMode -av Enabled All,All'
 #
 #get powerstate
 #./main.sh 'SetPowerStateREDFISH.py -g y'
 #reboot
 #./main.sh 'SetPowerStateREDFISH.py -r GracefulRestart'
+#turn off and on
+#./main.sh 'SetPowerStateREDFISH.py -r ForceOff'
+#./main.sh 'SetPowerStateREDFISH.py -r On'
 ##
 
 ###UPDATE FIRMWARE
@@ -42,3 +46,10 @@
 #import#./main.sh 'ImportSystemConfigurationLocalFilenameREDFISH.py -t ALL -s NoReboot -f /export/file.json'
 #import from share#nfs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t ALL --ipaddress 10.40.196.211 --sharetype NFS --sharename /export/nfs --filename ile.json'
 ##import from share#cifs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t BIOS --ipaddress 192.168.0.140 --sharetype CIFS --sharename /export/cifs --filename file.json --username Dell --password password'
+##
+## RAID
+#list controllers###./main.sh 'CreateVirtualDiskREDFISH.py -cy'
+#list controllers with disks assigned###./main.sh 'CreateVirtualDiskREDFISH.py -cyy'
+#list controllers###./main.sh 'CreateVirtualDiskREDFISH.py -dRAID.Integrated.1-1'
+#Create RAID1 array on two disks###./main.sh 'CreateVirtualDiskREDFISH.py -C RAID.Integrated.1-1 -V y -D Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1,Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1 -R 1'
+##

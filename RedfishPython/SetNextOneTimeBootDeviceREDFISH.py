@@ -14,6 +14,18 @@
 # along with this software; if not, see
 # http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt.
 #
+#-Supported values for next server reboot, one time boot:
+#
+#None
+#Pxe
+#Cd
+#Floppy
+#Hdd
+#BiosSetup
+#Utilities
+#UefiTarget
+#SDCard
+
 
 import requests, json, sys, re, time, warnings, argparse
 

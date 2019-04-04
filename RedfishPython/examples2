@@ -1,0 +1,50 @@
+1.
+## RAID
+#list controllers###./main.sh 'CreateVirtualDiskREDFISH.py -cy'
+#list controllers with disks assigned###./main.sh 'CreateVirtualDiskREDFISH.py -cyy'
+#list controllers###./main.sh 'CreateVirtualDiskREDFISH.py -dRAID.Integrated.1-1'
+#Create RAID1 array on two disks###./main.sh 'CreateVirtualDiskREDFISH.py -C RAID.Integrated.1-1 -V y -D Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1,Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1 -R 1'
+
+
+2.
+SetNextOneTimeBootDeviceREDFISH.py -o Pxe -r y
+#-Supported values for next server reboot, one time boot:
+#
+#None
+#Pxe
+#Cd
+#Floppy
+#Hdd
+#BiosSetup
+#Utilities
+#UefiTarget
+#SDCard
+#
+3.
+#get powerstate
+##./main.sh 'SetPowerStateREDFISH.py -g y'
+##reboot
+##./main.sh 'SetPowerStateREDFISH.py -r GracefulRestart'
+##turn off and on
+##./main.sh 'SetPowerStateREDFISH.py -r ForceOff'
+##./main.sh 'SetPowerStateREDFISH.py -r On'
+###
+
+4.
+#get system info
+#./main.h 'GetSystemHWInventoryREDFISH_ja.py -a y'
+##./main.h 'GetSystemHWInventoryREDFISH_ja.py -c y'
+##./main.h 'GetSystemHWInventoryREDFISH_ja.py -ps y'
+##./main.h 'GetSystemHWInventoryREDFISH_ja.py -n y'
+###
+##./main.sh 'GetStorageInventoryREDFISH.py -c y'
+##./main.sh 'GetStorageInventoryREDFISH.py -c yy'
+###
+##ServerConfigProfile
+##export#./main.sh 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
+##export#./main.sh 'ExportSystemConfigurationLocalREDFISH.py -t BIOS'
+##import from local#./main.sh 'ImportSystemConfigurationLocalFilenameREDFISH.py -t ALL -s NoReboot -f /export/file.json'
+##import from share#nfs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t ALL --ipaddress 10.40.196.211 --sharetype NFS --sharename /export/nfs --filename file.json'
+###import from share#cifs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t BIOS --ipaddress 192.168.0.140 --sharetype CIFS --sharename /export/cifs --filename file.json --username Dell --password password'
+#
+
