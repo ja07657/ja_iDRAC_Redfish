@@ -1,0 +1,5 @@
+#get list of RAID controllers ./main.sh 'CreateVirtualDiskREDFISH.py -cy'
+## list disks and vols on that controller # ./main.sh 'CreateVirtualDiskREDFISH.py -d RAID.Integrated.1-1'
+#get detailed vol info #  ./main.sh 'DeleteVirtualDiskREDFISH.py -vv RAID.Integrated.1-1'
+
+
