@@ -28,7 +28,7 @@
 #./main.sh 'GetFirmwareInventoryREDFISH.py'
 #
 # update firwmare single DUP
-#./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -l /export/repo/14G_old -f BIOS_YJXXX_WN64_1.6.13.EXE -i NextReboot'
+# ./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -l /export -f idrac_2.63.60.61.exe -i NextReboot'
 #
 #
 #

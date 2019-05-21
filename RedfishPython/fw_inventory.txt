@@ -1,34 +1,27 @@
-- Data collection timestamp: 4-1-2019  16:28:58
+- Data collection timestamp: 5-13-2019  10:23:20
 
 
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-101434-2.25
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-101569-25.5.5.0005
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-102300-18.8.9
 @odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-102301-18.8.9
 @odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-102302-18.8.9
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-102303-18.8.9
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-104102-2.25
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-104892-50.5.0-1750
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-106385-2.5.13.3016
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-159-1.6.12
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101095-00.24.7D
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101734-3.0
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-159-2.9.1
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101434-2.25
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101569-25.5.5.0005
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101688-2.20.200.201810113973
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101734-2.1
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-102300-18.8.9
 @odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-102301-18.8.9
 @odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-102302-18.8.9
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-102303-18.8.9
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104102-2.25
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104684-3.3.1
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104892-50.5.0-1750
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-105229-KT37
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-105507-BS04
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-106083-DL42
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-106385-2.5.13.3016
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-159-1.6.12
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-18981-18.12.00
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25227-3.21.26.22
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25806-4301A25
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-27763-1.0.1
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-28897-3.21.26.22
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-102301-18.3.6
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-102302-18.3.6
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-102303-18.3.6
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-104102-2.17
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-104892-50.3.0-1022
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-25227-3.30.30.30
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-102884-DL2D
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-159-2.9.1
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-18981-18.11.00
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25227-2.61.60.60
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25806-4239A36
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-28125-1.0.5
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-28897-2.61.60.60
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-101434-2.23
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-101569-25.5.4.0006
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-159-2.8.0
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-25227-2.60.60.60
