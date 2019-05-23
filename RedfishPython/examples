@@ -9,6 +9,7 @@
 
 
 #change bios setting, run ./main.sh and feed it: 
+#edit biosfile first....then: ./main.sh BiosSetAttributeREDFISH_noreboot.withfile.py
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av 1,2'
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av All,All'
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an OneTimeBootMode -av Enabled All,All'
@@ -24,11 +25,15 @@
 
 ###UPDATE FIRMWARE
 # list firmware
-#./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -g y'
+#withrepo#./main.sh 'InstallFromRepositoryREDFISH.py -g y'
+##
+##single#./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -g y'
 #./main.sh 'GetFirmwareInventoryREDFISH.py'
 #
 # update firwmare single DUP
-# ./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -l /export -f idrac_2.63.60.61.exe -i NextReboot'
+# repo get list -ry # ./main.sh 'InstallFromRepositoryREDFISH.py -i y -r y --ipaddress 10.40.54.200 --sharename /export/repo/14G --applyupdate False --sharetype NFS --catalogfile Catalog.xml'
+# repo apply # ./main.sh 'InstallFromRepositoryREDFISH.py -i y --ipaddress 10.40.54.200 --sharename /export/repo/14G --applyupdate True --sharetype NFS --catalogfile Catalog.xml'
+#single# ./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -l /export -f idrac_2.63.60.61.exe -i NextReboot'
 #
 #
 #

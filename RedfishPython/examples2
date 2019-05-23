@@ -11,6 +11,7 @@
 #Create RAID1 array on two disks###./main.sh 'CreateVirtualDiskREDFISH.py -C RAID.Slot.5-1 -V y -D Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.5-1,Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.5-1 -R 1 --name'
 #list volumes on controller#./main.sh 'CreateVirtualDiskREDFISH.py -v RAID.Slot.5-1'
 
+#Create volume on RAID controller then kickstart install on scsi-0:2:0:0 or for BOSS ata-1.0
 
 2.
 SetNextOneTimeBootDeviceREDFISH.py -o Pxe -r y

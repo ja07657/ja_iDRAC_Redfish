@@ -1,5 +1,4 @@
 #
-#ja
 # InstallFromRepositoryREDFISH. Python script using Redfish API with OEM extension to either get firmware version for all devices, get repository update list or install firmware from a repository on a network share.
 #
 # _author_ = Texas Roemer <Texas_Roemer@Dell.com>
