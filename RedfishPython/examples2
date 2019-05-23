@@ -1,9 +1,15 @@
 1.
 ## RAID
+#remove all volumes then add volume for os
 #list controllers###./main.sh 'CreateVirtualDiskREDFISH.py -cy'
 #list controllers with disks assigned###./main.sh 'CreateVirtualDiskREDFISH.py -cyy'
-#list controllers###./main.sh 'CreateVirtualDiskREDFISH.py -dRAID.Integrated.1-1'
+#list volumes on controller#./main.sh 'CreateVirtualDiskREDFISH.py -v RAID.Slot.5-1'
+#delete vol### ./main.sh 'DeleteVirtualDiskREDFISH.py -D Disk.Virtual.0:RAID.Slot.5-1'
+#list disks on controller###./main.sh 'CreateVirtualDiskREDFISH.py -dRAID.Slot.5-1'
 #Create RAID1 array on two disks###./main.sh 'CreateVirtualDiskREDFISH.py -C RAID.Integrated.1-1 -V y -D Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1,Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1 -R 1'
+#Create RAID1 array on two disks###./main.sh 'CreateVirtualDiskREDFISH.py -C RAID.Slot.5-1 -V y -D Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.5-1,Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.5-1 -R 1'
+#Create RAID1 array on two disks###./main.sh 'CreateVirtualDiskREDFISH.py -C RAID.Slot.5-1 -V y -D Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.5-1,Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.5-1 -R 1 --name'
+#list volumes on controller#./main.sh 'CreateVirtualDiskREDFISH.py -v RAID.Slot.5-1'
 
 
 2.
@@ -32,10 +38,10 @@ SetNextOneTimeBootDeviceREDFISH.py -o Pxe -r y
 
 4.
 #get system info
-#./main.h 'GetSystemHWInventoryREDFISH_ja.py -a y'
-##./main.h 'GetSystemHWInventoryREDFISH_ja.py -c y'
-##./main.h 'GetSystemHWInventoryREDFISH_ja.py -ps y'
-##./main.h 'GetSystemHWInventoryREDFISH_ja.py -n y'
+#./main.sh 'GetSystemHWInventoryREDFISH_ja.py -a y'
+##./main.sh 'GetSystemHWInventoryREDFISH_ja.py -c y'
+##./main.sh 'GetSystemHWInventoryREDFISH_ja.py -ps y'
+##./main.sh 'GetSystemHWInventoryREDFISH_ja.py -n y'
 ###
 ##./main.sh 'GetStorageInventoryREDFISH.py -c y'
 ##./main.sh 'GetStorageInventoryREDFISH.py -c yy'
