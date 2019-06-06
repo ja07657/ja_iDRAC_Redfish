@@ -1,4 +1,4 @@
 ./main.sh 'InsertEjectVirtualMediaREDFISH.py -o2 -d1' ##eject##
-./main.sh 'InsertEjectVirtualMediaREDFISH.py -cy' ##status##
 ./main.sh 'InsertEjectVirtualMediaREDFISH.py -o1 -d1 -l http://10.40.196.209/iso/Polaris_14G_June2019.iso' ##mount##
 ./main.sh 'InsertEjectVirtualMediaREDFISH.py -cy' ##status##
+./main.sh 'SetNextOneTimeBootVirtualMediaDeviceOemREDFISH.py -d1 -ry' ## set onetime boot device to vm  and reboot y##
