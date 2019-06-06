@@ -1,0 +1,394 @@
+- Data collection timestamp: 2019-5-29  10:53:58
+
+--- BIOS Attributes ---
+Attribute Name: SataPortADriveType	Attribute Value: Unknown Device
+Attribute Name: Slot12Bif	Attribute Value: x16
+Attribute Name: Proc3Id	Attribute Value: 6-55-4
+Attribute Name: WriteDataCrc	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Gateway	Attribute Value: 
+Attribute Name: ProcPwrPerf	Attribute Value: MaxPerf
+Attribute Name: PersistentMemoryScrubbing	Attribute Value: Auto
+Attribute Name: PxeDev3VlanPriority	Attribute Value: 0
+Attribute Name: IntelTxt	Attribute Value: Off
+Attribute Name: SataPortKDriveType	Attribute Value: Unknown Device
+Attribute Name: IscsiDev1Con2Protocol	Attribute Value: IPv4
+Attribute Name: HttpDev1EnDis	Attribute Value: Disabled
+Attribute Name: SataPortHModel	Attribute Value: Unknown
+Attribute Name: NvdimmFactoryDefault3	Attribute Value: NvdimmFactoryDefaultDisable
+Attribute Name: NvdimmFactoryDefault2	Attribute Value: NvdimmFactoryDefaultDisable
+Attribute Name: NvdimmFactoryDefault1	Attribute Value: NvdimmFactoryDefaultDisable
+Attribute Name: NvdimmFactoryDefault0	Attribute Value: NvdimmFactoryDefaultDisable
+Attribute Name: SataPortFDriveType	Attribute Value: Unknown Device
+Attribute Name: HttpDev3Uri	Attribute Value: 
+Attribute Name: IscsiDev1Con1TgtDhcpEnDis	Attribute Value: Disabled
+Attribute Name: Proc4TurboCoreNum	Attribute Value: All
+Attribute Name: IscsiDev1Con2TargetName	Attribute Value: 
+Attribute Name: HttpDev1Uri	Attribute Value: 
+Attribute Name: PxeDev2Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: Proc3NumCores	Attribute Value: 16
+Attribute Name: HttpDev2VlanEnDis	Attribute Value: Disabled
+Attribute Name: Proc4Id	Attribute Value: 6-55-4
+Attribute Name: SataPortDDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortNCapacity	Attribute Value: N/A
+Attribute Name: SataPortCDriveType	Attribute Value: Unknown Device
+Attribute Name: DcuIpPrefetcher	Attribute Value: Enabled
+Attribute Name: IscsiDev1Con2EnDis	Attribute Value: Disabled
+Attribute Name: SataPortLCapacity	Attribute Value: N/A
+Attribute Name: PxeDev4VlanPriority	Attribute Value: 0
+Attribute Name: ProcAdjCacheLine	Attribute Value: Enabled
+Attribute Name: IscsiDev1Con1Timeout	Attribute Value: 10000
+Attribute Name: TpmFirmware	Attribute Value: 
+Attribute Name: ExtSerialConnector	Attribute Value: Serial1
+Attribute Name: SecureBootMode	Attribute Value: DeployedMode
+Attribute Name: NumLock	Attribute Value: On
+Attribute Name: IscsiDev1Con2RevChapName	Attribute Value: 
+Attribute Name: MmioAbove4Gb	Attribute Value: Enabled
+Attribute Name: PxeDev3Protocol	Attribute Value: IPv4
+Attribute Name: IscsiDev1Con1Auth	Attribute Value: None
+Attribute Name: HttpDev4EnDis	Attribute Value: Disabled
+Attribute Name: SataPortNDriveType	Attribute Value: Unknown Device
+Attribute Name: IscsiDev1Con1Mask	Attribute Value: 
+Attribute Name: SataPortA	Attribute Value: Auto
+Attribute Name: SataPortC	Attribute Value: Auto
+Attribute Name: SataPortB	Attribute Value: Auto
+Attribute Name: SataPortE	Attribute Value: Auto
+Attribute Name: SataPortD	Attribute Value: Auto
+Attribute Name: SataPortG	Attribute Value: Auto
+Attribute Name: SataPortF	Attribute Value: Auto
+Attribute Name: SataPortI	Attribute Value: Auto
+Attribute Name: SataPortH	Attribute Value: Auto
+Attribute Name: SataPortK	Attribute Value: Auto
+Attribute Name: SataPortJ	Attribute Value: Auto
+Attribute Name: SataPortM	Attribute Value: Auto
+Attribute Name: SataPortL	Attribute Value: Auto
+Attribute Name: SataPortN	Attribute Value: Auto
+Attribute Name: Slot7Bif	Attribute Value: x16
+Attribute Name: PwrButton	Attribute Value: Enabled
+Attribute Name: PxeDev2VlanId	Attribute Value: 1
+Attribute Name: IscsiDev1Con2TgtDhcpEnDis	Attribute Value: Disabled
+Attribute Name: SetBootOrderFqdd8	Attribute Value: 
+Attribute Name: SetBootOrderFqdd9	Attribute Value: 
+Attribute Name: RedundantOsLocation	Attribute Value: None
+Attribute Name: Proc1Id	Attribute Value: 6-55-4
+Attribute Name: MemRefreshRate	Attribute Value: 1x
+Attribute Name: SetBootOrderFqdd1	Attribute Value: 
+Attribute Name: SetBootOrderFqdd2	Attribute Value: 
+Attribute Name: SetBootOrderFqdd3	Attribute Value: 
+Attribute Name: SetBootOrderFqdd4	Attribute Value: 
+Attribute Name: SetBootOrderFqdd5	Attribute Value: 
+Attribute Name: SetBootOrderFqdd6	Attribute Value: 
+Attribute Name: SetBootOrderFqdd7	Attribute Value: 
+Attribute Name: SataPortFModel	Attribute Value: Unknown
+Attribute Name: Proc2Brand	Attribute Value: Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz
+Attribute Name: ProcCStates	Attribute Value: Disabled
+Attribute Name: SataPortEModel	Attribute Value: Unknown
+Attribute Name: HttpDev3VlanPriority	Attribute Value: 0
+Attribute Name: ProcX2Apic	Attribute Value: Disabled
+Attribute Name: SataPortDCapacity	Attribute Value: N/A
+Attribute Name: MemTest	Attribute Value: Disabled
+Attribute Name: Proc1L2Cache	Attribute Value: 16x1 MB
+Attribute Name: Proc2L2Cache	Attribute Value: 16x1 MB
+Attribute Name: NvmeMode	Attribute Value: NonRaid
+Attribute Name: IscsiDev1Con1VlanId	Attribute Value: 1
+Attribute Name: HttpDev4Uri	Attribute Value: 
+Attribute Name: PxeDev2Protocol	Attribute Value: IPv4
+Attribute Name: SataPortJDriveType	Attribute Value: Unknown Device
+Attribute Name: HttpDev3VlanEnDis	Attribute Value: Disabled
+Attribute Name: Slot9	Attribute Value: Enabled
+Attribute Name: AssetTag	Attribute Value: 
+Attribute Name: SataPortAModel	Attribute Value: Unknown
+Attribute Name: Proc2NumCores	Attribute Value: 16
+Attribute Name: Slot1	Attribute Value: Enabled
+Attribute Name: Slot3	Attribute Value: Enabled
+Attribute Name: Slot2	Attribute Value: Enabled
+Attribute Name: Slot5	Attribute Value: Disabled
+Attribute Name: Slot4	Attribute Value: Enabled
+Attribute Name: Slot7	Attribute Value: Enabled
+Attribute Name: Slot6	Attribute Value: Enabled
+Attribute Name: UefiComplianceVersion	Attribute Value: 2.5
+Attribute Name: AesNi	Attribute Value: Enabled
+Attribute Name: IscsiDev1Con1ChapType	Attribute Value: OneWay
+Attribute Name: LogicalProc	Attribute Value: Enabled
+Attribute Name: BootMode	Attribute Value: Uefi
+Attribute Name: Proc2Id	Attribute Value: 6-55-4
+Attribute Name: SecureBootPolicy	Attribute Value: Standard
+Attribute Name: HttpDev1VlanEnDis	Attribute Value: Disabled
+Attribute Name: SataPortCModel	Attribute Value: Unknown
+Attribute Name: SataPortHCapacity	Attribute Value: N/A
+Attribute Name: NvdimmFactoryDefault	Attribute Value: NvdimmFactoryDefaultDisable
+Attribute Name: SetLegacyHddOrderFqdd11	Attribute Value: 
+Attribute Name: InternalSdCardRedundancy	Attribute Value: Disabled
+Attribute Name: SataPortJModel	Attribute Value: Unknown
+Attribute Name: HttpDev3EnDis	Attribute Value: Disabled
+Attribute Name: SetLegacyHddOrderFqdd15	Attribute Value: 
+Attribute Name: FailSafeBaud	Attribute Value: 115200
+Attribute Name: Proc4L2Cache	Attribute Value: 16x1 MB
+Attribute Name: WriteCache	Attribute Value: Disabled
+Attribute Name: InternalSdCard	Attribute Value: Off
+Attribute Name: PxeDev4Protocol	Attribute Value: IPv4
+Attribute Name: HttpDev1VlanPriority	Attribute Value: 0
+Attribute Name: Proc2TurboCoreNum	Attribute Value: All
+Attribute Name: SetBootOrderFqdd13	Attribute Value: 
+Attribute Name: SetBootOrderFqdd10	Attribute Value: 
+Attribute Name: SetBootOrderFqdd11	Attribute Value: 
+Attribute Name: SetBootOrderFqdd16	Attribute Value: 
+Attribute Name: SetBootOrderFqdd14	Attribute Value: 
+Attribute Name: SetBootOrderFqdd15	Attribute Value: 
+Attribute Name: IscsiDev1Con1Port	Attribute Value: 3260
+Attribute Name: PxeDev4VlanEnDis	Attribute Value: Disabled
+Attribute Name: CpuInterconnectBusLinkPower	Attribute Value: Disabled
+Attribute Name: OneTimeUefiBootSeqDev	Attribute Value: NIC.PxeDevice.1-1
+Attribute Name: IscsiDev1Con1RevChapName	Attribute Value: 
+Attribute Name: HttpDev2VlanPriority	Attribute Value: 0
+Attribute Name: RedirAfterBoot	Attribute Value: Enabled
+Attribute Name: Proc3L2Cache	Attribute Value: 16x1 MB
+Attribute Name: PxeDev2VlanEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev4VlanId	Attribute Value: 1
+Attribute Name: SysMemSize	Attribute Value: 448 GB ( Volatile: 384 GB Non-Volatile: 64 GB )
+Attribute Name: ErrPrompt	Attribute Value: Enabled
+Attribute Name: SataPortDModel	Attribute Value: Unknown
+Attribute Name: SataPortICapacity	Attribute Value: N/A
+Attribute Name: UncoreFrequency	Attribute Value: MaxUFS
+Attribute Name: UsbManagedPort	Attribute Value: On
+Attribute Name: IscsiDev1Con1TargetIp	Attribute Value: 
+Attribute Name: MemPatrolScrub	Attribute Value: Standard
+Attribute Name: IscsiDev1Con2TargetIp	Attribute Value: 
+Attribute Name: SystemServiceTag	Attribute Value: 6VB4MN2
+Attribute Name: IscsiInitiatorName	Attribute Value: 
+Attribute Name: HttpDev3Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: SataPortGCapacity	Attribute Value: N/A
+Attribute Name: SerialPortAddress	Attribute Value: Serial1Com2Serial2Com1
+Attribute Name: UsbPorts	Attribute Value: AllOn
+Attribute Name: NvdimmReadOnly	Attribute Value: NvdimmReadOnlyDisable
+Attribute Name: SystemCpldVersion	Attribute Value: 1.0.1
+Attribute Name: PxeDev1EnDis	Attribute Value: Enabled
+Attribute Name: IscsiDev1Con2Retry	Attribute Value: 3
+Attribute Name: ProcCoreSpeed	Attribute Value: 2.0 GHz
+Attribute Name: SataPortGDriveType	Attribute Value: Unknown Device
+Attribute Name: PcieAspmL1	Attribute Value: Disabled
+Attribute Name: PxeDev3VlanId	Attribute Value: 1
+Attribute Name: EnergyPerformanceBias	Attribute Value: MaxPower
+Attribute Name: AcPwrRcvryUserDelay	Attribute Value: 60
+Attribute Name: PowerCycleRequest	Attribute Value: None
+Attribute Name: Proc1TurboCoreNum	Attribute Value: All
+Attribute Name: AcPwrRcvry	Attribute Value: Last
+Attribute Name: HttpDev2VlanId	Attribute Value: 1
+Attribute Name: HttpDev2Protocol	Attribute Value: IPv4
+Attribute Name: Proc1Brand	Attribute Value: Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz
+Attribute Name: TpmSecurity	Attribute Value: Off
+Attribute Name: PxeDev4Interface	Attribute Value: NIC.Integrated.1-2-1
+Attribute Name: SataPortFCapacity	Attribute Value: N/A
+Attribute Name: WorkloadProfile	Attribute Value: NotAvailable
+Attribute Name: Proc1NumCores	Attribute Value: 16
+Attribute Name: PxeDev2VlanPriority	Attribute Value: 0
+Attribute Name: SataPortBModel	Attribute Value: Unknown
+Attribute Name: VideoMem	Attribute Value: 16 MB
+Attribute Name: IscsiDev1Con2DhcpEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con2IsId	Attribute Value: 
+Attribute Name: SysPassword	Attribute Value: None
+Attribute Name: NvdimmSerialNum3	Attribute Value: 183E675F
+Attribute Name: OppSrefEn	Attribute Value: Disabled
+Attribute Name: SataPortIModel	Attribute Value: Unknown
+Attribute Name: NvdimmSerialNum0	Attribute Value: 183E6895
+Attribute Name: SriovGlobalEnable	Attribute Value: Disabled
+Attribute Name: TpmPpiBypassClear	Attribute Value: Disabled
+Attribute Name: Slot5Bif	Attribute Value: x8
+Attribute Name: NvdimmInterleaveSupport	Attribute Value: NvdimmInterleaveDisable
+Attribute Name: IscsiDev1Con1VlanPriority	Attribute Value: 0
+Attribute Name: Slot2Bif	Attribute Value: x16
+Attribute Name: PxeDev3EnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1RevChapSecret	Attribute Value: 
+Attribute Name: IntegratedNetwork1	Attribute Value: Enabled
+Attribute Name: RemainingRatedWriteEndurance3	Attribute Value: 78
+Attribute Name: RemainingRatedWriteEndurance2	Attribute Value: 78
+Attribute Name: RemainingRatedWriteEndurance1	Attribute Value: 78
+Attribute Name: RemainingRatedWriteEndurance0	Attribute Value: 78
+Attribute Name: SataPortEDriveType	Attribute Value: Unknown Device
+Attribute Name: PxeDev2EnDis	Attribute Value: Disabled
+Attribute Name: SHA256SetupPasswordSalt	Attribute Value: 
+Attribute Name: SataPortMDriveType	Attribute Value: Unknown Device
+Attribute Name: TpmInfo	Attribute Value: Type: 2.0-NTC
+Attribute Name: EmbVideo	Attribute Value: Enabled
+Attribute Name: EmbSata	Attribute Value: AhciMode
+Attribute Name: Proc4L3Cache	Attribute Value: 22 MB
+Attribute Name: ConTermType	Attribute Value: Vt100Vt220
+Attribute Name: Slot8Bif	Attribute Value: x16
+Attribute Name: HttpDev3Protocol	Attribute Value: IPv4
+Attribute Name: ProcCores	Attribute Value: All
+Attribute Name: ProcHwPrefetcher	Attribute Value: Enabled
+Attribute Name: MemFrequency	Attribute Value: MaxPerf
+Attribute Name: Proc3Brand	Attribute Value: Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz
+Attribute Name: OneTimeBootMode	Attribute Value: Disabled
+Attribute Name: SataPortBCapacity	Attribute Value: N/A
+Attribute Name: TpmPpiBypassProvision	Attribute Value: Disabled
+Attribute Name: DynamicCoreAllocation	Attribute Value: Disabled
+Attribute Name: HttpDev4Protocol	Attribute Value: IPv4
+Attribute Name: HttpDev4VlanEnDis	Attribute Value: Disabled
+Attribute Name: SetLegacyHddOrderFqdd12	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd13	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd10	Attribute Value: 
+Attribute Name: PersistentMemoryMode	Attribute Value: NVDIMM
+Attribute Name: SetLegacyHddOrderFqdd16	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd14	Attribute Value: 
+Attribute Name: OsWatchdogTimer	Attribute Value: Disabled
+Attribute Name: DcuStreamerPrefetcher	Attribute Value: Enabled
+Attribute Name: IscsiDev1Con2ChapSecret	Attribute Value: 
+Attribute Name: InBandManageabilityInterface	Attribute Value: Enabled
+Attribute Name: SataPortLDriveType	Attribute Value: Unknown Device
+Attribute Name: IscsiDev1Con1Retry	Attribute Value: 3
+Attribute Name: SerialComm	Attribute Value: OnConRedirAuto
+Attribute Name: GenericUsbBoot	Attribute Value: Disabled
+Attribute Name: ForceInt10	Attribute Value: Disabled
+Attribute Name: InternalUsb	Attribute Value: On
+Attribute Name: SecurityFreezeLock	Attribute Value: Enabled
+Attribute Name: IscsiDev1Con1VlanEnDis	Attribute Value: Disabled
+Attribute Name: SataPortHDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortMModel	Attribute Value: Unknown
+Attribute Name: Proc4Brand	Attribute Value: Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz
+Attribute Name: NvdimmSerialNum2	Attribute Value: 183E677D
+Attribute Name: ProcTurboMode	Attribute Value: Enabled
+Attribute Name: SetBootOrderFqdd12	Attribute Value: 
+Attribute Name: NvdimmSerialNum1	Attribute Value: 183E67B9
+Attribute Name: SysMemSpeed	Attribute Value: 2666 Mhz
+Attribute Name: DellAutoDiscovery	Attribute Value: PlatformDefault
+Attribute Name: SataPortGModel	Attribute Value: Unknown
+Attribute Name: MemoryMappedIOH	Attribute Value: 56TB
+Attribute Name: IscsiDev1Con2Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: SetBootOrderEn	Attribute Value: 
+Attribute Name: IscsiDev1Con2ChapName	Attribute Value: 
+Attribute Name: Slot9Bif	Attribute Value: x16
+Attribute Name: SataPortCCapacity	Attribute Value: N/A
+Attribute Name: Slot11Bif	Attribute Value: x16
+Attribute Name: SataPortMCapacity	Attribute Value: N/A
+Attribute Name: Slot6Bif	Attribute Value: x8
+Attribute Name: Proc1L3Cache	Attribute Value: 22 MB
+Attribute Name: PxeDev3VlanEnDis	Attribute Value: Disabled
+Attribute Name: ProcVirtualization	Attribute Value: Enabled
+Attribute Name: ProcC1E	Attribute Value: Disabled
+Attribute Name: Proc3TurboCoreNum	Attribute Value: All
+Attribute Name: PxeDev1VlanId	Attribute Value: 1
+Attribute Name: IscsiDev1Con2Gateway	Attribute Value: 
+Attribute Name: SataPortACapacity	Attribute Value: N/A
+Attribute Name: SataPortIDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortECapacity	Attribute Value: N/A
+Attribute Name: NvdimmFirmwareVer3	Attribute Value: 9324
+Attribute Name: NvdimmFirmwareVer2	Attribute Value: 9324
+Attribute Name: NvdimmFirmwareVer1	Attribute Value: 9324
+Attribute Name: NvdimmFirmwareVer0	Attribute Value: 9324
+Attribute Name: SHA256SetupPassword	Attribute Value: 
+Attribute Name: NvdimmSize3	Attribute Value: 16 GB
+Attribute Name: NvdimmSize2	Attribute Value: 16 GB
+Attribute Name: NvdimmSize1	Attribute Value: 16 GB
+Attribute Name: NvdimmSize0	Attribute Value: 16 GB
+Attribute Name: SetBootOrderDis	Attribute Value: 
+Attribute Name: NodeInterleave	Attribute Value: Disabled
+Attribute Name: SystemMeVersion	Attribute Value: 4.0.4.401
+Attribute Name: MemOpMode	Attribute Value: OptimizerMode
+Attribute Name: PasswordStatus	Attribute Value: Unlocked
+Attribute Name: IscsiDev1Con2Lun	Attribute Value: 0
+Attribute Name: Proc4NumCores	Attribute Value: 16
+Attribute Name: SystemManufacturer	Attribute Value: Dell Inc.
+Attribute Name: IscsiDev1Con2ChapType	Attribute Value: OneWay
+Attribute Name: ProcBusSpeed	Attribute Value: 10.40 GT/s
+Attribute Name: IscsiDev1Con2Timeout	Attribute Value: 10000
+Attribute Name: CpuInterconnectBusSpeed	Attribute Value: MaxDataRate
+Attribute Name: ControlledTurbo	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1TargetName	Attribute Value: 
+Attribute Name: Slot3Bif	Attribute Value: x16
+Attribute Name: IoatEngine	Attribute Value: Disabled
+Attribute Name: SHA256SystemPasswordSalt	Attribute Value: 
+Attribute Name: Proc2L3Cache	Attribute Value: 22 MB
+Attribute Name: IscsiDev1Con2VlanId	Attribute Value: 1
+Attribute Name: PxeDev1VlanEnDis	Attribute Value: Disabled
+Attribute Name: Slot13Bif	Attribute Value: x16
+Attribute Name: SystemModelName	Attribute Value: PowerEdge R940
+Attribute Name: IscsiDev1Con1IsId	Attribute Value: 
+Attribute Name: SataPortNModel	Attribute Value: Unknown
+Attribute Name: HttpDev4Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: IscsiDev1Con1EnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Ip	Attribute Value: 
+Attribute Name: NvdimmLocation1	Attribute Value: A8
+Attribute Name: NvdimmLocation0	Attribute Value: A7
+Attribute Name: NvdimmLocation3	Attribute Value: B8
+Attribute Name: NvdimmLocation2	Attribute Value: B7
+Attribute Name: SysProfile	Attribute Value: PerfOptimized
+Attribute Name: HddPlaceholder	Attribute Value: Disabled
+Attribute Name: Slot4Bif	Attribute Value: x16
+Attribute Name: SHA256SystemPassword	Attribute Value: 
+Attribute Name: Slot11	Attribute Value: Enabled
+Attribute Name: Slot10	Attribute Value: Enabled
+Attribute Name: Slot13	Attribute Value: Enabled
+Attribute Name: Slot12	Attribute Value: Enabled
+Attribute Name: SataPortKCapacity	Attribute Value: N/A
+Attribute Name: SysMemVolt	Attribute Value: 1.20 V
+Attribute Name: HttpDev4VlanPriority	Attribute Value: 0
+Attribute Name: HddFailover	Attribute Value: Disabled
+Attribute Name: PxeDev3Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: ProcConfigTdp	Attribute Value: Nominal
+Attribute Name: HttpDev3VlanId	Attribute Value: 1
+Attribute Name: IscsiDev1Con1ChapSecret	Attribute Value: 
+Attribute Name: MonitorMwait	Attribute Value: Enabled
+Attribute Name: AcPwrRcvryDelay	Attribute Value: Immediate
+Attribute Name: SystemBiosVersion	Attribute Value: 1.6.13
+Attribute Name: IscsiDev1Con2RevChapSecret	Attribute Value: 
+Attribute Name: IscsiDev1Con2Mask	Attribute Value: 
+Attribute Name: SataPortKModel	Attribute Value: Unknown
+Attribute Name: Proc3L3Cache	Attribute Value: 22 MB
+Attribute Name: Slot8	Attribute Value: Enabled
+Attribute Name: ControlledTurboMinusBin	Attribute Value: 0
+Attribute Name: AuthorizeDeviceFirmware	Attribute Value: Disabled
+Attribute Name: Slot1Bif	Attribute Value: x8
+Attribute Name: BootSeqRetry	Attribute Value: Enabled
+Attribute Name: SataPortLModel	Attribute Value: Unknown
+Attribute Name: HttpDev2Uri	Attribute Value: 
+Attribute Name: IscsiDev1Con1DhcpEnDis	Attribute Value: Disabled
+Attribute Name: SetLegacyHddOrderFqdd1	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd2	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd3	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd4	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd5	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd6	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd7	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd8	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd9	Attribute Value: 
+Attribute Name: PxeDev1Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: PxeDev4EnDis	Attribute Value: Enabled
+Attribute Name: CorrEccSmi	Attribute Value: Enabled
+Attribute Name: HttpDev1Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: HttpDev4VlanId	Attribute Value: 1
+Attribute Name: SysMemType	Attribute Value: ECC DDR4
+Attribute Name: IscsiDev1Con2Auth	Attribute Value: None
+Attribute Name: IscsiDev1Con1ChapName	Attribute Value: 
+Attribute Name: InternalSdCardPrimaryCard	Attribute Value: SdCard1
+Attribute Name: CurrentEmbVideoState	Attribute Value: Enabled
+Attribute Name: IscsiDev1Con2VlanEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: IscsiDev1Con2Port	Attribute Value: 3260
+Attribute Name: SataPortJCapacity	Attribute Value: N/A
+Attribute Name: IscsiDev1EnDis	Attribute Value: Disabled
+Attribute Name: SataPortBDriveType	Attribute Value: Unknown Device
+Attribute Name: SysMfrContactInfo	Attribute Value: www.dell.com
+Attribute Name: SystemCpld2Version	Attribute Value: 1.0.0
+Attribute Name: BatteryStatus	Attribute Value: Present-Ready.
+Attribute Name: SecureBoot	Attribute Value: Disabled
+Attribute Name: UpiPrefetch	Attribute Value: Enabled
+Attribute Name: HttpDev2Interface	Attribute Value: NIC.Integrated.1-1-1
+Attribute Name: NvdimmFreq0	Attribute Value: 2666 Mhz
+Attribute Name: NvdimmFreq1	Attribute Value: 2666 Mhz
+Attribute Name: NvdimmFreq2	Attribute Value: 2666 Mhz
+Attribute Name: NvdimmFreq3	Attribute Value: 2666 Mhz
+Attribute Name: IscsiDev1Con2Ip	Attribute Value: 
+Attribute Name: HttpDev1Protocol	Attribute Value: IPv4
+Attribute Name: UefiVariableAccess	Attribute Value: Standard
+Attribute Name: IscsiDev1Con2VlanPriority	Attribute Value: 0
+Attribute Name: SetupPassword	Attribute Value: None
+Attribute Name: HttpDev1VlanId	Attribute Value: 1
+Attribute Name: PxeDev1Protocol	Attribute Value: IPv4
+Attribute Name: DellWyseP25BIOSAccess	Attribute Value: Enabled
+Attribute Name: Slot10Bif	Attribute Value: x16
+Attribute Name: PxeDev1VlanPriority	Attribute Value: 0
+Attribute Name: HttpDev2EnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1ConOrder	Attribute Value: Con1Con2
+Attribute Name: SubNumaCluster	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Lun	Attribute Value: 0
