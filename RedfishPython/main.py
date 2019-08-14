@@ -9,29 +9,39 @@ otherattribs = " -a y"
 
 import os
 import getpass
+import argparse
 
 iplist = list()
 #
-f = open('ipfile')
-for line in f :
+args = "notset" 
+parser = argparse.ArgumentParser("Enter program name to be run")
+parser.add_argument("-p", help="The python program to run on the iDRAC")
+args = parser.parse_args()
+print(args)
+if args.p is not None : 
+ #
+ f = open('ipfile')
+ for line in f :
   ip = line.rstrip()
   ip = str(ip)
   iplist.append(ip)  
 
-iplist = sorted(iplist)
-print(f'Running on: { iplist }')
+ iplist = sorted(iplist)
+ print(f'Running on: { iplist }')
 
-prog1 = input('Enter the program to run: ')
-user1 = input('iDRAC Username: ')
-pass1 = getpass.getpass('iDRAC Password: ')    
+ prog1 = args 
+ user1 = input('iDRAC Username: ')
+ pass1 = getpass.getpass('iDRAC Password: ')    
 
-check1 = input('Are you sure you want to run this? Type Y to continue...')
-if check1 == 'Y' :
+ check1 = input('Are you sure you want to run this? Type Y to continue...')
+ if check1 == 'Y' :
    for ip1 in iplist : 
       cmdline = 'python ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
       print(f"Running... { prog1 } on { ip1 }")
       os.system(cmdline)
 
-print('Done.')
+ print('Done.')
+else :
+ print('Please enter the program name, like so: -p prog.py')
       
   
