@@ -8,6 +8,7 @@ otherattribs = " -a y"
 #-------------------------------
 
 import os
+import getpass
 
 iplist = list()
 #
@@ -22,14 +23,13 @@ print(f'Running on: { iplist }')
 
 prog1 = input('Enter the program to run: ')
 user1 = input('iDRAC Username: ')
-pass1 = input('iDRAC Password: ')    
+pass1 = getpass.getpass('iDRAC Password: ')    
 
 check1 = input('Are you sure you want to run this? Type Y to continue...')
 if check1 == 'Y' :
    for ip1 in iplist : 
-      print(f'running on: { ip }')
       cmdline = 'python ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
-      print(f'running: { cmdline }')
+      print(f"Running... { prog1 } on { ip }")
       os.system(cmdline)
 
 print('Done.')
