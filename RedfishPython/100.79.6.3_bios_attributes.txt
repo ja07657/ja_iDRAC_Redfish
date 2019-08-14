@@ -1,0 +1,182 @@
+- Data collection timestamp: 2019-8-8  15:47:36
+
+--- BIOS Attributes ---
+Attribute Name: SataPortADriveType	Attribute Value: Unknown Device
+Attribute Name: MemFrequency	Attribute Value: MaxPerf
+Attribute Name: DcuIpPrefetcher	Attribute Value: Enabled
+Attribute Name: FailSafeBaud	Attribute Value: 115200
+Attribute Name: SystemBiosVersion	Attribute Value: 1.8.0
+Attribute Name: WriteDataCrc	Attribute Value: Disabled
+Attribute Name: SataPortBCapacity	Attribute Value: N/A
+Attribute Name: WriteCache	Attribute Value: Disabled
+Attribute Name: ProcPwrPerf	Attribute Value: SysDbpm
+Attribute Name: SysProfile	Attribute Value: PerfPerWattOptimizedDapc
+Attribute Name: SataPortAModel	Attribute Value: Unknown
+Attribute Name: Proc2TurboCoreNum	Attribute Value: All
+Attribute Name: HddPlaceholder	Attribute Value: Disabled
+Attribute Name: SetBootOrderFqdd10	Attribute Value: 
+Attribute Name: SetBootOrderFqdd11	Attribute Value: 
+Attribute Name: SetBootOrderFqdd16	Attribute Value: 
+Attribute Name: SetBootOrderFqdd14	Attribute Value: 
+Attribute Name: SetBootOrderFqdd15	Attribute Value: 
+Attribute Name: IntelTxt	Attribute Value: Off
+Attribute Name: OneTimeBootMode	Attribute Value: Disabled
+Attribute Name: SataPortFCapacity	Attribute Value: N/A
+Attribute Name: SHA256SystemPassword	Attribute Value: 
+Attribute Name: SecureBootPolicy	Attribute Value: Standard
+Attribute Name: DynamicCoreAllocation	Attribute Value: Disabled
+Attribute Name: AssetTag	Attribute Value: 
+Attribute Name: AesNi	Attribute Value: Enabled
+Attribute Name: CpuInterconnectBusLinkPower	Attribute Value: Enabled
+Attribute Name: SetLegacyHddOrderFqdd13	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd10	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd11	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd16	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd14	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd15	Attribute Value: 
+Attribute Name: SataPortFDriveType	Attribute Value: Unknown Device
+Attribute Name: HddFailover	Attribute Value: Disabled
+Attribute Name: SetBootOrderEn	Attribute Value: 
+Attribute Name: SataPortA	Attribute Value: Auto
+Attribute Name: DcuStreamerPrefetcher	Attribute Value: Enabled
+Attribute Name: ProcConfigTdp	Attribute Value: Nominal
+Attribute Name: RedirAfterBoot	Attribute Value: Enabled
+Attribute Name: UefiVariableAccess	Attribute Value: Standard
+Attribute Name: InBandManageabilityInterface	Attribute Value: Enabled
+Attribute Name: UsbPorts	Attribute Value: AllOn
+Attribute Name: OneTimeHddSeqDev	Attribute Value: NonRAID.Integrated.1-1
+Attribute Name: MonitorMwait	Attribute Value: Enabled
+Attribute Name: SerialComm	Attribute Value: Off
+Attribute Name: SysMemSize	Attribute Value: 256 GB
+Attribute Name: GenericUsbBoot	Attribute Value: Disabled
+Attribute Name: SataPortF	Attribute Value: Auto
+Attribute Name: ForceInt10	Attribute Value: Disabled
+Attribute Name: ErrPrompt	Attribute Value: Enabled
+Attribute Name: InternalUsb	Attribute Value: On
+Attribute Name: SataPortDDriveType	Attribute Value: Unknown Device
+Attribute Name: SecurityFreezeLock	Attribute Value: Enabled
+Attribute Name: UncoreFrequency	Attribute Value: DynamicUFS
+Attribute Name: IntegratedRaid	Attribute Value: Enabled
+Attribute Name: UsbManagedPort	Attribute Value: On
+Attribute Name: SataPortCDriveType	Attribute Value: Unknown Device
+Attribute Name: MemPatrolScrub	Attribute Value: Standard
+Attribute Name: SystemServiceTag	Attribute Value: C39P9T2
+Attribute Name: ControlledTurboMinusBin	Attribute Value: 0
+Attribute Name: OsWatchdogTimer	Attribute Value: Disabled
+Attribute Name: ProcAdjCacheLine	Attribute Value: Enabled
+Attribute Name: SerialPortAddress	Attribute Value: Com1
+Attribute Name: ExtSerialConnector	Attribute Value: Serial1
+Attribute Name: BootSeqRetry	Attribute Value: Enabled
+Attribute Name: SystemCpldVersion	Attribute Value: 1.0.0
+Attribute Name: SecureBootMode	Attribute Value: DeployedMode
+Attribute Name: NumLock	Attribute Value: On
+Attribute Name: ProcCoreSpeed	Attribute Value: 2.10 GHz
+Attribute Name: PcieAspmL1	Attribute Value: Enabled
+Attribute Name: EnergyPerformanceBias	Attribute Value: BalancedPerformance
+Attribute Name: MmioAbove4Gb	Attribute Value: Enabled
+Attribute Name: SysMfrContactInfo	Attribute Value: www.dell.com
+Attribute Name: ProcTurboMode	Attribute Value: Enabled
+Attribute Name: SetBootOrderFqdd12	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd2	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd3	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd4	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd5	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd6	Attribute Value: 
+Attribute Name: SetBootOrderFqdd13	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd8	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd9	Attribute Value: 
+Attribute Name: ProcX2Apic	Attribute Value: Disabled
+Attribute Name: SysMemSpeed	Attribute Value: 2666 Mhz
+Attribute Name: MemoryMappedIOH	Attribute Value: 56TB
+Attribute Name: PowerCycleRequest	Attribute Value: None
+Attribute Name: CorrEccSmi	Attribute Value: Enabled
+Attribute Name: SataPortC	Attribute Value: Auto
+Attribute Name: SataPortB	Attribute Value: Auto
+Attribute Name: SataPortE	Attribute Value: Auto
+Attribute Name: SataPortD	Attribute Value: Auto
+Attribute Name: Proc1TurboCoreNum	Attribute Value: All
+Attribute Name: AcPwrRcvry	Attribute Value: Last
+Attribute Name: SysMemType	Attribute Value: ECC DDR4
+Attribute Name: SataPortCCapacity	Attribute Value: N/A
+Attribute Name: AuthorizeDeviceFirmware	Attribute Value: Disabled
+Attribute Name: Proc1L3Cache	Attribute Value: 30976 KB
+Attribute Name: ProcC1E	Attribute Value: Enabled
+Attribute Name: Proc1Brand	Attribute Value: Intel(R) Xeon(R) Gold 6152 CPU @ 2.10GHz
+Attribute Name: ProcVirtualization	Attribute Value: Enabled
+Attribute Name: PwrButton	Attribute Value: Enabled
+Attribute Name: CurrentEmbVideoState	Attribute Value: Enabled
+Attribute Name: SetBootOrderFqdd8	Attribute Value: 
+Attribute Name: SetBootOrderFqdd9	Attribute Value: 
+Attribute Name: RedundantOsLocation	Attribute Value: None
+Attribute Name: SataPortACapacity	Attribute Value: N/A
+Attribute Name: Proc1Id	Attribute Value: 6-55-4
+Attribute Name: MemRefreshRate	Attribute Value: 1x
+Attribute Name: SetBootOrderFqdd1	Attribute Value: 
+Attribute Name: SetBootOrderFqdd2	Attribute Value: 
+Attribute Name: SetBootOrderFqdd3	Attribute Value: 
+Attribute Name: Proc1NumCores	Attribute Value: 22
+Attribute Name: SetBootOrderFqdd5	Attribute Value: 
+Attribute Name: SetBootOrderFqdd6	Attribute Value: 
+Attribute Name: SetBootOrderFqdd7	Attribute Value: 
+Attribute Name: SataPortECapacity	Attribute Value: N/A
+Attribute Name: SataPortFModel	Attribute Value: Unknown
+Attribute Name: SataPortBModel	Attribute Value: Unknown
+Attribute Name: VideoMem	Attribute Value: 16 MB
+Attribute Name: Proc2Brand	Attribute Value: Intel(R) Xeon(R) Gold 6152 CPU @ 2.10GHz
+Attribute Name: TpmPpiBypassProvision	Attribute Value: Disabled
+Attribute Name: TpmPpiBypassClear	Attribute Value: Disabled
+Attribute Name: SHA256SetupPassword	Attribute Value: 
+Attribute Name: ProcCStates	Attribute Value: Enabled
+Attribute Name: MemOpMode	Attribute Value: OptimizerMode
+Attribute Name: SataPortEModel	Attribute Value: Unknown
+Attribute Name: SetBootOrderDis	Attribute Value: 
+Attribute Name: SysPassword	Attribute Value: None
+Attribute Name: SataPortBDriveType	Attribute Value: Unknown Device
+Attribute Name: OppSrefEn	Attribute Value: Disabled
+Attribute Name: SataPortDModel	Attribute Value: Unknown
+Attribute Name: SataPortDCapacity	Attribute Value: N/A
+Attribute Name: MemTest	Attribute Value: Disabled
+Attribute Name: NodeInterleave	Attribute Value: Disabled
+Attribute Name: SriovGlobalEnable	Attribute Value: Disabled
+Attribute Name: Proc1L2Cache	Attribute Value: 22x1 MB
+Attribute Name: Proc2L2Cache	Attribute Value: 22x1 MB
+Attribute Name: SystemMeVersion	Attribute Value: 4.0.4.401
+Attribute Name: SecureBoot	Attribute Value: Disabled
+Attribute Name: NvmeMode	Attribute Value: NonRaid
+Attribute Name: PasswordStatus	Attribute Value: Unlocked
+Attribute Name: UpiPrefetch	Attribute Value: Enabled
+Attribute Name: SystemManufacturer	Attribute Value: Dell Inc.
+Attribute Name: SetLegacyHddOrderFqdd1	Attribute Value: 
+Attribute Name: ProcBusSpeed	Attribute Value: 10.40 GT/s
+Attribute Name: OneTimeBootSeqDev	Attribute Value: HardDisk.List.1-1
+Attribute Name: CpuInterconnectBusSpeed	Attribute Value: MaxDataRate
+Attribute Name: Proc2NumCores	Attribute Value: 22
+Attribute Name: Slot1	Attribute Value: Enabled
+Attribute Name: Slot3	Attribute Value: Enabled
+Attribute Name: Slot2	Attribute Value: Enabled
+Attribute Name: ControlledTurbo	Attribute Value: Disabled
+Attribute Name: UefiComplianceVersion	Attribute Value: 2.5
+Attribute Name: SataPortEDriveType	Attribute Value: Unknown Device
+Attribute Name: SHA256SetupPasswordSalt	Attribute Value: 
+Attribute Name: SetBootOrderFqdd4	Attribute Value: 
+Attribute Name: LogicalProc	Attribute Value: Enabled
+Attribute Name: SetLegacyHddOrderFqdd7	Attribute Value: 
+Attribute Name: SetupPassword	Attribute Value: None
+Attribute Name: BootMode	Attribute Value: Bios
+Attribute Name: Proc2Id	Attribute Value: 6-55-4
+Attribute Name: IoatEngine	Attribute Value: Disabled
+Attribute Name: SHA256SystemPasswordSalt	Attribute Value: 
+Attribute Name: Proc2L3Cache	Attribute Value: 30976 KB
+Attribute Name: DellWyseP25BIOSAccess	Attribute Value: Enabled
+Attribute Name: SetLegacyHddOrderFqdd12	Attribute Value: 
+Attribute Name: TpmInfo	Attribute Value: No TPM present
+Attribute Name: EmbVideo	Attribute Value: Enabled
+Attribute Name: EmbSata	Attribute Value: AhciMode
+Attribute Name: SysMemVolt	Attribute Value: 1.20 V
+Attribute Name: SystemModelName	Attribute Value: PowerEdge MX740c
+Attribute Name: SataPortCModel	Attribute Value: Unknown
+Attribute Name: WorkloadProfile	Attribute Value: NotAvailable
+Attribute Name: ConTermType	Attribute Value: Vt100Vt220
+Attribute Name: SubNumaCluster	Attribute Value: Disabled
+Attribute Name: ProcCores	Attribute Value: All
+Attribute Name: ProcHwPrefetcher	Attribute Value: Enabled
