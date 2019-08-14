@@ -29,7 +29,7 @@ check1 = input('Are you sure you want to run this? Type Y to continue...')
 if check1 == 'Y' :
    for ip1 in iplist : 
       cmdline = 'python ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
-      print(f"Running... { prog1 } on { ip }")
+      print(f"Running... { prog1 } on { ip1 }")
       os.system(cmdline)
 
 print('Done.')
