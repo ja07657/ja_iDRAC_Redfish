@@ -49,8 +49,9 @@
 #------------------------------
 ###UPDATE FIRMWARE
 # list firmware
-#withrepo#./main.sh 'InstallFromRepositoryREDFISH.py -g y'
-#withrepo#./main.sh 'InstallFromRepositoryREDFISH.py -r y'
+#withrepo - show current levels#./main.sh 'InstallFromRepositoryREDFISH.py -g y'
+#withrepo - show in xml format #./main.sh 'InstallFromRepositoryREDFISH.py -r y'
+#withrepo - install updates#./main.sh 'InstallFromRepositoryREDFISH.py -i y'
 ##
 ##single#./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -g y'
 #./main.sh 'GetFirmwareInventoryREDFISH.py'
@@ -59,7 +60,7 @@
 # repo apply # ./main.sh 'InstallFromRepositoryREDFISH.py -i y --ipaddress  172.19.144.245 --sharename /export/repo/14G --applyupdate False --sharetype NFS --catalogfile Catalog.xml'
 #
 #HTTPS
-# repo apply  # ./main.py -p 'InstallFromRepositoryREDFISH.py -r y --ipaddress 172.19.144.245 --sharename /repo/r640r740 --applyupdate False --sharetype HTTPS --ignorecertwarning On --catalogfile Catalog.xml'
+# repo apply  # ./main.py -p 'InstallFromRepositoryREDFISH.py -r y --ipaddress 10.135.87.36 --sharename /repo/r640r740 --applyupdate False --sharetype HTTP --catalogfile Catalog.xml'
 # repo apply  # ./main.py -p 'InstallFromRepositoryREDFISH.py -i y --ipaddress 172.19.144.245 --sharename /repo/r640r740 --applyupdate False --sharetype HTTPS --ignorecertwarning On --catalogfile Catalog.xml'
 #
 #single# ./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -l /export -f idrac_2.63.60.61.exe -i NextReboot'

@@ -61,3 +61,591 @@
     </SIMPLEREQ>
   </MESSAGE>
 </CIM>
+<?xml version="1.0"?>
+<CIM xmlns:fo="http://www.w3.org/1999/XSL/Format" CIMVERSION="2.0" DTDVERSION="2.0">
+  <MESSAGE ID="4711" PROTOCOLVERSION="1.0">
+    <SIMPLEREQ>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>3</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Non-expander Storage Backplane Firmware</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05064562M/5/Firmware_9NKWP_WN64_4.27_A00-00_04.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>Firmware_9NKWP_WN64_4.27_A00-00_04.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>4.27</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#308_C_Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>103999</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#308_C_Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>4.26</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Intel DL5A for model number(s) SSDSC2KB240G7R, SSDSC2KB480G7R, SSDSC2KB960G7R, SSDSC2KB019T7R, SSDSC2KB038T7R, SSDSC2KG240G7R, SSDSC2KG480G7R, SSDSC2KG960G7R, SSDSC2KG019T7R.</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05531825M/1/Serial-ATA_Firmware_R6F04_WN64_DL5A_A00.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>Serial-ATA_Firmware_R6F04_WN64_DL5A_A00.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>DL5A</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#304_C_Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>106358</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#304_C_Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+              <VALUE>DCIM:INSTALLED#304_C_Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DL58</VALUE>
+              <VALUE>DL58</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Dell HBA330 Mini firmware version 16.17.00.03</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05238278M/3/SAS-Non-RAID_Firmware_8VCXF_WN64_16.17.00.03_A06_02.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>SAS-Non-RAID_Firmware_8VCXF_WN64_16.17.00.03_A06_02.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>16.17.00.03</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#301_C_NonRAID.Integrated.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>104298</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>1000:0097:1028:1F53</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#301_C_NonRAID.Integrated.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>15.17.09.06</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Dell EMC Server PowerEdge BIOS R740/R740xd/R640/R940/Precision 7920 Rack Workstation Version 2.2.11</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05674187M/1/BIOS_NM8WY_WN64_2.2.11.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>BIOS_NM8WY_WN64_2.2.11.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>2.2.11</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE>JID_664058652877</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#741__BIOS.Setup.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>159</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>BIOS</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#741__BIOS.Setup.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>1.6.13</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Intel NIC Family Version 18.8.0 Firmware for X710, XXV710, and XL710 adapters</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05244443M/2/Network_Firmware_3W5Y5_WN64_18.8.9_A00_01.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>Network_Firmware_3W5Y5_WN64_18.8.9_A00_01.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>18.8.9</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>102303</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>8086:1521:1028:1F9A</VALUE>
+              <VALUE>8086:1572:1028:1F99</VALUE>
+              <VALUE>8086:1521:1028:1F9A</VALUE>
+              <VALUE>8086:158B:8086:0009</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+              <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+              <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+              <VALUE>DCIM:INSTALLED#701__NIC.Slot.1-1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>18.5.17</VALUE>
+              <VALUE>18.5.17</VALUE>
+              <VALUE>18.5.17</VALUE>
+              <VALUE>18.5.17</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+    </SIMPLEREQ>
+  </MESSAGE>
+</CIM>
+<?xml version="1.0"?>
+<CIM xmlns:fo="http://www.w3.org/1999/XSL/Format" CIMVERSION="2.0" DTDVERSION="2.0">
+  <MESSAGE ID="4711" PROTOCOLVERSION="1.0">
+    <SIMPLEREQ>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>3</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Non-expander Storage Backplane Firmware</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05064562M/5/Firmware_9NKWP_WN64_4.27_A00-00_04.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>Firmware_9NKWP_WN64_4.27_A00-00_04.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>4.27</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#308_C_Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>103999</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#308_C_Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>4.26</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Intel DL5A for model number(s) SSDSC2KB240G7R, SSDSC2KB480G7R, SSDSC2KB960G7R, SSDSC2KB019T7R, SSDSC2KB038T7R, SSDSC2KG240G7R, SSDSC2KG480G7R, SSDSC2KG960G7R, SSDSC2KG019T7R.</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05531825M/1/Serial-ATA_Firmware_R6F04_WN64_DL5A_A00.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>Serial-ATA_Firmware_R6F04_WN64_DL5A_A00.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>DL5A</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#304_C_Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>106358</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#304_C_Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+              <VALUE>DCIM:INSTALLED#304_C_Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DL58</VALUE>
+              <VALUE>DL58</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Dell HBA330 Mini firmware version 16.17.00.03</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05238278M/3/SAS-Non-RAID_Firmware_8VCXF_WN64_16.17.00.03_A06_02.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>SAS-Non-RAID_Firmware_8VCXF_WN64_16.17.00.03_A06_02.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>16.17.00.03</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#301_C_NonRAID.Integrated.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>104298</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>1000:0097:1028:1F53</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#301_C_NonRAID.Integrated.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>15.17.09.06</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Dell EMC Server PowerEdge BIOS R740/R740xd/R640/R940/Precision 7920 Rack Workstation Version 2.2.11</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05674187M/1/BIOS_NM8WY_WN64_2.2.11.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>BIOS_NM8WY_WN64_2.2.11.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>2.2.11</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE>JID_664058652877</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#741__BIOS.Setup.1-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>159</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>BIOS</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY/>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#741__BIOS.Setup.1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>1.6.13</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+      <VALUE.NAMEDINSTANCE>
+        <INSTANCENAME CLASSNAME="DCIM_RepoUpdateSWID">
+          <PROPERTY NAME="Criticality" TYPE="string">
+            <VALUE>1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="DisplayName" TYPE="string">
+            <VALUE>Intel NIC Family Version 18.8.0 Firmware for X710, XXV710, and XL710 adapters</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="BaseLocation" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="PackagePath" TYPE="string">
+            <VALUE>FOLDER05244443M/2/Network_Firmware_3W5Y5_WN64_18.8.9_A00_01.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageName" TYPE="string">
+            <VALUE>Network_Firmware_3W5Y5_WN64_18.8.9_A00_01.EXE</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="PackageVersion" TYPE="string">
+            <VALUE>18.8.9</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="RebootType" TYPE="string">
+            <VALUE>HOST</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="JobID" TYPE="string">
+            <VALUE/>
+          </PROPERTY>
+          <PROPERTY NAME="Target" TYPE="string">
+            <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentID" TYPE="string">
+            <VALUE>102303</VALUE>
+          </PROPERTY>
+          <PROPERTY NAME="ComponentType" TYPE="string">
+            <VALUE>FRMW</VALUE>
+          </PROPERTY>
+          <PROPERTY.ARRAY NAME="ComponentInfoValue" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>8086:1521:1028:1F9A</VALUE>
+              <VALUE>8086:1572:1028:1F99</VALUE>
+              <VALUE>8086:1521:1028:1F9A</VALUE>
+              <VALUE>8086:158B:8086:0009</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoName" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+              <VALUE>VendorID:DeviceID:SubVendorID:SubDeviceID</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInfoTarget" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+              <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+              <VALUE>DCIM:INSTALLED#701__NIC.Integrated.1-4-1</VALUE>
+              <VALUE>DCIM:INSTALLED#701__NIC.Slot.1-1-1</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+          <PROPERTY.ARRAY NAME="ComponentInstalledVersion" TYPE="string">
+            <VALUE.ARRAY>
+              <VALUE>18.5.17</VALUE>
+              <VALUE>18.5.17</VALUE>
+              <VALUE>18.5.17</VALUE>
+              <VALUE>18.5.17</VALUE>
+            </VALUE.ARRAY>
+          </PROPERTY.ARRAY>
+        </INSTANCENAME>
+      </VALUE.NAMEDINSTANCE>
+    </SIMPLEREQ>
+  </MESSAGE>
+</CIM>
