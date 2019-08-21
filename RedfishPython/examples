@@ -1,22 +1,33 @@
 #---------------
-#delete all jobs in queue: 
-#	./main.py -p 'DeleteJobIdREDFISH.py -c y'
-#get job queue: 
-#	./main.py -p 'DeleteJobIdREDFISH.py -q y'
-#reset idrac
-#	./main.py -p 'ResetIdracREDFISH.py'
-#------------
-#export template
+# create a file, ipfile, with list of iDRAC ip addresses and run the 'main' program to loop through that ipfile while calling the other scripts....
+# there is a main.sh BASH script that uses parallel and sshpass, and a main.py script using python...
+#----------------
+#export template and change it if needed
 #       ./main.py -p 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
-#---------------
-#list available bios settings: 
+#list available bios settings, create a file called biosfile with your bios settings: 
 #	./main.py -p 'GetSetBiosAttributesREDFISH.py -a y'
-#edit the file called, biosfile, first....then run this: 
+#------------------------------------------------------------------------------#
+#delete all jobs in queue: 
+#	./main.sh 'DeleteJobIdREDFISH.py -c y'
+#get job queue: 
+#	./main.sh 'DeleteJobIdREDFISH.py -q y'
+#reset idrac
+#	./main.sh 'ResetIdracREDFISH.py'
+#query idrac (get powerstate) to see if up, then continue... ./main.sh 'SetPowerStateREDFISH.py -g y'
+#-----------------------------------------------------------------------
+#import template#
+	#./main.py -p 'ImportSystemConfigurationLocalFilenameREDFISH.py -t ALL -s NoReboot -f /export/file.xml'
+#	#nfs#./main.sh -p 'ImportSystemConfigurationNetworkShareREDFISH.py -t ALL --ipaddress 10.40.196.211 --sharetype NFS --sharename /export/nfs --filename file.xml'
+#	#cifs#Import just iDRAC settings..../main.sh -p 'ImportSystemConfigurationNetworkShareREDFISH.py -t IDRAC --ipaddress 192.168.0.140 --sharetype CIFS --sharename /export/cifs --filename file.xml --username Dell --password password'
+# OR #
+#change BIOS settings with biosfile - edit the file called, biosfile, first....then run this: 
 #	./main.py -p 'BiosSetAttributeREDFISH_noreboot.withfile.py'
-#Then reboot when ready to apply bios settings:
+#-----------------------------------------------------------------------
+#Then reboot when ready to apply settings:
 #	./main.py -p 'SetPowerStateREDFISH.py -r GracefulRestart'
-
 #------------
+#list jobqueue:
+	./main.py -p 'GetDeleteJobQueueREDFISH.py -g y'
 #------------
 #------------
 #------------
@@ -67,7 +78,6 @@
 #./main.sh 'GetStorageInventoryREDFISH.py -c yy'
 ##
 #SCP
-#export#./main.sh 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
 #export#./main.py -p 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
 #import#./main.sh 'ImportSystemConfigurationLocalFilenameREDFISH.py -t ALL -s NoReboot -f /export/file.json'
 #import from share#nfs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t ALL --ipaddress 10.40.196.211 --sharetype NFS --sharename /export/nfs --filename ile.json'
