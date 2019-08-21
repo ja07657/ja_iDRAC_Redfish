@@ -24,7 +24,7 @@
 #	./main.py -p 'BiosSetAttributeREDFISH_noreboot.withfile.py'
 #-----------------------------------------------------------------------
 #Then reboot when ready to apply settings:
-#	./main.py -p 'SetPowerStateREDFISH.py -r GracefulRestart'
+#	./main.py -p 'SetPowerStateREDFISH.py -r ForceRestart'
 #------------
 #list jobqueue:
 	./main.py -p 'GetDeleteJobQueueREDFISH.py -g y'

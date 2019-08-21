@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # main.py jason amato
 #000000000000000000000000000000
 #-------------------------------
@@ -38,7 +38,7 @@ if args.p is not None :
  if check1 == 'Y' :
    for ip1 in iplist : 
       ip1 = str(ip1)
-      cmdline = 'python ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
+      cmdline = 'python2 ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
       print(f"Running... { prog1 } on { ip1 }")
       os.system(cmdline)
 
