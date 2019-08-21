@@ -1,16 +1,27 @@
-#get bios attribs into txt file, run ./main.sh and enter: 
-#./main.sh BiosGetAttributesREDFISH_ja.py 
-
-#delete all job queue: 
-#[root@jason1 Redfish Python]# ./main.sh 'DeleteJobIdREDFISH.py -c y'
-
+#---------------
+#delete all jobs in queue: 
+#	./main.py -p 'DeleteJobIdREDFISH.py -c y'
 #get job queue: 
-#[root@jason1 Redfish Python]# ./main.sh 'DeleteJobIdREDFISH.py -q y'
+#	./main.py -p 'DeleteJobIdREDFISH.py -q y'
+#reset idrac
+#	./main.py -p 'ResetIdracREDFISH.py'
+#------------
+#export template
+#       ./main.py -p 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
+#---------------
+#list available bios settings: 
+#	./main.py -p 'GetSetBiosAttributesREDFISH.py -a y'
+#edit the file called, biosfile, first....then run this: 
+#	./main.py -p 'BiosSetAttributeREDFISH_noreboot.withfile.py'
+#Then reboot when ready to apply bios settings:
+#	./main.py -p 'SetPowerStateREDFISH.py -r GracefulRestart'
 
-
-#change bios setting, run ./main.sh and feed it: 
-#list bios settings: ./main.py -p 'GetSetBiosAttributesREDFISH.py -a y'
-#edit biosfile first....then: ./main.sh BiosSetAttributeREDFISH_noreboot.withfile.py
+#------------
+#------------
+#------------
+#------------
+#------------
+#------------
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av 1,2'
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av All,All'
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an OneTimeBootMode -av Enabled All,All'
