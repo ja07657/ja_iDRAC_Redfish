@@ -90,3 +90,5 @@
 #list controllers###./main.sh 'CreateVirtualDiskREDFISH.py -dRAID.Integrated.1-1'
 #Create RAID1 array on two disks###./main.sh 'CreateVirtualDiskREDFISH.py -C RAID.Integrated.1-1 -V y -D Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1,Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1 -R 1'
 ##
+
+#./main.py -p 'SetNextOneTimeBootDeviceREDFISH.py -o Pxe -r y'
