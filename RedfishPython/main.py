@@ -1,10 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # main.py jason amato
 #000000000000000000000000000000
 #-------------------------------
 #set all attributes the script uses in this var - PUT A SPACE before the -  !!!!!
 #ie GetSystemHWInventoryREDFISH_ja.py -a y    , then set otherattribs to "-a y"
-otherattribs = " -a y"
+#otherattribs = " -a y"
+otherattribs = ""
 #-------------------------------
 
 import os

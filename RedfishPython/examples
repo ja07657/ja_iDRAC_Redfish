@@ -9,6 +9,7 @@
 
 
 #change bios setting, run ./main.sh and feed it: 
+#list bios settings: ./main.py -p 'GetSetBiosAttributesREDFISH.py -a y'
 #edit biosfile first....then: ./main.sh BiosSetAttributeREDFISH_noreboot.withfile.py
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av 1,2'
 #./main.sh 'BiosSetAttributeREDFISH_noreboot.py -an Proc1TurboCoreNum,Proc2TurboCoreNum -av All,All'
@@ -26,6 +27,7 @@
 ###UPDATE FIRMWARE
 # list firmware
 #withrepo#./main.sh 'InstallFromRepositoryREDFISH.py -g y'
+#withrepo#./main.sh 'InstallFromRepositoryREDFISH.py -r y'
 ##
 ##single#./main.sh 'DeviceFirmwareDellUpdateServiceREDFISH.py -g y'
 #./main.sh 'GetFirmwareInventoryREDFISH.py'
@@ -38,6 +40,7 @@
 #
 #
 ## get system info
+#./main.py -p 'GetSystemHWInventoryREDFISH_ja.py -a -y'
 #./main.h 'GetSystemHWInventoryREDFISH_ja.py -a y'
 #./main.h 'GetSystemHWInventoryREDFISH_ja.py -c y'
 #./main.h 'GetSystemHWInventoryREDFISH_ja.py -ps y'
@@ -48,6 +51,7 @@
 ##
 #SCP
 #export#./main.sh 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
+#export#./main.py -p 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
 #import#./main.sh 'ImportSystemConfigurationLocalFilenameREDFISH.py -t ALL -s NoReboot -f /export/file.json'
 #import from share#nfs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t ALL --ipaddress 10.40.196.211 --sharetype NFS --sharename /export/nfs --filename ile.json'
 ##import from share#cifs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t BIOS --ipaddress 192.168.0.140 --sharetype CIFS --sharename /export/cifs --filename file.json --username Dell --password password'

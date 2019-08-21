@@ -1,1374 +1,1374 @@
-- Data collection timestamp: 8-20-2019  10:40:23
+- Data collection timestamp: 8-20-2019  11:58:43
 
 ---- System Information ----
 
-AssetTag: 
 BiosVersion: 1.4.96
+SKU: C86C0Q2
+PowerState: On
+PCIeFunctions@odata.count: 15
+SerialNumber: CNIVC0085I0278
 BiosBootMode: UEFI
-HostName: WIN-1JOVGRK7QAP
-HostWatchdogTimer: {'FunctionEnabled': False, 'Status': {'State': 'Disabled'}, 'TimeoutAction': 'None'}
-HostingRoles: []
+PCIeDevices@odata.count: 10
 HostingRoles@odata.count: 0
-Id: System.Embedded.1
-IndicatorLED: Off
-Manufacturer: Dell Inc.
-MemorySummary: {'MemoryMirroring': 'System', 'Status': {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}, 'TotalSystemMemoryGiB': 89.407008}
-Model: PowerEdge R640
-Name: System
+PartNumber: 0W23H8A02
+ProcessorSummary: {u'Count': 2, u'LogicalProcessorCount': 64, u'Model': u'Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz', u'Status': {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}}
+TrustedModules: [{u'Status': {u'State': u'Disabled'}, u'InterfaceType': u'TPM2_0'}]
+HostName: WIN-1JOVGRK7QAP
+MaxPCIeSlots: 3
+BladeGeometry: NotApplicable
+IntrusionRollupStatus: OK
+TempRollupStatus: OK
+PowerCapEnabledState: Disabled
+CPURollupStatus: OK
+BatteryRollupStatus: OK
+SystemID: 1814
+CMCIP: None
+MaxDIMMSlots: 24
+LicensingRollupStatus: OK
+PSRollupStatus: OK
+SysMemPrimaryStatus: OK
+VoltRollupStatus: OK
 @odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/DellSystem/System.Embedded.1
 BIOSReleaseDate: 09/27/2018
-BaseBoardChassisSlot: NA
-BatteryRollupStatus: OK
-BladeGeometry: NotApplicable
-CMCIP: None
-CPURollupStatus: OK
-ChassisServiceTag: C86C0Q2
 ExpressServiceCode: 26615755946
 FanRollupStatus: OK
-IntrusionRollupStatus: OK
-LicensingRollupStatus: OK
-MaxDIMMSlots: 24
-MaxPCIeSlots: 3
-NodeID: C86C0Q2
-PSRollupStatus: OK
-PowerCapEnabledState: Disabled
 StorageRollupStatus: OK
-SysMemPrimaryStatus: OK
+UUID: 4c4c4544-0038-3610-8043-c3c04f305132
+NodeID: C86C0Q2
+ChassisServiceTag: C86C0Q2
 SystemGeneration: 14G Monolithic
-SystemID: 1814
-TempRollupStatus: OK
+BaseBoardChassisSlot: NA
+HostingRoles: []
+Manufacturer: Dell Inc.
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: System
+AssetTag: 
+IndicatorLED: Off
+MemorySummary: {u'Status': {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}, u'TotalSystemMemoryGiB': 89.407008, u'MemoryMirroring': u'System'}
+Model: PowerEdge R640
 UUID: 4c4c4544-0038-3610-8043-c3c04f305132
-VoltRollupStatus: OK
-PCIeDevices@odata.count: 10
-PCIeFunctions@odata.count: 15
-PartNumber: 0W23H8A02
-PowerState: On
-ProcessorSummary: {'Count': 2, 'LogicalProcessorCount': 64, 'Model': 'Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz', 'Status': {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}}
-SKU: C86C0Q2
-SerialNumber: CNIVC0085I0278
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
 SystemType: Physical
-TrustedModules: [{'InterfaceType': 'TPM2_0', 'Status': {'State': 'Disabled'}}]
-UUID: 4c4c4544-0038-3610-8043-c3c04f305132
+HostWatchdogTimer: {u'Status': {u'State': u'Disabled'}, u'FunctionEnabled': False, u'TimeoutAction': u'None'}
+Id: System.Embedded.1
 
 ---- Memory Information ----
 
 - Memory details for DIMMSLOTA1 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM A1
-DeviceLocator: DIMM A1
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTA1
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM A1
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A1
+SerialNumber: 927213A2
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A1
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A1
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: A
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A1
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213A2
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM A1
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTA1
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTA2 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM A2
-DeviceLocator: DIMM A2
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTA2
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM A2
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A2
+SerialNumber: 927213BF
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A2
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A2
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: A
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A2
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213BF
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM A2
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTA2
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTA3 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM A3
-DeviceLocator: DIMM A3
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTA3
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM A3
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A3
+SerialNumber: 92721428
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A3
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A3
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: A
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A3
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 92721428
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM A3
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTA3
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTA4 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM A4
-DeviceLocator: DIMM A4
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTA4
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM A4
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A4
+SerialNumber: 927213A5
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A4
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A4
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: A
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A4
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213A5
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM A4
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTA4
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTA5 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM A5
-DeviceLocator: DIMM A5
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTA5
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM A5
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A5
+SerialNumber: 927213B3
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A5
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A5
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: A
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A5
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213B3
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM A5
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTA5
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTA6 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM A6
-DeviceLocator: DIMM A6
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTA6
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM A6
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A6
+SerialNumber: 927213C5
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A6
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A6
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: A
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A6
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213C5
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM A6
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTA6
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTB1 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM B1
-DeviceLocator: DIMM B1
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTB1
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM B1
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B1
+SerialNumber: 9272142A
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B1
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B1
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: B
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B1
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 9272142A
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM B1
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTB1
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTB2 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM B2
-DeviceLocator: DIMM B2
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTB2
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM B2
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B2
+SerialNumber: 927213A3
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B2
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B2
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: B
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B2
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213A3
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM B2
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTB2
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTB3 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM B3
-DeviceLocator: DIMM B3
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTB3
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM B3
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B3
+SerialNumber: 927213D7
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B3
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B3
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: B
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B3
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213D7
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM B3
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTB3
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTB4 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM B4
-DeviceLocator: DIMM B4
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTB4
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM B4
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B4
+SerialNumber: 927213CF
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B4
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B4
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: B
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B4
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213CF
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM B4
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTB4
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTB5 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM B5
-DeviceLocator: DIMM B5
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTB5
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM B5
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B5
+SerialNumber: 927213C1
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B5
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B5
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: B
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B5
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213C1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM B5
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTB5
+CapacityMiB: 8192
 
 - Memory details for DIMMSLOTB6 -
 
-@odata.type: #Memory.v1_4_0.Memory
-AllowedSpeedsMHz: [2666]
-AllowedSpeedsMHz@odata.count: 1
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-BaseModuleType: None
-BusWidthBits: 72
-CacheSizeMiB: 0
-CapacityMiB: 8192
-DataWidthBits: 64
-Description: DIMM B6
-DeviceLocator: DIMM B6
-ErrorCorrection: MultiBitECC
-FirmwareRevision: 
-Id: iDRAC.Embedded.1#DIMMSLOTB6
-LogicalSizeMiB: 0
-Manufacturer: Hynix Semiconductor
-MaxTDPMilliWatts: []
-MaxTDPMilliWatts@odata.count: 0
-MemoryDeviceType: DDR4
-MemoryMedia: []
-MemoryMedia@odata.count: 0
-MemorySubsystemControllerManufacturerID: None
-MemorySubsystemControllerProductID: None
-MemoryType: None
-ModuleManufacturerID: None
 ModuleProductID: None
-Name: DIMM B6
 NonVolatileSizeMiB: 0
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B6
+SerialNumber: 927213C0
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Regions: []
+OperatingMemoryModes: []
+VolatileSizeMiB: 0
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B6
+@odata.type: #Memory.v1_4_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B6
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryMedia@odata.count: 0
 BankLabel: B
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B6
 ManufactureDate: Mon Jun 04 07:00:00 2018 UTC
 Model: DDR4 DIMM
-OperatingMemoryModes: []
-OperatingMemoryModes@odata.count: 0
+CacheSizeMiB: 0
 OperatingSpeedMhz: 2666
-PartNumber: HMA81GR7AFR8N-VK
-RankCount: 1
-Regions: []
 Regions@odata.count: 0
-SerialNumber: 927213C0
-Status: {'Health': 'OK', 'State': 'Enabled'}
-VolatileSizeMiB: 0
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 0
+Name: DIMM B6
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: None
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+MemoryMedia: []
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: iDRAC.Embedded.1#DIMMSLOTB6
+CapacityMiB: 8192
 
 ---- Processor Information ----
 
 - Processor details for CPU.Socket.2 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-Id: CPU.Socket.2
-InstructionSet: x86-64
-Manufacturer: Intel
+ProcessorId: {u'VendorId': u'GenuineIntel', u'IdentificationRegisters': u'0x00050654', u'EffectiveFamily': u'6', u'Step': u'4', u'MicrocodeInfo': None, u'EffectiveModel': u'85'}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+TotalThreads: 32
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+ProcessorArchitecture: x86
+ProcessorType: CPU
 MaxSpeedMHz: 4000
-Model: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
-Name: CPU 2
-@odata.id: /redfish/v1/Dell/Systems/System.Emdedded.1/Processors/DellProcessor/CPU.Socket.2
-CurrentClockSpeedMhz: 2100
-HyperThreadingCapable: Yes
+InstructionSet: x86-64
+VirtualizationTechnologyEnabled: Yes
 HyperThreadingEnabled: Yes
+CurrentClockSpeedMhz: 2100
+VirtualizationTechnologyCapable: Yes
+@odata.id: /redfish/v1/Dell/Systems/System.Emdedded.1/Processors/DellProcessor/CPU.Socket.2
 TurboModeCapable: Yes
 TurboModeEnabled: Yes
-VirtualizationTechnologyCapable: Yes
-VirtualizationTechnologyEnabled: Yes
-ProcessorArchitecture: x86
-ProcessorId: {'EffectiveFamily': '6', 'EffectiveModel': '85', 'IdentificationRegisters': '0x00050654', 'MicrocodeInfo': None, 'Step': '4', 'VendorId': 'GenuineIntel'}
-ProcessorType: CPU
-Socket: CPU.Socket.2
-Status: {'Health': 'OK', 'State': 'Enabled'}
+HyperThreadingCapable: Yes
+Name: CPU 2
 TotalCores: 16
-TotalThreads: 32
+Model: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Id: CPU.Socket.2
+Socket: CPU.Socket.2
+Manufacturer: Intel
 
 - Processor details for CPU.Socket.1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-Id: CPU.Socket.1
-InstructionSet: x86-64
-Manufacturer: Intel
+ProcessorId: {u'VendorId': u'GenuineIntel', u'IdentificationRegisters': u'0x00050654', u'EffectiveFamily': u'6', u'Step': u'4', u'MicrocodeInfo': None, u'EffectiveModel': u'85'}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+TotalThreads: 32
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+ProcessorArchitecture: x86
+ProcessorType: CPU
 MaxSpeedMHz: 4000
-Model: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
-Name: CPU 1
-@odata.id: /redfish/v1/Dell/Systems/System.Emdedded.1/Processors/DellProcessor/CPU.Socket.1
-CurrentClockSpeedMhz: 2100
-HyperThreadingCapable: Yes
+InstructionSet: x86-64
+VirtualizationTechnologyEnabled: Yes
 HyperThreadingEnabled: Yes
+CurrentClockSpeedMhz: 2100
+VirtualizationTechnologyCapable: Yes
+@odata.id: /redfish/v1/Dell/Systems/System.Emdedded.1/Processors/DellProcessor/CPU.Socket.1
 TurboModeCapable: Yes
 TurboModeEnabled: Yes
-VirtualizationTechnologyCapable: Yes
-VirtualizationTechnologyEnabled: Yes
-ProcessorArchitecture: x86
-ProcessorId: {'EffectiveFamily': '6', 'EffectiveModel': '85', 'IdentificationRegisters': '0x00050654', 'MicrocodeInfo': None, 'Step': '4', 'VendorId': 'GenuineIntel'}
-ProcessorType: CPU
-Socket: CPU.Socket.1
-Status: {'Health': 'OK', 'State': 'Enabled'}
+HyperThreadingCapable: Yes
+Name: CPU 1
 TotalCores: 16
-TotalThreads: 32
+Model: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Id: CPU.Socket.1
+Socket: CPU.Socket.1
+Manufacturer: Intel
 
 ---- Fan Information ----
 
 - Fan details for Fan.Embedded.1A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan1A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.1A
 MinReadingRange: 600
-Name: System Board Fan1A
-PhysicalContext: SystemBoard
-Reading: 8640
+LowerThresholdNonCritical: 960
+Reading: 8760
+FanName: System Board Fan1A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan1A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.1B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan1B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.1B
 MinReadingRange: 600
-Name: System Board Fan1B
-PhysicalContext: SystemBoard
-Reading: 6960
+LowerThresholdNonCritical: 960
+Reading: 7320
+FanName: System Board Fan1B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan1B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.2A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan2A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.2A
 MinReadingRange: 600
-Name: System Board Fan2A
-PhysicalContext: SystemBoard
-Reading: 8640
+LowerThresholdNonCritical: 960
+Reading: 9000
+FanName: System Board Fan2A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan2A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.2B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan2B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.2B
 MinReadingRange: 600
-Name: System Board Fan2B
-PhysicalContext: SystemBoard
-Reading: 7080
+LowerThresholdNonCritical: 960
+Reading: 7440
+FanName: System Board Fan2B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan2B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.3A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan3A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.3A
 MinReadingRange: 600
-Name: System Board Fan3A
-PhysicalContext: SystemBoard
-Reading: 8520
+LowerThresholdNonCritical: 960
+Reading: 8880
+FanName: System Board Fan3A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan3A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.3B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan3B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.3B
 MinReadingRange: 600
-Name: System Board Fan3B
-PhysicalContext: SystemBoard
-Reading: 6960
+LowerThresholdNonCritical: 960
+Reading: 7320
+FanName: System Board Fan3B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan3B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.4A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan4A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.4A
 MinReadingRange: 600
-Name: System Board Fan4A
-PhysicalContext: SystemBoard
-Reading: 8760
+LowerThresholdNonCritical: 960
+Reading: 9000
+FanName: System Board Fan4A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan4A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.4B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan4B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.4B
 MinReadingRange: 600
-Name: System Board Fan4B
-PhysicalContext: SystemBoard
-Reading: 6960
+LowerThresholdNonCritical: 960
+Reading: 7200
+FanName: System Board Fan4B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan4B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.5A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan5A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.5A
 MinReadingRange: 600
-Name: System Board Fan5A
-PhysicalContext: SystemBoard
-Reading: 8520
+LowerThresholdNonCritical: 960
+Reading: 8640
+FanName: System Board Fan5A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan5A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.5B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan5B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.5B
 MinReadingRange: 600
-Name: System Board Fan5B
-PhysicalContext: SystemBoard
+LowerThresholdNonCritical: 960
 Reading: 6840
+FanName: System Board Fan5B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan5B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.6A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan6A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.6A
 MinReadingRange: 600
-Name: System Board Fan6A
-PhysicalContext: SystemBoard
-Reading: 8640
+LowerThresholdNonCritical: 960
+Reading: 8760
+FanName: System Board Fan6A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan6A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.6B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan6B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.6B
 MinReadingRange: 600
-Name: System Board Fan6B
-PhysicalContext: SystemBoard
-Reading: 6960
+LowerThresholdNonCritical: 960
+Reading: 7200
+FanName: System Board Fan6B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan6B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.7A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan7A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.7A
 MinReadingRange: 600
-Name: System Board Fan7A
-PhysicalContext: SystemBoard
-Reading: 8640
+LowerThresholdNonCritical: 960
+Reading: 8760
+FanName: System Board Fan7A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan7A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.7B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan7B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.7B
 MinReadingRange: 600
-Name: System Board Fan7B
-PhysicalContext: SystemBoard
-Reading: 7080
+LowerThresholdNonCritical: 960
+Reading: 7320
+FanName: System Board Fan7B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan7B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.8A -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan8A
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.8A
 MinReadingRange: 600
-Name: System Board Fan8A
-PhysicalContext: SystemBoard
+LowerThresholdNonCritical: 960
 Reading: 8760
+FanName: System Board Fan8A
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan8A
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 - Fan details for Fan.Embedded.8B -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FanName: System Board Fan8B
+Redundancy: []
 LowerThresholdCritical: 600
-LowerThresholdFatal: 600
-LowerThresholdNonCritical: 960
-MaxReadingRange: None
 MemberId: 0x17||Fan.Embedded.8B
 MinReadingRange: 600
-Name: System Board Fan8B
-PhysicalContext: SystemBoard
+LowerThresholdNonCritical: 960
 Reading: 6960
+FanName: System Board Fan8B
 ReadingUnits: RPM
-Redundancy: []
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+LowerThresholdFatal: 600
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: System Board Fan8B
 Redundancy@odata.count: 0
-RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
-RelatedItem@odata.count: 1
-Status: {'Health': 'OK', 'State': 'Enabled'}
-UpperThresholdCritical: None
-UpperThresholdFatal: None
+PhysicalContext: SystemBoard
 UpperThresholdNonCritical: None
+UpperThresholdFatal: None
+MaxReadingRange: None
+RelatedItem: [{u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+UpperThresholdCritical: None
 
 ---- Power Supply Information ----
 
 - Power Suppy details for PSU.Slot.1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-EfficiencyPercent: 0.9300000071525574
-FirmwareVersion: 00.24.7D
-HotPluggable: True
-InputRanges: [{'InputType': 'AC', 'MaximumFrequencyHz': 63, 'MaximumVoltage': 264, 'MinimumFrequencyHz': 47, 'MinimumVoltage': 90, 'OutputWattage': 750}]
-InputRanges@odata.count: 1
-LastPowerOutputWatts: None
-LineInputVoltage: 210
-LineInputVoltageType: AC240V
-Manufacturer: Dell
-MemberId: PSU.Slot.1
-Model: PWR SPLY,750W,RDNT,DELTA      
-Name: PS1 Status
-@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupply/PSU.Slot.1
-IsSwitchingSupply: True
-Links: {'DellPSNumericSensorCollection': [{'@odata.id': '/redfish/v1/Dell/Systems/System.Embedded.1/DellPSNumericSensor/iDRAC.Embedded.1%23PS1Current1'}]}
-@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupplyView/PSU.Slot.1
-DetailedState: Presence Detected
-Range1MaxInputPowerWatts: 900
-PartNumber: 05RHVVA02
-PowerCapacityWatts: 750
-PowerInputWatts: 900
-PowerOutputWatts: 104.625
-PowerSupplyType: AC
 Redundancy: []
-Redundancy@odata.count: 0
-RelatedItem@odata.count: 1
 SerialNumber: CNDED0083K3380
+MemberId: PSU.Slot.1
+HotPluggable: True
+PartNumber: 05RHVVA02
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 SparePartNumber: 05RHVVA02
-Status: {'Health': 'OK', 'State': 'Enabled'}
+PowerOutputWatts: 102.125
+IsSwitchingSupply: True
+@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupply/PSU.Slot.1
+Links: {u'DellPSNumericSensorCollection': [{u'@odata.id': u'/redfish/v1/Dell/Systems/System.Embedded.1/DellPSNumericSensor/iDRAC.Embedded.1%23PS1Current1'}]}
+Range1MaxInputPowerWatts: 900
+DetailedState: Presence Detected
+@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupplyView/PSU.Slot.1
+PowerInputWatts: 900
+PowerSupplyType: AC
+FirmwareVersion: 00.24.7D
+Manufacturer: Dell
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: PS1 Status
+Redundancy@odata.count: 0
+InputRanges: [{u'MinimumVoltage': 90, u'MaximumVoltage': 264, u'OutputWattage': 750, u'MaximumFrequencyHz': 63, u'InputType': u'AC', u'MinimumFrequencyHz': 47}]
+PowerCapacityWatts: 750
+Model: PWR SPLY,750W,RDNT,DELTA      
+EfficiencyPercent: 0.930000007153
+LastPowerOutputWatts: None
+LineInputVoltageType: AC240V
+RelatedItem@odata.count: 1
+InputRanges@odata.count: 1
+LineInputVoltage: 210
 
 - Power Suppy details for PSU.Slot.2 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-EfficiencyPercent: 0.9300000071525574
-FirmwareVersion: 00.24.7D
-HotPluggable: True
-InputRanges: [{'InputType': 'AC', 'MaximumFrequencyHz': 63, 'MaximumVoltage': 264, 'MinimumFrequencyHz': 47, 'MinimumVoltage': 90, 'OutputWattage': 750}]
-InputRanges@odata.count: 1
-LastPowerOutputWatts: None
-LineInputVoltage: 208
-LineInputVoltageType: AC240V
-Manufacturer: Dell
-MemberId: PSU.Slot.2
-Model: PWR SPLY,750W,RDNT,DELTA      
-Name: PS2 Status
-@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupply/PSU.Slot.2
-IsSwitchingSupply: True
-Links: {'DellPSNumericSensorCollection': [{'@odata.id': '/redfish/v1/Dell/Systems/System.Embedded.1/DellPSNumericSensor/iDRAC.Embedded.1%23PS2Current2'}]}
-@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupplyView/PSU.Slot.2
-DetailedState: Presence Detected
-Range1MaxInputPowerWatts: 900
-PartNumber: 05RHVVA02
-PowerCapacityWatts: 750
-PowerInputWatts: 900
-PowerOutputWatts: 89.0
-PowerSupplyType: AC
 Redundancy: []
-Redundancy@odata.count: 0
-RelatedItem@odata.count: 1
 SerialNumber: CNDED0083K332X
+MemberId: PSU.Slot.2
+HotPluggable: True
+PartNumber: 05RHVVA02
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 SparePartNumber: 05RHVVA02
-Status: {'Health': 'OK', 'State': 'Enabled'}
+PowerOutputWatts: 87.875
+IsSwitchingSupply: True
+@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupply/PSU.Slot.2
+Links: {u'DellPSNumericSensorCollection': [{u'@odata.id': u'/redfish/v1/Dell/Systems/System.Embedded.1/DellPSNumericSensor/iDRAC.Embedded.1%23PS2Current2'}]}
+Range1MaxInputPowerWatts: 900
+DetailedState: Presence Detected
+@odata.id: /redfish/v1/Dell/Chassis/System.Embedded.1/Power/PowerSupplies/DellPowerSupplyView/PSU.Slot.2
+PowerInputWatts: 900
+PowerSupplyType: AC
+FirmwareVersion: 00.24.7D
+Manufacturer: Dell
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: PS2 Status
+Redundancy@odata.count: 0
+InputRanges: [{u'MinimumVoltage': 90, u'MaximumVoltage': 264, u'OutputWattage': 750, u'MaximumFrequencyHz': 63, u'InputType': u'AC', u'MinimumFrequencyHz': 47}]
+PowerCapacityWatts: 750
+Model: PWR SPLY,750W,RDNT,DELTA      
+EfficiencyPercent: 0.930000007153
+LastPowerOutputWatts: None
+LineInputVoltageType: AC240V
+RelatedItem@odata.count: 1
+InputRanges@odata.count: 1
+LineInputVoltage: 208
 
 ---- Storage Controller Information ----
 
 - Controller details for NonRAID.Integrated.1-1 -
 
 @odata.type: #Storage.v1_4_0.StorageController
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FirmwareVersion: 15.17.09.06
-Identifiers: [{'DurableName': '5D09466061B35F00', 'DurableNameFormat': 'NAA'}]
-Manufacturer: DELL
-MemberId: NonRAID.Integrated.1-1
-Model: Dell HBA330 Mini
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 Name: Dell HBA330 Mini
+SupportedDeviceProtocols: [u'SAS', u'SATA']
+Identifiers: [{u'DurableNameFormat': u'NAA', u'DurableName': u'5D09466061B35F00'}]
+MemberId: NonRAID.Integrated.1-1
+SupportedControllerProtocols: [u'PCIe']
+Model: Dell HBA330 Mini
 SpeedGbps: 12
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
-SupportedControllerProtocols: ['PCIe']
-SupportedDeviceProtocols: ['SAS', 'SATA']
+FirmwareVersion: 15.17.09.06
+Manufacturer: DELL
 
 - Controller details for AHCI.Embedded.1-1 -
 
 @odata.type: #Storage.v1_4_0.StorageController
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FirmwareVersion: 
-Identifiers: [{'DurableName': None, 'DurableNameFormat': None}]
-Manufacturer: DELL
-MemberId: AHCI.Embedded.1-1
-Model: C620 Series Chipset Family SSATA Controller [AHCI mode]
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 Name: C620 Series Chipset Family SSATA Controller [AHCI mode]
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
-SupportedControllerProtocols: ['PCIe']
 SupportedDeviceProtocols: []
+Identifiers: [{u'DurableNameFormat': None, u'DurableName': None}]
+MemberId: AHCI.Embedded.1-1
+SupportedControllerProtocols: [u'PCIe']
+Model: C620 Series Chipset Family SSATA Controller [AHCI mode]
+FirmwareVersion: 
+Manufacturer: DELL
 
 - Controller details for AHCI.Embedded.2-1 -
 
 @odata.type: #Storage.v1_4_0.StorageController
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-FirmwareVersion: 
-Identifiers: [{'DurableName': None, 'DurableNameFormat': None}]
-Manufacturer: DELL
-MemberId: AHCI.Embedded.2-1
-Model: C620 Series Chipset Family SATA Controller [AHCI mode]
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 Name: C620 Series Chipset Family SATA Controller [AHCI mode]
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
-SupportedControllerProtocols: ['PCIe']
 SupportedDeviceProtocols: []
+Identifiers: [{u'DurableNameFormat': None, u'DurableName': None}]
+MemberId: AHCI.Embedded.2-1
+SupportedControllerProtocols: [u'PCIe']
+Model: C620 Series Chipset Family SATA Controller [AHCI mode]
+FirmwareVersion: 
+Manufacturer: DELL
 
 ---- Drive Information For Controller NonRAID.Integrated.1-1 ----
 
 - Detailed drive information for Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 BlockSizeBytes: 512
+SerialNumber: PHYM8126012E240AGN
 CapableSpeedGbs: 6
-CapacityBytes: 240057409024
+PartNumber: TW0V6YD5ITT0083V06YUA02
+NegotiatedSpeedGbs: 6
+Revision: SCV1DL58
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+ManufacturingDay: 0
+PPID: TW0V6YD5ITT0083V06YUA02
+RaidStatus: NonRAID
+DriveFormFactor: 2.5Inch
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
+SASAddress: 4433221100000000
+Connector: 0
+FreeSizeInBytes: 0
+ManufacturingYear: 0
+Slot: 1
+PredictiveFailureState: SmartAlertAbsent
+ManufacturingWeek: 0
+UsedSizeInBytes: 0
+PredictedMediaLifeLeftPercent: 100
 EncryptionAbility: None
+Manufacturer: INTEL
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: Solid State Disk 0:1:1
+Identifiers: [{u'DurableNameFormat': u'NAA', u'DurableName': u'4433221100000000'}]
+MediaType: SSD
 EncryptionStatus: Unencrypted
+Model: SSDSC2KG240G7R
+Operations: []
+Protocol: SATA
 FailurePredicted: False
+CapacityBytes: 240057409024
 HotspareType: None
 Id: Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Identifiers: [{'DurableName': '4433221100000000', 'DurableNameFormat': 'NAA'}]
-Location: []
-Manufacturer: INTEL
-MediaType: SSD
-Model: SSDSC2KG240G7R
-Name: Solid State Disk 0:1:1
-NegotiatedSpeedGbs: 6
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Connector: 0
-DriveFormFactor: 2.5Inch
-FreeSizeInBytes: 0
-ManufacturingDay: 0
-ManufacturingWeek: 0
-ManufacturingYear: 0
-PPID: TW0V6YD5ITT0083V06YUA02
-PredictiveFailureState: SmartAlertAbsent
-RaidStatus: NonRAID
-SASAddress: 4433221100000000
-Slot: 1
-UsedSizeInBytes: 0
-Operations: []
-PartNumber: TW0V6YD5ITT0083V06YUA02
-PredictedMediaLifeLeftPercent: 100
-Protocol: SATA
-Revision: SCV1DL58
 RotationSpeedRPM: 1
-SerialNumber: PHYM8126012E240AGN
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+Location: []
 
 - Detailed drive information for Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Integrated.1-1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 BlockSizeBytes: 512
+SerialNumber: PHYM812601UC240AGN
 CapableSpeedGbs: 6
-CapacityBytes: 240057409024
+PartNumber: TW0V6YD5ITT0083V06P4A02
+NegotiatedSpeedGbs: 6
+Revision: SCV1DL58
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+ManufacturingDay: 0
+PPID: TW0V6YD5ITT0083V06P4A02
+RaidStatus: NonRAID
+DriveFormFactor: 2.5Inch
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
+SASAddress: 4433221104000000
+Connector: 0
+FreeSizeInBytes: 0
+ManufacturingYear: 0
+Slot: 0
+PredictiveFailureState: SmartAlertAbsent
+ManufacturingWeek: 0
+UsedSizeInBytes: 0
+PredictedMediaLifeLeftPercent: 100
 EncryptionAbility: None
+Manufacturer: INTEL
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: Solid State Disk 0:1:0
+Identifiers: [{u'DurableNameFormat': u'NAA', u'DurableName': u'4433221104000000'}]
+MediaType: SSD
 EncryptionStatus: Unencrypted
+Model: SSDSC2KG240G7R
+Operations: []
+Protocol: SATA
 FailurePredicted: False
+CapacityBytes: 240057409024
 HotspareType: None
 Id: Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Identifiers: [{'DurableName': '4433221104000000', 'DurableNameFormat': 'NAA'}]
-Location: []
-Manufacturer: INTEL
-MediaType: SSD
-Model: SSDSC2KG240G7R
-Name: Solid State Disk 0:1:0
-NegotiatedSpeedGbs: 6
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Connector: 0
-DriveFormFactor: 2.5Inch
-FreeSizeInBytes: 0
-ManufacturingDay: 0
-ManufacturingWeek: 0
-ManufacturingYear: 0
-PPID: TW0V6YD5ITT0083V06P4A02
-PredictiveFailureState: SmartAlertAbsent
-RaidStatus: NonRAID
-SASAddress: 4433221104000000
-Slot: 0
-UsedSizeInBytes: 0
-Operations: []
-PartNumber: TW0V6YD5ITT0083V06P4A02
-PredictedMediaLifeLeftPercent: 100
-Protocol: SATA
-Revision: SCV1DL58
 RotationSpeedRPM: 1
-SerialNumber: PHYM812601UC240AGN
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+Location: []
 
 - Detailed drive information for Disk.Bay.5:Enclosure.Internal.0-1:NonRAID.Integrated.1-1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 BlockSizeBytes: 512
+SerialNumber: 36F0A00XT2VD
 CapableSpeedGbs: 12
-CapacityBytes: 1600321314304
+PartNumber: PH077K162640263F01UTA00
+NegotiatedSpeedGbs: 12
+Revision: AM04
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+ManufacturingDay: 0
+PPID: PH077K162640263F01UTA00
+RaidStatus: NonRAID
+DriveFormFactor: 2.5Inch
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.5:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
+SASAddress: 50000396EC8A1532
+Connector: 0
+FreeSizeInBytes: 0
+ManufacturingYear: 2016
+Slot: 5
+PredictiveFailureState: SmartAlertAbsent
+ManufacturingWeek: 12
+UsedSizeInBytes: 0
+PredictedMediaLifeLeftPercent: 100
 EncryptionAbility: None
+Manufacturer: TOSHIBA
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: Solid State Disk 0:1:5
+Identifiers: [{u'DurableNameFormat': u'NAA', u'DurableName': u'50000396EC8A1532'}]
+MediaType: SSD
 EncryptionStatus: Unencrypted
+Model: PX04SMB160
+Operations: []
+Protocol: SAS
 FailurePredicted: False
+CapacityBytes: 1600321314304
 HotspareType: None
 Id: Disk.Bay.5:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Identifiers: [{'DurableName': '50000396EC8A1532', 'DurableNameFormat': 'NAA'}]
-Location: []
-Manufacturer: TOSHIBA
-MediaType: SSD
-Model: PX04SMB160
-Name: Solid State Disk 0:1:5
-NegotiatedSpeedGbs: 12
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.5:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Connector: 0
-DriveFormFactor: 2.5Inch
-FreeSizeInBytes: 0
-ManufacturingDay: 0
-ManufacturingWeek: 12
-ManufacturingYear: 2016
-PPID: PH077K162640263F01UTA00
-PredictiveFailureState: SmartAlertAbsent
-RaidStatus: NonRAID
-SASAddress: 50000396EC8A1532
-Slot: 5
-UsedSizeInBytes: 0
-Operations: []
-PartNumber: PH077K162640263F01UTA00
-PredictedMediaLifeLeftPercent: 100
-Protocol: SAS
-Revision: AM04
 RotationSpeedRPM: 1
-SerialNumber: 36F0A00XT2VD
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+Location: []
 
 - Detailed drive information for Disk.Bay.4:Enclosure.Internal.0-1:NonRAID.Integrated.1-1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 BlockSizeBytes: 512
+SerialNumber: 26J0A07FT2VD
 CapableSpeedGbs: 12
-CapacityBytes: 1600321314304
+PartNumber: PH077K162640262J01HTA00
+NegotiatedSpeedGbs: 12
+Revision: AM04
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+ManufacturingDay: 0
+PPID: PH077K162640262J01HTA00
+RaidStatus: NonRAID
+DriveFormFactor: 2.5Inch
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.4:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
+SASAddress: 50000396DC8A0BCE
+Connector: 0
+FreeSizeInBytes: 0
+ManufacturingYear: 2016
+Slot: 4
+PredictiveFailureState: SmartAlertAbsent
+ManufacturingWeek: 8
+UsedSizeInBytes: 0
+PredictedMediaLifeLeftPercent: 100
 EncryptionAbility: None
+Manufacturer: TOSHIBA
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: Solid State Disk 0:1:4
+Identifiers: [{u'DurableNameFormat': u'NAA', u'DurableName': u'50000396DC8A0BCE'}]
+MediaType: SSD
 EncryptionStatus: Unencrypted
+Model: PX04SMB160
+Operations: []
+Protocol: SAS
 FailurePredicted: False
+CapacityBytes: 1600321314304
 HotspareType: None
 Id: Disk.Bay.4:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Identifiers: [{'DurableName': '50000396DC8A0BCE', 'DurableNameFormat': 'NAA'}]
-Location: []
-Manufacturer: TOSHIBA
-MediaType: SSD
-Model: PX04SMB160
-Name: Solid State Disk 0:1:4
-NegotiatedSpeedGbs: 12
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.4:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Connector: 0
-DriveFormFactor: 2.5Inch
-FreeSizeInBytes: 0
-ManufacturingDay: 0
-ManufacturingWeek: 8
-ManufacturingYear: 2016
-PPID: PH077K162640262J01HTA00
-PredictiveFailureState: SmartAlertAbsent
-RaidStatus: NonRAID
-SASAddress: 50000396DC8A0BCE
-Slot: 4
-UsedSizeInBytes: 0
-Operations: []
-PartNumber: PH077K162640262J01HTA00
-PredictedMediaLifeLeftPercent: 100
-Protocol: SAS
-Revision: AM04
 RotationSpeedRPM: 1
-SerialNumber: 26J0A07FT2VD
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+Location: []
 
 - Detailed drive information for Disk.Bay.6:Enclosure.Internal.0-1:NonRAID.Integrated.1-1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 BlockSizeBytes: 512
+SerialNumber: 26J0A07YT2VD
 CapableSpeedGbs: 12
-CapacityBytes: 1600321314304
+PartNumber: PH077K162640262J01KUA00
+NegotiatedSpeedGbs: 12
+Revision: AM04
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+ManufacturingDay: 0
+PPID: PH077K162640262J01KUA00
+RaidStatus: NonRAID
+DriveFormFactor: 2.5Inch
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.6:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
+SASAddress: 50000396DC8A0C16
+Connector: 0
+FreeSizeInBytes: 0
+ManufacturingYear: 2016
+Slot: 6
+PredictiveFailureState: SmartAlertAbsent
+ManufacturingWeek: 8
+UsedSizeInBytes: 0
+PredictedMediaLifeLeftPercent: 100
 EncryptionAbility: None
+Manufacturer: TOSHIBA
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: Solid State Disk 0:1:6
+Identifiers: [{u'DurableNameFormat': u'NAA', u'DurableName': u'50000396DC8A0C16'}]
+MediaType: SSD
 EncryptionStatus: Unencrypted
+Model: PX04SMB160
+Operations: []
+Protocol: SAS
 FailurePredicted: False
+CapacityBytes: 1600321314304
 HotspareType: None
 Id: Disk.Bay.6:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Identifiers: [{'DurableName': '50000396DC8A0C16', 'DurableNameFormat': 'NAA'}]
-Location: []
-Manufacturer: TOSHIBA
-MediaType: SSD
-Model: PX04SMB160
-Name: Solid State Disk 0:1:6
-NegotiatedSpeedGbs: 12
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.6:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Connector: 0
-DriveFormFactor: 2.5Inch
-FreeSizeInBytes: 0
-ManufacturingDay: 0
-ManufacturingWeek: 8
-ManufacturingYear: 2016
-PPID: PH077K162640262J01KUA00
-PredictiveFailureState: SmartAlertAbsent
-RaidStatus: NonRAID
-SASAddress: 50000396DC8A0C16
-Slot: 6
-UsedSizeInBytes: 0
-Operations: []
-PartNumber: PH077K162640262J01KUA00
-PredictedMediaLifeLeftPercent: 100
-Protocol: SAS
-Revision: AM04
 RotationSpeedRPM: 1
-SerialNumber: 26J0A07YT2VD
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+Location: []
 
 - Detailed drive information for Disk.Bay.7:Enclosure.Internal.0-1:NonRAID.Integrated.1-1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 BlockSizeBytes: 512
+SerialNumber: 26J0A07GT2VD
 CapableSpeedGbs: 12
-CapacityBytes: 1600321314304
+PartNumber: PH077K162640262J01IXA00
+NegotiatedSpeedGbs: 12
+Revision: AM04
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+ManufacturingDay: 0
+PPID: PH077K162640262J01IXA00
+RaidStatus: NonRAID
+DriveFormFactor: 2.5Inch
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.7:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
+SASAddress: 50000396DC8A0BD2
+Connector: 0
+FreeSizeInBytes: 0
+ManufacturingYear: 2016
+Slot: 7
+PredictiveFailureState: SmartAlertAbsent
+ManufacturingWeek: 8
+UsedSizeInBytes: 0
+PredictedMediaLifeLeftPercent: 100
 EncryptionAbility: None
+Manufacturer: TOSHIBA
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: Solid State Disk 0:1:7
+Identifiers: [{u'DurableNameFormat': u'NAA', u'DurableName': u'50000396DC8A0BD2'}]
+MediaType: SSD
 EncryptionStatus: Unencrypted
+Model: PX04SMB160
+Operations: []
+Protocol: SAS
 FailurePredicted: False
+CapacityBytes: 1600321314304
 HotspareType: None
 Id: Disk.Bay.7:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Identifiers: [{'DurableName': '50000396DC8A0BD2', 'DurableNameFormat': 'NAA'}]
-Location: []
-Manufacturer: TOSHIBA
-MediaType: SSD
-Model: PX04SMB160
-Name: Solid State Disk 0:1:7
-NegotiatedSpeedGbs: 12
-@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Storage/Drives/DellPhysicalDisk/Disk.Bay.7:Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Connector: 0
-DriveFormFactor: 2.5Inch
-FreeSizeInBytes: 0
-ManufacturingDay: 0
-ManufacturingWeek: 8
-ManufacturingYear: 2016
-PPID: PH077K162640262J01IXA00
-PredictiveFailureState: SmartAlertAbsent
-RaidStatus: NonRAID
-SASAddress: 50000396DC8A0BD2
-Slot: 7
-UsedSizeInBytes: 0
-Operations: []
-PartNumber: PH077K162640262J01IXA00
-PredictedMediaLifeLeftPercent: 100
-Protocol: SAS
-Revision: AM04
 RotationSpeedRPM: 1
-SerialNumber: 26J0A07GT2VD
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+Location: []
 
 ---- Drive Information For Controller AHCI.Embedded.1-1 ----
 
@@ -1382,158 +1382,158 @@ Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
 
 - Detailed backplane information for Enclosure.Internal.0-1:NonRAID.Integrated.1-1 -
 
-AssetTag: 
-ChassisType: Enclosure
-Description: BP14G+ 0:1
-Id: Enclosure.Internal.0-1:NonRAID.Integrated.1-1
-Manufacturer: None
-Model: BP14G+ 0:1
-Name: BP14G+ 0:1
-Oem: {'Dell': {'DellEnclosure': {'@odata.context': '/redfish/v1/$metadata#DellEnclosure.DellEnclosure', '@odata.id': '/redfish/v1/Dell/Chassis/System.Embedded.1/DellEnclosure/Enclosure.Internal.0-1:NonRAID.Integrated.1-1', '@odata.type': '#DellEnclosure.v1_0_0.DellEnclosure', 'Connector': 0, 'Links': None, 'ServiceTag': None, 'SlotCount': 8, 'Version': '4.26', 'WiredOrder': 1}}}
-PartNumber: None
-PowerState: On
 SKU: 
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+PowerState: On
+Description: BP14G+ 0:1
+AssetTag: 
 SerialNumber: None
-Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+Id: Enclosure.Internal.0-1:NonRAID.Integrated.1-1
+PartNumber: None
+Name: BP14G+ 0:1
+Oem: {u'Dell': {u'DellEnclosure': {u'@odata.type': u'#DellEnclosure.v1_0_0.DellEnclosure', u'ServiceTag': None, u'Links': None, u'@odata.id': u'/redfish/v1/Dell/Chassis/System.Embedded.1/DellEnclosure/Enclosure.Internal.0-1:NonRAID.Integrated.1-1', u'@odata.context': u'/redfish/v1/$metadata#DellEnclosure.DellEnclosure', u'WiredOrder': 1, u'Connector': 0, u'Version': u'4.26', u'SlotCount': 8}}}
+ChassisType: Enclosure
+Model: BP14G+ 0:1
+Manufacturer: None
 
 ---- Network Device Information ----
 
 - Network device details for NIC.Slot.1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}FirmwarePackageVersion: 18.5.17
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 Description: Network Adapter View
-Id: NIC.Slot.1
-Manufacturer: Intel Corporation
-Model: Intel(R) 25GbE 2P XXV710 Adptr
-Name: Network Adapter View
 PartNumber: 000M95
 SerialNumber: MY1240282302LX
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+SerialNumber: MY1240282302LXFirmwarePackageVersion: 18.5.17
+Name: Network Adapter View
+Model: Intel(R) 25GbE 2P XXV710 Adptr
+Id: NIC.Slot.1
+Manufacturer: Intel Corporation
 
 - Network port details for NIC.Slot.1-2 -
 
-ActiveLinkTechnology: Ethernet
-AssociatedNetworkAddresses: ['3C:FD:FE:BA:82:61']
-Description: Network Port View
-EEEEnabled: None
-FlowControlConfiguration: None
-FlowControlStatus: None
-Id: NIC.Slot.1-2
-LinkStatus: Down
-Name: Network Port View
 NetDevFuncMaxBWAlloc: []
-NetDevFuncMinBWAlloc: []
 PhysicalPortNumber: 2
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'3C:FD:FE:BA:82:61']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
 SupportedEthernetCapabilities: []
-SupportedLinkCapabilities: [{'LinkNetworkTechnology': 'Ethernet', 'LinkSpeedMbps': 0}]
+EEEEnabled: None
 WakeOnLANEnabled: False
+LinkStatus: Down
+Id: NIC.Slot.1-2
+Name: Network Port View
 
 - Network port details for NIC.Slot.1-1 -
 
-ActiveLinkTechnology: Ethernet
-AssociatedNetworkAddresses: ['3C:FD:FE:BA:82:60']
-Description: Network Port View
-EEEEnabled: None
-FlowControlConfiguration: None
-FlowControlStatus: None
-Id: NIC.Slot.1-1
-LinkStatus: Down
-Name: Network Port View
 NetDevFuncMaxBWAlloc: []
-NetDevFuncMinBWAlloc: []
 PhysicalPortNumber: 1
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'3C:FD:FE:BA:82:60']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
 SupportedEthernetCapabilities: []
-SupportedLinkCapabilities: [{'LinkNetworkTechnology': 'Ethernet', 'LinkSpeedMbps': 0}]
+EEEEnabled: None
 WakeOnLANEnabled: False
+LinkStatus: Down
+Id: NIC.Slot.1-1
+Name: Network Port View
 
 - Network device details for NIC.Integrated.1 -
 
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}FirmwarePackageVersion: 18.5.17
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 Description: Network Adapter View
-Id: NIC.Integrated.1
-Manufacturer: Intel Corporation
-Model: Intel(R) 2P X710/2P I350 rNDC
-Name: Network Adapter View
 PartNumber: 06VDPG
 SerialNumber: MY1240285B01FP
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+SerialNumber: MY1240285B01FPFirmwarePackageVersion: 18.5.17
+Name: Network Adapter View
+Model: Intel(R) 2P X710/2P I350 rNDC
+Id: NIC.Integrated.1
+Manufacturer: Intel Corporation
 
 - Network port details for NIC.Integrated.1-4 -
 
-ActiveLinkTechnology: Ethernet
-AssociatedNetworkAddresses: ['24:6E:96:DE:EF:19']
-Description: Network Port View
-EEEEnabled: None
-FlowControlConfiguration: None
-FlowControlStatus: None
-Id: NIC.Integrated.1-4
-LinkStatus: Down
-Name: Network Port View
 NetDevFuncMaxBWAlloc: []
-NetDevFuncMinBWAlloc: []
 PhysicalPortNumber: 4
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
-SupportedEthernetCapabilities: ['WakeOnLAN', 'EEE']
-SupportedLinkCapabilities: [{'LinkNetworkTechnology': 'Ethernet', 'LinkSpeedMbps': 0}]
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EF:19']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
+SupportedEthernetCapabilities: [u'WakeOnLAN', u'EEE']
+EEEEnabled: None
 WakeOnLANEnabled: False
+LinkStatus: Down
+Id: NIC.Integrated.1-4
+Name: Network Port View
 
 - Network port details for NIC.Integrated.1-1 -
 
-ActiveLinkTechnology: Ethernet
-AssociatedNetworkAddresses: ['24:6E:96:DE:EE:F8']
-Description: Network Port View
-EEEEnabled: None
-FlowControlConfiguration: None
-FlowControlStatus: None
-Id: NIC.Integrated.1-1
-LinkStatus: Down
-Name: Network Port View
 NetDevFuncMaxBWAlloc: []
-NetDevFuncMinBWAlloc: []
 PhysicalPortNumber: 1
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
-SupportedEthernetCapabilities: ['WakeOnLAN']
-SupportedLinkCapabilities: [{'LinkNetworkTechnology': 'Ethernet', 'LinkSpeedMbps': 0}]
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EE:F8']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
+SupportedEthernetCapabilities: [u'WakeOnLAN']
+EEEEnabled: None
 WakeOnLANEnabled: False
+LinkStatus: Down
+Id: NIC.Integrated.1-1
+Name: Network Port View
 
 - Network port details for NIC.Integrated.1-2 -
 
-ActiveLinkTechnology: Ethernet
-AssociatedNetworkAddresses: ['24:6E:96:DE:EE:FA']
-Description: Network Port View
-EEEEnabled: None
-FlowControlConfiguration: None
-FlowControlStatus: None
-Id: NIC.Integrated.1-2
-LinkStatus: Down
-Name: Network Port View
 NetDevFuncMaxBWAlloc: []
-NetDevFuncMinBWAlloc: []
 PhysicalPortNumber: 2
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
-SupportedEthernetCapabilities: ['WakeOnLAN']
-SupportedLinkCapabilities: [{'LinkNetworkTechnology': 'Ethernet', 'LinkSpeedMbps': 0}]
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EE:FA']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
+SupportedEthernetCapabilities: [u'WakeOnLAN']
+EEEEnabled: None
 WakeOnLANEnabled: False
+LinkStatus: Down
+Id: NIC.Integrated.1-2
+Name: Network Port View
 
 - Network port details for NIC.Integrated.1-3 -
 
-ActiveLinkTechnology: Ethernet
-AssociatedNetworkAddresses: ['24:6E:96:DE:EF:18']
-Description: Network Port View
-EEEEnabled: None
-FlowControlConfiguration: RX
-FlowControlStatus: RX
-Id: NIC.Integrated.1-3
-LinkStatus: Up
-Name: Network Port View
 NetDevFuncMaxBWAlloc: []
-NetDevFuncMinBWAlloc: []
 PhysicalPortNumber: 3
-Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
-SupportedEthernetCapabilities: ['WakeOnLAN', 'EEE']
-SupportedLinkCapabilities: [{'LinkNetworkTechnology': 'Ethernet', 'LinkSpeedMbps': 1000}]
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: RX
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EF:18']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: RX
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 1000}]
+SupportedEthernetCapabilities: [u'WakeOnLAN', u'EEE']
+EEEEnabled: None
 WakeOnLANEnabled: False
+LinkStatus: Up
+Id: NIC.Integrated.1-3
+Name: Network Port View
