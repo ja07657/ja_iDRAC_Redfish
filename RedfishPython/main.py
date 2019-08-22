@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-# main.py jason amato
+# main.py jason amato 2019
+# run in parallel any python programs
+#
 #000000000000000000000000000000
 #-------------------------------
 #set all attributes the script uses in this var - PUT A SPACE before the -  !!!!!

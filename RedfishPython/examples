@@ -70,10 +70,11 @@
 #
 ## get system info
 #./main.py -p 'GetSystemHWInventoryREDFISH_ja.py -a -y'
-#./main.h 'GetSystemHWInventoryREDFISH_ja.py -a y'
-#./main.h 'GetSystemHWInventoryREDFISH_ja.py -c y'
-#./main.h 'GetSystemHWInventoryREDFISH_ja.py -ps y'
-#./main.h 'GetSystemHWInventoryREDFISH_ja.py -n y'
+
+#./main.py -p 'GetSystemHWInventoryREDFISH_ja.py -a y'
+#./main.py -p 'GetSystemHWInventoryREDFISH_ja.py -c y'
+#./main.py -p 'GetSystemHWInventoryREDFISH_ja.py -ps y'
+#./main.py -p 'GetSystemHWInventoryREDFISH_ja.py -n y'
 ##
 #./main.sh 'GetStorageInventoryREDFISH.py -c y'
 #./main.sh 'GetStorageInventoryREDFISH.py -c yy'

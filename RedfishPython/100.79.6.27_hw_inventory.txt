@@ -2,77 +2,20 @@
 
 ---- Network Device Information ----
 
-- Network device details for NIC.Integrated.1 -
+- Network device details for NIC.Slot.1 -
 
 Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
 Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
 Description: Network Adapter View
-PartNumber: 06VDPG
-SerialNumber: MY1240285B01FP
-SerialNumber: MY1240285B01FPFirmwarePackageVersion: 18.8.9
+PartNumber: 000M95
+SerialNumber: MY1240282302NZ
+SerialNumber: MY1240282302NZFirmwarePackageVersion: 18.8.9
 Name: Network Adapter View
-Model: Intel(R) 2P X710/2P I350 rNDC
-Id: NIC.Integrated.1
+Model: Intel(R) 25GbE 2P XXV710 Adptr
+Id: NIC.Slot.1
 Manufacturer: Intel Corporation
 
-- Network port details for NIC.Integrated.1-3 -
-
-NetDevFuncMaxBWAlloc: []
-PhysicalPortNumber: 3
-ActiveLinkTechnology: Ethernet
-Description: Network Port View
-NetDevFuncMinBWAlloc: []
-FlowControlStatus: RX
-AssociatedNetworkAddresses: [u'24:6E:96:DE:EF:18']
-Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
-FlowControlConfiguration: RX
-SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 1000}]
-SupportedEthernetCapabilities: [u'WakeOnLAN', u'EEE']
-EEEEnabled: None
-WakeOnLANEnabled: False
-LinkStatus: Up
-Id: NIC.Integrated.1-3
-Name: Network Port View
-
-- Network port details for NIC.Integrated.1-4 -
-
-NetDevFuncMaxBWAlloc: []
-PhysicalPortNumber: 4
-ActiveLinkTechnology: Ethernet
-Description: Network Port View
-NetDevFuncMinBWAlloc: []
-FlowControlStatus: None
-AssociatedNetworkAddresses: [u'24:6E:96:DE:EF:19']
-Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
-FlowControlConfiguration: None
-SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
-SupportedEthernetCapabilities: [u'WakeOnLAN', u'EEE']
-EEEEnabled: None
-WakeOnLANEnabled: False
-LinkStatus: Down
-Id: NIC.Integrated.1-4
-Name: Network Port View
-
-- Network port details for NIC.Integrated.1-1 -
-
-NetDevFuncMaxBWAlloc: []
-PhysicalPortNumber: 1
-ActiveLinkTechnology: Ethernet
-Description: Network Port View
-NetDevFuncMinBWAlloc: []
-FlowControlStatus: None
-AssociatedNetworkAddresses: [u'24:6E:96:DE:EE:F8']
-Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
-FlowControlConfiguration: None
-SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
-SupportedEthernetCapabilities: [u'WakeOnLAN']
-EEEEnabled: None
-WakeOnLANEnabled: False
-LinkStatus: Down
-Id: NIC.Integrated.1-1
-Name: Network Port View
-
-- Network port details for NIC.Integrated.1-2 -
+- Network port details for NIC.Slot.1-2 -
 
 NetDevFuncMaxBWAlloc: []
 PhysicalPortNumber: 2
@@ -80,29 +23,16 @@ ActiveLinkTechnology: Ethernet
 Description: Network Port View
 NetDevFuncMinBWAlloc: []
 FlowControlStatus: None
-AssociatedNetworkAddresses: [u'24:6E:96:DE:EE:FA']
+AssociatedNetworkAddresses: [u'3C:FD:FE:BA:87:01']
 Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
 FlowControlConfiguration: None
 SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
-SupportedEthernetCapabilities: [u'WakeOnLAN']
+SupportedEthernetCapabilities: []
 EEEEnabled: None
 WakeOnLANEnabled: False
 LinkStatus: Down
-Id: NIC.Integrated.1-2
+Id: NIC.Slot.1-2
 Name: Network Port View
-
-- Network device details for NIC.Slot.1 -
-
-Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
-Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
-Description: Network Adapter View
-PartNumber: 000M95
-SerialNumber: MY1240282302LX
-SerialNumber: MY1240282302LXFirmwarePackageVersion: 18.8.9
-Name: Network Adapter View
-Model: Intel(R) 25GbE 2P XXV710 Adptr
-Id: NIC.Slot.1
-Manufacturer: Intel Corporation
 
 - Network port details for NIC.Slot.1-1 -
 
@@ -112,7 +42,7 @@ ActiveLinkTechnology: Ethernet
 Description: Network Port View
 NetDevFuncMinBWAlloc: []
 FlowControlStatus: None
-AssociatedNetworkAddresses: [u'3C:FD:FE:BA:82:60']
+AssociatedNetworkAddresses: [u'3C:FD:FE:BA:87:00']
 Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
 FlowControlConfiguration: None
 SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
@@ -123,7 +53,58 @@ LinkStatus: Down
 Id: NIC.Slot.1-1
 Name: Network Port View
 
-- Network port details for NIC.Slot.1-2 -
+- Network device details for NIC.Integrated.1 -
+
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: Network Adapter View
+PartNumber: 06VDPG
+SerialNumber: MY1240285B01EU
+SerialNumber: MY1240285B01EUFirmwarePackageVersion: 18.8.9
+Name: Network Adapter View
+Model: Intel(R) 2P X710/2P I350 rNDC
+Id: NIC.Integrated.1
+Manufacturer: Intel Corporation
+
+- Network port details for NIC.Integrated.1-4 -
+
+NetDevFuncMaxBWAlloc: []
+PhysicalPortNumber: 4
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EA:FB']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
+SupportedEthernetCapabilities: [u'WakeOnLAN', u'EEE']
+EEEEnabled: None
+WakeOnLANEnabled: False
+LinkStatus: Down
+Id: NIC.Integrated.1-4
+Name: Network Port View
+
+- Network port details for NIC.Integrated.1-3 -
+
+NetDevFuncMaxBWAlloc: []
+PhysicalPortNumber: 3
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EA:FA']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 1000}]
+SupportedEthernetCapabilities: [u'WakeOnLAN', u'EEE']
+EEEEnabled: None
+WakeOnLANEnabled: False
+LinkStatus: Up
+Id: NIC.Integrated.1-3
+Name: Network Port View
+
+- Network port details for NIC.Integrated.1-2 -
 
 NetDevFuncMaxBWAlloc: []
 PhysicalPortNumber: 2
@@ -131,13 +112,32 @@ ActiveLinkTechnology: Ethernet
 Description: Network Port View
 NetDevFuncMinBWAlloc: []
 FlowControlStatus: None
-AssociatedNetworkAddresses: [u'3C:FD:FE:BA:82:61']
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EA:DC']
 Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
 FlowControlConfiguration: None
 SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
-SupportedEthernetCapabilities: []
+SupportedEthernetCapabilities: [u'WakeOnLAN']
 EEEEnabled: None
 WakeOnLANEnabled: False
 LinkStatus: Down
-Id: NIC.Slot.1-2
+Id: NIC.Integrated.1-2
+Name: Network Port View
+
+- Network port details for NIC.Integrated.1-1 -
+
+NetDevFuncMaxBWAlloc: []
+PhysicalPortNumber: 1
+ActiveLinkTechnology: Ethernet
+Description: Network Port View
+NetDevFuncMinBWAlloc: []
+FlowControlStatus: None
+AssociatedNetworkAddresses: [u'24:6E:96:DE:EA:DA']
+Status: {u'HealthRollup': None, u'State': u'Enabled', u'Health': None}
+FlowControlConfiguration: None
+SupportedLinkCapabilities: [{u'LinkNetworkTechnology': u'Ethernet', u'LinkSpeedMbps': 0}]
+SupportedEthernetCapabilities: [u'WakeOnLAN']
+EEEEnabled: None
+WakeOnLANEnabled: False
+LinkStatus: Down
+Id: NIC.Integrated.1-1
 Name: Network Port View
