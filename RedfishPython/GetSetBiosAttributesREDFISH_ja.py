@@ -69,11 +69,15 @@ def check_supported_idrac_version():
         pass
 
 def get_bios_attributes():
+    myattribfile = 'bios_attributes_' + idrac_ip + '.txt'
+    print('-----------------')
+    print('Myfile: %s' % myattribfile )
     try:
-        os.remove("bios_attributes.txt")
+        os.remove(myattribfile)
     except:
         pass
-    f=open("bios_attributes.txt","a")
+    # f=open(f'{ idrac_ip }_bios_attributes.txt','a')
+    f=open(myattribfile,'a')
     response = requests.get('https://%s/redfish/v1/Systems/System.Embedded.1/Bios' % idrac_ip,verify=False,auth=(idrac_username,idrac_password))
     data = response.json()
     d=datetime.now()
@@ -83,9 +87,11 @@ def get_bios_attributes():
     print(a)
     f.writelines(a)
     for i in data[u'Attributes'].items():
-        attribute_name = "Attribute Name: %s\t" % (i[0])
+        #attribute_name = "Attribute Name: %s\t" % (i[0])
+        attribute_name = "%s:" % (i[0])
         f.writelines(attribute_name)
-        attribute_value = "Attribute Value: %s\n" % (i[1])
+        #attribute_value = "Attribute Value: %s\n" % (i[1])
+        attribute_value = "%s\n" % (i[1])
         f.writelines(attribute_value)
         print("Attribute Name: %s\t Attribute Value: %s" % (i[0],i[1]))
         
