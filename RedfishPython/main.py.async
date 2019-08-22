@@ -11,7 +11,6 @@ otherattribs = ""
 import os
 import getpass
 import argparse
-import multiprocessing
 
 iplist = list()
 #
@@ -36,22 +35,13 @@ if args.p is not None :
  pass1 = getpass.getpass('iDRAC Password: ')    
 
  check1 = input('Are you sure you want to run this? Type Y to continue...')
- proglist = list()
  if check1 == 'Y' :
    for ip1 in iplist : 
       ip1 = str(ip1)
       cmdline = 'python2 ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
-      proglist.append(cmdline)
-      #print(f"Running... { prog1 } on { ip1 }")
-      #os.system(cmdline)
+      print(f"Running... { prog1 } on { ip1 }")
+      os.system(cmdline)
 
- print(proglist)
-
- def doit(process):
-     os.system(f'{ process }')
-
- process_pool = multiprocessing.Pool(processes = 8)
- process_pool.map(doit, proglist)
  print('Done.')
 else :
  print('Please enter the program name, like so: main.py -p prog.py')
