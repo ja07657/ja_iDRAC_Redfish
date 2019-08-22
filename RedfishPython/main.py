@@ -19,7 +19,7 @@ args = "notset"
 parser = argparse.ArgumentParser("Enter program name to be run")
 parser.add_argument("-p", help="The python program to run on the iDRAC")
 args = parser.parse_args()
-print(args)
+#print(args)
 if args.p is not None : 
  #
  f = open('ipfile')
@@ -42,10 +42,8 @@ if args.p is not None :
       ip1 = str(ip1)
       cmdline = 'python2 ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
       proglist.append(cmdline)
-      #print(f"Running... { prog1 } on { ip1 }")
+      print(f"Running... { prog1 } on { ip1 }")
       #os.system(cmdline)
-
- print(proglist)
 
  def doit(process):
      os.system(f'{ process }')
