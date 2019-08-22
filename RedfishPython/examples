@@ -5,7 +5,7 @@
 #export template and change it if needed
 #       ./main.py -p 'ExportSystemConfigurationLocalREDFISH.py -t ALL'
 #list available bios settings, create a file called biosfile with your bios settings: 
-#	./main.py -p 'GetSetBiosAttributesREDFISH.py -a y'
+        ./main.py -p 'GetSetBiosAttributesREDFISH_ja.py -a y'
 #------------------------------------------------------------------------------#
 #delete all jobs in queue: 
 #	./main.sh 'DeleteJobIdREDFISH.py -c y'

@@ -233,7 +233,7 @@ SataPortHDriveType:Unknown Device
 SataPortMModel:Unknown
 HttpDev2Mask:
 HttpDev3Dns2:
-ProcTurboMode:Disabled
+ProcTurboMode:Enabled
 SetBootOrderFqdd12:
 HttpDev2Ip:
 SysMemSpeed:2666 Mhz
