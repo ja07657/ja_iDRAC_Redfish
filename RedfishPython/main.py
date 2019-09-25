@@ -4,10 +4,10 @@
 #
 #000000000000000000000000000000
 #-------------------------------
-#set all attributes the script uses in this var - PUT A SPACE before the -  !!!!!
+#set all attributes the script uses in this var - PUT A SPACE before the ' -'  !!!!!
 #ie GetSystemHWInventoryREDFISH_ja.py -a y    , then set otherattribs to "-a y"
-#otherattribs = " -a y"
 otherattribs = ""
+#otherattribs = " -a y"
 #-------------------------------
 
 import os
@@ -45,7 +45,7 @@ if args.p is not None :
       cmdline = 'python2 ' + prog1 + ' -ip ' + ip1 + ' -u ' + user1 + ' -p ' + pass1 + otherattribs
       proglist.append(cmdline)
       print(f"Running... { prog1 } on { ip1 }")
-      #os.system(cmdline)
+      #if async#os.system(cmdline)
 
  def doit(process):
      os.system(f'{ process }')
