@@ -58,6 +58,9 @@ if args["e"]:
     payload["HostPowerState"] = args["e"]
 
 payload["ImportBuffer"]=xml_string
+#ja#
+print("Payload is... %s" % payload)
+#ja#
 headers = {'content-type': 'application/json'}
 response = requests.post(url, data=json.dumps(payload), headers=headers, verify=False, auth=(idrac_username, idrac_password))
 

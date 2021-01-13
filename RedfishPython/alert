@@ -1,0 +1,56 @@
+Disable syslog info config SWC
+
+<Component FQDD="EventFilters.Configuration.1">
+
+<!-- <Attribute Name="SWC_5_3#DisplayName">Software Config (Informational)</Attribute>-->
+ <Attribute Name="SWC_5_3#Alert#Email">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#SNMP">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#IPMI">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#SysLog">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#WSEventing">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#RedfishEventing">Disabled</Attribute>
+
+[idrac.alert.70]
+Event ID                     = 2338
+category                     = system
+severity                     = warning
+Sub-Cat Desc                 = Software Config
+Sub-Category                 = SWC
+Filter Actions               = none
+Permitted Filter Actions     = none
+Notifications                = snmp
+Permitted Notifications      = OSLog, snmp, ws-events, redfish-events, remotesyslog, email
+
+[idrac.alert.71]
+Event ID                     = 2339
+category                     = system
+severity                     = info
+Sub-Cat Desc                 = Software Config
+Sub-Category                 = SWC
+Filter Actions               = none
+Permitted Filter Actions     = none
+Notifications                = none
+Permitted Notifications      = OSLog, snmp, ws-events, redfish-events, remotesyslog, email
+
+[idrac.alert.72]
+Event ID                     = 2337
+category                     = system
+severity                     = critical
+Sub-Cat Desc                 = Software Config
+Sub-Category                 = SWC
+Filter Actions               = none
+Permitted Filter Actions     = none
+Notifications                = snmp
+Permitted Notifications      = OSLog, snmp, ws-events, redfish-events, remotesyslog, email
+
+
+racadm eventfilters get -c idrac.alert.config.swc
+
+<!-- <Attribute Name="SWC_5_3#DisplayName">Software Config (Informational)</Attribute> -->
+ <Attribute Name="SWC_5_3#Alert#Email">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#SNMP">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#IPMI">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#SysLog">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#WSEventing">Disabled</Attribute>
+ <Attribute Name="SWC_5_3#Alert#RedfishEventing">Disabled</Attribute>
+

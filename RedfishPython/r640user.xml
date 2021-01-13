@@ -1,0 +1,31 @@
+<SystemConfiguration Model="PowerEdge R640" ServiceTag="C86D0Q2" TimeStamp="Fri Mar  6 16:03:12 2020">
+<!--Export type is Normal,XML,IncludeHash-->
+<!--Exported configuration may contain commented attributes. Attributes may be commented due to dependency, destructive nature, preserving server identity or for security reasons.-->
+<!--Exported configuration does not contain FC-HBA data as the presence of the appropriate cards could not be detected!-->
+
+<Component FQDD="iDRAC.Embedded.1">
+ <Attribute Name="IPMILan.1#Enable">Disabled</Attribute>
+ <Attribute Name="IPMILan.1#PrivLimit">Administrator</Attribute>
+ <Attribute Name="IPMILan.1#EncryptionKey">0000000000000000000000000000000000000000</Attribute>
+ <Attribute Name="IPMILan.1#CommunityName">public</Attribute>
+ <Attribute Name="IPMILan.1#AlertEnable">Enabled</Attribute>
+ <Attribute Name="Users.7#UserName">admin</Attribute>
+ <!-- <Attribute Name="Users.7#Password">******</Attribute> -->
+ <Attribute Name="Users.7#Privilege">511</Attribute>
+ <Attribute Name="Users.7#IpmiLanPrivilege">Administrator</Attribute>
+ <Attribute Name="Users.7#IpmiSerialPrivilege">Administrator</Attribute>
+ <Attribute Name="Users.7#Enable">Enabled</Attribute>
+ <Attribute Name="Users.7#SolEnable">Enabled</Attribute>
+ <Attribute Name="Users.7#ProtocolEnable">Disabled</Attribute>
+ <Attribute Name="Users.7#AuthenticationProtocol">SHA</Attribute>
+ <Attribute Name="Users.7#PrivacyProtocol">AES</Attribute>
+ <Attribute Name="Users.7#SHA256Password">6B2CFC7D2B279B44C12A218C517C1649C9CEE24BDAE6D2A19F68A1206888BAF8</Attribute> 
+ <Attribute Name="Users.7#SHA1v3Key">43B897769FCB5D6D8EAA2E8A088AD30D4AD1B770</Attribute> 
+ <Attribute Name="Users.7#MD5v3Key">6BDAC24B7DDE2B6CC0545FFE516239E8</Attribute> 
+ <Attribute Name="Users.7#SHA256PasswordSalt">046BC41FEC34FC16704A69487A1D8BE9</Attribute> 
+ <Attribute Name="Users.7#IPMIKey">FC66406D044F55F90389E24FB7BA48C3C3D1AED49BF082B68CC58B07AB654CEE</Attribute> 
+ <Attribute Name="Users.7#Simple2FA">Disabled</Attribute>
+ <Attribute Name="Users.7#UseEmail">Disabled</Attribute>
+ <Attribute Name="Users.7#EmailAddress"></Attribute>
+</Component>
+</SystemConfiguration>

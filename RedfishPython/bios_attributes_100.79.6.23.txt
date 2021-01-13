@@ -1,0 +1,239 @@
+- Data collection timestamp: 2020-9-8  9:32:45
+
+--- BIOS Attributes ---
+SataPortADriveType:Unknown Device
+MemFrequency:MaxPerf
+OneTimeBootMode:Disabled
+FailSafeBaud:115200
+CECriticalSEL:Enabled
+WriteDataCrc:Disabled
+SataPortBCapacity:N/A
+WriteCache:Disabled
+OneTimeBootSeqDev:HardDisk.List.1-1
+SysProfile:Custom
+SetBootOrderFqdd12:
+SetBootOrderFqdd13:
+SetBootOrderFqdd10:
+SetBootOrderFqdd11:
+SetBootOrderFqdd16:
+ControlledTurboMinusBin:0
+SetBootOrderFqdd14:
+SetBootOrderFqdd15:
+IntelTxt:Off
+AdddcSetting:Disabled
+SataPortKDriveType:Unknown Device
+TpmPpiBypassProvision:Disabled
+SHA256SystemPassword:
+SataPortHModel:Unknown
+ProcSwPrefetcher:Enabled
+SataPortAModel:Unknown
+AssetTag:
+AesNi:Enabled
+HddPlaceholder:Disabled
+SetLegacyHddOrderFqdd12:
+SysMemVolt:1.20 V
+SetLegacyHddOrderFqdd10:
+SetLegacyHddOrderFqdd11:
+SetLegacyHddOrderFqdd16:
+SetLegacyHddOrderFqdd14:
+SetLegacyHddOrderFqdd15:
+SataPortFDriveType:Unknown Device
+HddFailover:Disabled
+PowerCycleRequest:None
+Proc2NumCores:16
+SataPortMModel:Unknown
+SataPortA:Auto
+Slot2:Enabled
+DcuStreamerPrefetcher:Enabled
+LlcPrefetch:Disabled
+ProcConfigTdp:Nominal
+RedirAfterBoot:Enabled
+UefiVariableAccess:Standard
+InBandManageabilityInterface:Disabled
+SataPortB:Auto
+SataPortLDriveType:Unknown Device
+OneTimeHddSeqDev:RAID.Integrated.1-1
+NativeTrfcTiming:Disabled
+AcPwrRcvryDelay:Random
+SerialComm:OnConRedirAuto
+SataPortD:Auto
+GenericUsbBoot:Disabled
+SystemBiosVersion:2.6.4
+DirectoryAtoS:Disabled
+OsWatchdogTimer:Enabled
+Proc1TurboCoreNum:All
+ForceInt10:Disabled
+ErrPrompt:Enabled
+SataPortBDriveType:Unknown Device
+SataPortDModel:Unknown
+AcPwrRcvry:On
+RedundantOsState:Visible
+SataPortNCapacity:N/A
+SataPortICapacity:N/A
+UncoreFrequency:MaxUFS
+UsbPorts:AllOn
+IntegratedRaid:Enabled
+UsbManagedPort:On
+SataPortM:Auto
+RedundantOsLocation:None
+SataPortCDriveType:Unknown Device
+DcuIpPrefetcher:Enabled
+SystemServiceTag:C86D0Q2
+SataPortHDriveType:Unknown Device
+SataPortLCapacity:N/A
+SataPortGCapacity:N/A
+AuthorizeDeviceFirmware:Disabled
+ProcAdjCacheLine:Enabled
+SerialPortAddress:Serial1Com2Serial2Com1
+TpmFirmware:TpmFirmware
+ProcPwrPerf:MaxPerf
+ExtSerialConnector:Serial1
+Slot1Bif:x16
+BootSeqRetry:Enabled
+SystemCpldVersion:1.0.2
+SecureBootMode:DeployedMode
+MemPatrolScrub:Disabled
+NumLock:On
+ProcCoreSpeed:2.10 GHz
+SataPortLModel:Unknown
+SataPortGDriveType:Unknown Device
+SataPortFModel:Unknown
+EnergyPerformanceBias:MaxPower
+MmioAbove4Gb:Enabled
+OppSrefEn:Disabled
+PCIRootDeviceUnhide:Disabled
+SetLegacyHddOrderFqdd1:
+SetLegacyHddOrderFqdd2:
+Proc2Microcode:0x2000069
+SetLegacyHddOrderFqdd4:
+SetLegacyHddOrderFqdd5:
+SetLegacyHddOrderFqdd6:
+SetLegacyHddOrderFqdd7:
+SetLegacyHddOrderFqdd8:
+SetLegacyHddOrderFqdd9:
+ProcX2Apic:Enabled
+SysMemSpeed:2666 Mhz
+FRMPercent:FRM_25_Percent
+SataPortNDriveType:Unknown Device
+DellAutoDiscovery:PlatformDefault
+SataPortGModel:Unknown
+DeadLineLlcAlloc:Enabled
+MemoryMappedIOH:56TB
+SetBootOrderEn:HardDisk.List.1-1
+CorrEccSmi:Enabled
+SataPortC:Auto
+SysMemSize:96 GB
+SataPortE:Auto
+Proc1Microcode:0x2000069
+SataPortG:Auto
+SataPortF:Auto
+SataPortI:Auto
+SataPortH:Auto
+SataPortK:Auto
+SataPortJ:Auto
+SysMemType:ECC DDR4
+SataPortL:Auto
+SataPortCCapacity:N/A
+SataPortN:Auto
+RedundantOsBoot:Disabled
+SataPortMCapacity:N/A
+Proc1L3Cache:22 MB
+PwrButton:Enabled
+Proc1Brand:Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+ProcVirtualization:Enabled
+ProcC1E:Disabled
+TpmSecurity:Off
+IntegratedNetwork1:Enabled
+CurrentEmbVideoState:Enabled
+SetBootOrderFqdd8:
+SetBootOrderFqdd9:
+SataPortFCapacity:N/A
+SataPortACapacity:N/A
+Proc1Id:6-55-4
+MemRefreshRate:1x
+SetBootOrderFqdd1:
+SetBootOrderFqdd2:
+SetBootOrderFqdd3:
+SetBootOrderFqdd4:
+SetBootOrderFqdd5:
+SetBootOrderFqdd6:
+SetBootOrderFqdd7:
+SataPortECapacity:N/A
+PcieAspmL1:Disabled
+SataPortBModel:Unknown
+VideoMem:16 MB
+MonitorMwait:Disabled
+Proc2Brand:Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+TpmPpiBypassClear:Disabled
+SHA256SetupPassword:
+ProcCStates:Disabled
+SataPortDDriveType:Unknown Device
+SataPortJCapacity:N/A
+SataPortEModel:Unknown
+SetBootOrderDis:
+Proc2TurboCoreNum:All
+SysPassword:None
+SataPortKModel:Unknown
+SysMfrContactInfo:www.dell.com
+SataPortIModel:Unknown
+SataPortDCapacity:N/A
+InternalUsb:On
+MemTest:Disabled
+CpuInterconnectBusSpeed:MaxDataRate
+NodeInterleave:Disabled
+SriovGlobalEnable:Enabled
+Proc1L2Cache:16x1 MB
+Proc2L2Cache:16x1 MB
+SystemMeVersion:4.1.4.381
+SecureBoot:Disabled
+NvmeMode:NonRaid
+MemOpMode:OptimizerMode
+PasswordStatus:Unlocked
+UpiPrefetch:Enabled
+SataPortJDriveType:Unknown Device
+SystemManufacturer:Dell Inc.
+DynamicCoreAllocation:Disabled
+ProcTurboMode:Enabled
+Tpm2Hierarchy:
+SecurityFreezeLock:Enabled
+Slot2Bif:x16
+Proc1MaxMemoryCapacity:0.75 TB
+ProcBusSpeed:10.40 GT/s
+AcPwrRcvryUserDelay:60
+SecureBootPolicy:Standard
+SetLegacyHddOrderFqdd3:
+SataPortKCapacity:N/A
+SataPortIDriveType:Unknown Device
+Slot1:Enabled
+Slot3:Enabled
+Proc2MaxMemoryCapacity:0.75 TB
+ControlledTurbo:Disabled
+UefiComplianceVersion:2.7
+SataPortEDriveType:Unknown Device
+SHA256SetupPasswordSalt:
+Proc1NumCores:16
+LogicalProc:Enabled
+SataPortMDriveType:Unknown Device
+SetupPassword:None
+BootMode:Bios
+Slot3Bif:x16
+Proc2Id:6-55-4
+IoatEngine:Disabled
+SHA256SystemPasswordSalt:
+Proc2L3Cache:22 MB
+DellWyseP25BIOSAccess:Enabled
+CpuInterconnectBusLinkPower:Disabled
+TpmInfo:Type: 2.0-NTC
+EmbVideo:Enabled
+EmbSata:AhciMode
+SetLegacyHddOrderFqdd13:
+SystemModelName:PowerEdge R640
+SataPortNModel:Unknown
+SataPortCModel:Unknown
+SataPortHCapacity:N/A
+WorkloadProfile:NotAvailable
+ConTermType:Vt100Vt220
+SubNumaCluster:Disabled
+ProcHwPrefetcher:Enabled
+ProcCores:All
+SataPortJModel:Unknown

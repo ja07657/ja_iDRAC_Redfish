@@ -1,604 +1,725 @@
-- Data collection timestamp: 5-23-2019  16:42:13
+- Data collection timestamp: 10-27-2020  7:55:2
 
 
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-104102-2.41
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Mellanox ConnectX-4 LX 25GbE SFP Adapter - EC:0D:9A:8D:E7:E6
-SoftwareId: 104480
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-104480-14.24.80.00
+Name: PERC H730P Mini
+SoftwareId: 101560
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-101560-25.5.6.0009
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-07-03T00:00:00Z
 Updateable: True
-Version: 14.24.80.00
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: Mellanox ConnectX-4 LX 25GbE SFP Adapter - EC:0D:9A:8D:E7:E6
-VendorID: 15B3
-SubDeviceID: 0016
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT%23701__NIC.Slot.7-1-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: ea858eafc7c83a8c7ed11f9c023d287eadf742ffa53a850365a5e945c35c1dd2
-InstallationDate: NA
-DeviceID: 1015
-SubVendorID: 15B3
-ComponentID: 104480
-RevisionNumber: 80
-Id: Current-104480-14.24.80.00
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Mellanox ConnectX-4 LX 25GbE SFP Rack NDC - EC:0D:9A:83:42:63
-SoftwareId: 104490
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-104490-14.24.80.00
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 14.24.80.00
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: Mellanox ConnectX-4 LX 25GbE SFP Rack NDC - EC:0D:9A:83:42:63
-VendorID: 15B3
-SubDeviceID: 0025
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT%23701__NIC.Integrated.1-2-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: ea858eafc7c83a8c7ed11f9c023d287eadf742ffa53a850365a5e945c35c1dd2
-InstallationDate: NA
-DeviceID: 1015
-SubVendorID: 15B3
-ComponentID: 104490
-RevisionNumber: 80
-Id: Current-104490-14.24.80.00
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: PERC H740P Adapter
-SoftwareId: 104893
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-104893-50.5.0-1750
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 50.5.0-1750
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: PERC H740P Adapter
+Version: 25.5.6.0009
 VendorID: 1000
-SubDeviceID: 1FCB
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT%23301_C_RAID.Slot.5-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
 ComponentType: FRMW
-HashValue: 1c0e69923a12e6847e10bd86be78cc6dfe4ea57dd20416a1863f97c1159f7f2b
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 9
+ElementName: PERC H730P Mini
+MinorVersion: 5
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 7b4906c472611b7147a64174c9fd0c700a7208486300c147bfd05e94824953e6
 InstallationDate: NA
-DeviceID: 0016
+Classifications@odata.count: 1
+RevisionNumber: 9
+Status: AvailableForInstallation
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_301_C_RAID.Integrated.1-1
+impactsTPMmeasurements: True
+DeviceID: 5D
+MajorVersion: 25
+SubDeviceID: 1F47
 SubVendorID: 1028
-ComponentID: 104893
-RevisionNumber: 0
-Id: Current-104893-50.5.0-1750
+IdentityInfoValue: [u'DCIM:firmware:1000:5D:1028:1F47']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID']
+ComponentID: 101560
+Id: Current-101560-25.5.6.0009
 Description: Represents Firmware Inventory
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: Intel(R) Gigabit 4P X710/I350 rNDC - 24:6E:96:DE:FF:91
+SoftwareId: 102303
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-102303-19.0.12
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-07-18T00:00:00Z
+Updateable: True
+Version: 19.0.12
+VendorID: 8086
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: Intel(R) Gigabit 4P X710/I350 rNDC - 24:6E:96:DE:FF:91
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 5c9fc1927918f0198e1a59d0e13313f8c126ae4e80574e7f68070f4639b97410
+InstallationDate: NA
+Classifications@odata.count: 1
+RevisionNumber: 12
+Status: AvailableForInstallation
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_701__NIC.Integrated.1-4-1
+impactsTPMmeasurements: True
+DeviceID: 1521
+MajorVersion: 19
+SubDeviceID: 1F9A
+SubVendorID: 1028
+IdentityInfoValue: [u'DCIM:firmware:8086:1521:1028:1F9A']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID']
+ComponentID: 102303
+Id: Current-102303-19.0.12
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: BP14G+ 0:1
+SoftwareId: 103999
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-103999-4.35
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-08-07T00:00:00Z
+Updateable: True
+Version: 4.35
+VendorID: None
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: BP14G+ 0:1
+MinorVersion: 35
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 800f26c7ef5b55e3e4686bacb01000e0a857cb3cd76b62787344cc1794d403dc
+InstallationDate: NA
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: AvailableForInstallation
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_308_C_Enclosure.Internal.0-1:RAID.Integrated.1-1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 4
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:103999']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 103999
+Id: Current-103999-4.35
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
 Name: BIOS
 SoftwareId: 159
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-159-2.1.8
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Current-159-2.6.4
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2020-04-09T00:00:00Z
 Updateable: True
-Version: 2.1.8
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: BIOS
+Version: 2.6.4
 VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT%23741__BIOS.Setup.1-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
 ComponentType: BIOS
-HashValue: 71d37e770302168bfc3347d38153950f7025a0e7a8bb64ab987cbbaf0ae83022
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: BIOS
+MinorVersion: 6
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 2892361d96937bde033d40945e7c878372ce71fbdff0c16545ff0de1df78f0ae
 InstallationDate: NA
+Classifications@odata.count: 1
+RevisionNumber: 4
+Status: AvailableForInstallation
+Classifications: [u'BIOS/FCode']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_741__BIOS.Setup.1-1
+impactsTPMmeasurements: True
 DeviceID: None
+MajorVersion: 2
+SubDeviceID: None
 SubVendorID: None
+IdentityInfoValue: [u'DCIM:BIOS:159']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
 ComponentID: 159
-RevisionNumber: 8
-Id: Current-159-2.1.8
+Id: Current-159-2.6.4
 Description: Represents Firmware Inventory
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: NIC in Slot 4 Port 2
-SoftwareId: 0
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-0-Solarflare%20firmware%20package
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: Solarflare firmware package
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: NIC in Slot 4 Port 2
-VendorID: 1924
-SubDeviceID: 8017
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23806__NIC.Slot.4-2
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: None
-InstallationDate: 1969-12-31T18:00:00Z
-DeviceID: 0A03
-SubVendorID: 1924
-ComponentID: 0
-RevisionNumber: 0
-Id: Installed-0-Solarflare firmware package
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: OS COLLECTOR, 3.0, A00
-SoftwareId: 101734
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101734-3.0
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 3.0
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: OS COLLECTOR, 3.0, A00
-VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23802__OSCollector.Embedded.1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: APAC
-HashValue: None
-InstallationDate: 2017-12-07T23:49:58Z
-DeviceID: None
-SubVendorID: None
-ComponentID: 101734
-RevisionNumber: 0
-Id: Installed-101734-3.0
-Description: Represents Firmware Inventory
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104102-2.41
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Mellanox ConnectX-4 LX 25GbE SFP Adapter - EC:0D:9A:8D:E7:E6
-SoftwareId: 104480
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104480-14.24.80.00
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 14.24.80.00
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: Mellanox ConnectX-4 LX 25GbE SFP Adapter - EC:0D:9A:8D:E7:E6
-VendorID: 15B3
-SubDeviceID: 0016
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23701__NIC.Slot.7-1-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: ea858eafc7c83a8c7ed11f9c023d287eadf742ffa53a850365a5e945c35c1dd2
-InstallationDate: 2019-05-22T11:59:22Z
-DeviceID: 1015
-SubVendorID: 15B3
-ComponentID: 104480
-RevisionNumber: 80
-Id: Installed-104480-14.24.80.00
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Mellanox ConnectX-4 LX 25GbE SFP Rack NDC - EC:0D:9A:83:42:62
-SoftwareId: 104490
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104490-14.24.80.00
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 14.24.80.00
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: Mellanox ConnectX-4 LX 25GbE SFP Rack NDC - EC:0D:9A:83:42:62
-VendorID: 15B3
-SubDeviceID: 0025
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23701__NIC.Integrated.1-1-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: None
-InstallationDate: 2019-05-22T11:59:17Z
-DeviceID: 1015
-SubVendorID: 15B3
-ComponentID: 104490
-RevisionNumber: 80
-Id: Installed-104490-14.24.80.00
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: iDRAC Service Module Embedded Package, v3.4.0, A00
-SoftwareId: 104684
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104684-3.4.0
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 3.4.0
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: iDRAC Service Module Embedded Package, v3.4.0, A00
-VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23802__ServiceModule.Embedded.1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: APAC
-HashValue: None
-InstallationDate: 2019-05-22T10:52:22Z
-DeviceID: None
-SubVendorID: None
-ComponentID: 104684
-RevisionNumber: 0
-Id: Installed-104684-3.4.0
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: PERC H740P Adapter
-SoftwareId: 104893
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104893-50.5.0-1750
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 50.5.0-1750
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: PERC H740P Adapter
-VendorID: 1000
-SubDeviceID: 1FCB
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23301_C_RAID.Slot.5-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: 1c0e69923a12e6847e10bd86be78cc6dfe4ea57dd20416a1863f97c1159f7f2b
-InstallationDate: 2019-05-22T11:59:17Z
-DeviceID: 0016
-SubVendorID: 1028
-ComponentID: 104893
-RevisionNumber: 0
-Id: Installed-104893-50.5.0-1750
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
 Name: Power Supply.Slot.1
-SoftwareId: 105236
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-105236-00.23.32
+SoftwareId: 101095
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101095-00.24.7D
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
 Updateable: True
-Version: 00.23.32
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
+Version: 00.24.7D
+VendorID: None
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
 ElementName: Power Supply.Slot.1
-VendorID: None
-SubDeviceID: None
+MinorVersion: 24
 IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%230x15__PSU.Slot.1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
+IdentityInfoType@odata.count: 1
 HashValue: None
-InstallationDate: 2017-12-07T20:25:23Z
-DeviceID: None
-SubVendorID: None
-ComponentID: 105236
-RevisionNumber: 32
-Id: Installed-105236-00.23.32
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Disk 0 in Backplane 1 of RAID Controller in Slot 5
-SoftwareId: 105237
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-105237-GD57
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: GD57
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
+InstallationDate: 2018-06-24T09:34:11Z
+Classifications@odata.count: 1
+RevisionNumber: 7
 Status: Installed
-ElementName: Disk 0 in Backplane 1 of RAID Controller in Slot 5
-VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23304_C_Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.5-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: None
-InstallationDate: 2019-05-22T11:59:21Z
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_0x15__PSU.Slot.1
+impactsTPMmeasurements: False
 DeviceID: None
+MajorVersion: 0
+SubDeviceID: None
 SubVendorID: None
-ComponentID: 105237
-RevisionNumber: 0
-Id: Installed-105237-GD57
+IdentityInfoValue: [u'DCIM:firmware:101095']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 101095
+Id: Installed-101095-00.24.7D
 Description: Represents Firmware Inventory
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: PERC H730P Mini
+SoftwareId: 101560
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101560-25.5.6.0009
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-07-03T00:00:00Z
+Updateable: True
+Version: 25.5.6.0009
+VendorID: 1000
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 9
+ElementName: PERC H730P Mini
+MinorVersion: 5
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 7b4906c472611b7147a64174c9fd0c700a7208486300c147bfd05e94824953e6
+InstallationDate: 2019-12-15T02:47:21Z
+Classifications@odata.count: 1
+RevisionNumber: 9
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_301_C_RAID.Integrated.1-1
+impactsTPMmeasurements: True
+DeviceID: 5D
+MajorVersion: 25
+SubDeviceID: 1F47
+SubVendorID: 1028
+IdentityInfoValue: [u'DCIM:firmware:1000:5D:1028:1F47']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID']
+ComponentID: 101560
+Id: Installed-101560-25.5.6.0009
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: OS COLLECTOR, v5.0, A00
+SoftwareId: 101734
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-101734-5.0
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
+Updateable: True
+Version: 5.0
+VendorID: None
+ComponentType: APAC
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: OS COLLECTOR, v5.0, A00
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: None
+InstallationDate: 2020-05-26T09:44:38Z
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__OSCollector.Embedded.1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 5
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:101734']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 101734
+Id: Installed-101734-5.0
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: Intel(R) Gigabit 4P X710/I350 rNDC - 24:6E:96:DE:FF:91
+SoftwareId: 102303
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-102303-19.0.12
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-07-18T00:00:00Z
+Updateable: True
+Version: 19.0.12
+VendorID: 8086
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: Intel(R) Gigabit 4P X710/I350 rNDC - 24:6E:96:DE:FF:91
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 5c9fc1927918f0198e1a59d0e13313f8c126ae4e80574e7f68070f4639b97410
+InstallationDate: 2020-05-03T00:19:53Z
+Classifications@odata.count: 1
+RevisionNumber: 12
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Integrated.1-4-1
+impactsTPMmeasurements: True
+DeviceID: 1521
+MajorVersion: 19
+SubDeviceID: 1F9A
+SubVendorID: 1028
+IdentityInfoValue: [u'DCIM:firmware:8086:1521:1028:1F9A']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID']
+ComponentID: 102303
+Id: Installed-102303-19.0.12
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: BP14G+ 0:1
+SoftwareId: 103999
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-103999-4.35
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-08-07T00:00:00Z
+Updateable: True
+Version: 4.35
+VendorID: None
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: BP14G+ 0:1
+MinorVersion: 35
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 800f26c7ef5b55e3e4686bacb01000e0a857cb3cd76b62787344cc1794d403dc
+InstallationDate: 2020-05-28T14:25:37Z
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_308_C_Enclosure.Internal.0-1:RAID.Integrated.1-1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 4
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:103999']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 103999
+Id: Installed-103999-4.35
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: Disk 4 in Backplane 1 of Integrated RAID Controller 1
+SoftwareId: 104555
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104555-AM04
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
+Updateable: True
+Version: AM04
+VendorID: None
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: Disk 4 in Backplane 1 of Integrated RAID Controller 1
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: None
+InstallationDate: 2019-03-20T08:44:43Z
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Bay.4:Enclosure.Internal.0-1:RAID.Integrated.1-1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 0
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:104555']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 104555
+Id: Installed-104555-AM04
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: Dell EMC iDRAC Service Module Embedded Package v3.5.1, A00
+SoftwareId: 104684
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-104684-3.5.1
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
+Updateable: True
+Version: 3.5.1
+VendorID: None
+ComponentType: APAC
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: Dell EMC iDRAC Service Module Embedded Package v3.5.1, A00
+MinorVersion: 5
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: None
+InstallationDate: 2020-05-26T09:47:46Z
+Classifications@odata.count: 1
+RevisionNumber: 1
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__ServiceModule.Embedded.1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 3
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:104684']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 104684
+Id: Installed-104684-3.5.1
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: Disk 0 in Backplane 1 of Integrated RAID Controller 1
+SoftwareId: 106358
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-106358-DL5C
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
+Updateable: True
+Version: DL5C
+VendorID: None
+ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: Disk 0 in Backplane 1 of Integrated RAID Controller 1
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: None
+InstallationDate: 2020-06-01T10:37:53Z
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 0
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:106358']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 106358
+Id: Installed-106358-DL5C
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
 Name: BIOS
 SoftwareId: 159
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-159-2.1.8
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-159-2.6.4
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2020-04-09T00:00:00Z
 Updateable: True
-Version: 2.1.8
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: BIOS
+Version: 2.6.4
 VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23741__BIOS.Setup.1-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
 ComponentType: BIOS
-HashValue: 71d37e770302168bfc3347d38153950f7025a0e7a8bb64ab987cbbaf0ae83022
-InstallationDate: 2019-05-22T11:58:06Z
-DeviceID: None
-SubVendorID: None
-ComponentID: 159
-RevisionNumber: 8
-Id: Installed-159-2.1.8
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Dell OS Driver Pack, 19.02.07, A00
-SoftwareId: 18981
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-18981-19.02.07
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 19.02.07
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: Dell OS Driver Pack, 19.02.07, A00
-VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23802__DriverPack.Embedded.1:LC.Embedded.1
 @odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: APAC
-HashValue: None
-InstallationDate: 2019-05-22T10:53:43Z
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: BIOS
+MinorVersion: 6
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: 2892361d96937bde033d40945e7c878372ce71fbdff0c16545ff0de1df78f0ae
+InstallationDate: 2020-07-22T14:47:01Z
+Classifications@odata.count: 1
+RevisionNumber: 4
+Status: Installed
+Classifications: [u'BIOS/FCode']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_741__BIOS.Setup.1-1
+impactsTPMmeasurements: True
 DeviceID: None
+MajorVersion: 2
+SubDeviceID: None
 SubVendorID: None
-ComponentID: 18981
-RevisionNumber: 7
-Id: Installed-18981-19.02.07
+IdentityInfoValue: [u'DCIM:BIOS:159']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 159
+Id: Installed-159-2.6.4
 Description: Represents Firmware Inventory
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: OS Drivers Pack
+SoftwareId: 18981
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-18981-0
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
+Updateable: True
+Version: 0
+VendorID: None
+ComponentType: APAC
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: OS Drivers Pack
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: None
+InstallationDate: 2019-09-20T20:27:40Z
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__DriverPack.Embedded.1:LC.Embedded.1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 0
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:18981']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 18981
+Id: Installed-18981-0
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
 Name: Integrated Dell Remote Access Controller
 SoftwareId: 25227
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25227-3.30.30.30
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25227-4.00.00.00
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-11-20T00:00:00Z
 Updateable: True
-Version: 3.30.30.30
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: Integrated Dell Remote Access Controller
+Version: 4.00.00.00
 VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23iDRAC.Embedded.1-1%23IDRACinfo
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
 ComponentType: FRMW
-HashValue: None
-InstallationDate: 2019-05-22T10:46:10Z
-DeviceID: None
-SubVendorID: None
-ComponentID: 25227
-RevisionNumber: 30
-Id: Installed-25227-3.30.30.30
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Dell 64 Bit uEFI Diagnostics, version 4301, 4301X09, 4301.10
-SoftwareId: 25806
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25806-4301X09
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 4301X09
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: Dell 64 Bit uEFI Diagnostics, version 4301, 4301X09, 4301.10
-VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23802__Diagnostics.Embedded.1:LC.Embedded.1
 @odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: APAC
-HashValue: None
-InstallationDate: 2017-12-07T23:49:58Z
-DeviceID: None
-SubVendorID: None
-ComponentID: 25806
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 70
+ElementName: Integrated Dell Remote Access Controller
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: ce559ce8fd16cc0d026d130817552cc13b464918b3d8e1350c923bb4a7fcb8f1
+InstallationDate: 2020-10-13T18:49:37Z
+Classifications@odata.count: 1
 RevisionNumber: 0
-Id: Installed-25806-4301X09
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 4
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:25227']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 25227
+Id: Installed-25227-4.00.00.00
 Description: Represents Firmware Inventory
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+Name: Diagnostics
+SoftwareId: 25806
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-25806-0
+@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
+Updateable: True
+Version: 0
+VendorID: None
+ComponentType: APAC
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: Diagnostics
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: None
+InstallationDate: 2019-09-20T20:27:40Z
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1
+impactsTPMmeasurements: False
+DeviceID: None
+MajorVersion: 0
+SubDeviceID: None
+SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:25806']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 25806
+Id: Installed-25806-0
+Description: Represents Firmware Inventory
+
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
 Name: System CPLD
 SoftwareId: 27763
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-27763-1.0.8
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-27763-1.0.2
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
 Updateable: True
-Version: 1.0.8
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: System CPLD
+Version: 1.0.2
 VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23803__CPLD.Embedded.1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
 ComponentType: FRMW
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: System CPLD
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
 HashValue: None
-InstallationDate: 2019-05-22T11:58:10Z
+InstallationDate: 2018-06-24T09:34:20Z
+Classifications@odata.count: 1
+RevisionNumber: 2
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_803__CPLD.Embedded.1
+impactsTPMmeasurements: False
 DeviceID: None
+MajorVersion: 1
+SubDeviceID: None
 SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:27763']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
 ComponentID: 27763
-RevisionNumber: 8
-Id: Installed-27763-1.0.8
+Id: Installed-27763-1.0.2
 Description: Represents Firmware Inventory
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
 Name: Lifecycle Controller
 SoftwareId: 28897
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-28897-3.30.30.30
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Installed-28897-4.00.00.00
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 00:00:00Z
 Updateable: False
-Version: 3.30.30.30
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: Installed
-ElementName: Lifecycle Controller
+Version: 4.00.00.00
 VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED%23802__USC.Embedded.1:LC.Embedded.1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
 ComponentType: APAC
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 0
+ElementName: Lifecycle Controller
+MinorVersion: 0
+IsEntity: True
+IdentityInfoType@odata.count: 1
 HashValue: None
-InstallationDate: 2019-05-22T10:46:26Z
-DeviceID: None
-SubVendorID: None
-ComponentID: 28897
-RevisionNumber: 30
-Id: Installed-28897-3.30.30.30
-Description: Represents Firmware Inventory
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-104102-2.17
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Mellanox ConnectX-4 LX 25GbE SFP Adapter - EC:0D:9A:8D:E7:E6
-SoftwareId: 104480
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-104480-14.20.18.20
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 14.20.18.20
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: Mellanox ConnectX-4 LX 25GbE SFP Adapter - EC:0D:9A:8D:E7:E6
-VendorID: 15B3
-SubDeviceID: 0016
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS%23701__NIC.Slot.7-1-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: ea858eafc7c83a8c7ed11f9c023d287eadf742ffa53a850365a5e945c35c1dd2
-InstallationDate: NA
-DeviceID: 1015
-SubVendorID: 15B3
-ComponentID: 104480
-RevisionNumber: 18
-Id: Previous-104480-14.20.18.20
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: Mellanox ConnectX-4 LX 25GbE SFP Rack NDC - EC:0D:9A:83:42:63
-SoftwareId: 104490
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-104490-14.20.18.20
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 14.20.18.20
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: Mellanox ConnectX-4 LX 25GbE SFP Rack NDC - EC:0D:9A:83:42:63
-VendorID: 15B3
-SubDeviceID: 0025
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS%23701__NIC.Integrated.1-2-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: ea858eafc7c83a8c7ed11f9c023d287eadf742ffa53a850365a5e945c35c1dd2
-InstallationDate: NA
-DeviceID: 1015
-SubVendorID: 15B3
-ComponentID: 104490
-RevisionNumber: 18
-Id: Previous-104490-14.20.18.20
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: PERC H740P Adapter
-SoftwareId: 104893
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-104893-50.0.3-0962
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 50.0.3-0962
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: PERC H740P Adapter
-VendorID: 1000
-SubDeviceID: 1FCB
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS%23301_C_RAID.Slot.5-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: FRMW
-HashValue: 1c0e69923a12e6847e10bd86be78cc6dfe4ea57dd20416a1863f97c1159f7f2b
-InstallationDate: NA
-DeviceID: 0016
-SubVendorID: 1028
-ComponentID: 104893
+InstallationDate: 2020-10-13T12:49:54Z
+Classifications@odata.count: 1
 RevisionNumber: 0
-Id: Previous-104893-50.0.3-0962
-Description: Represents Firmware Inventory
-
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
-Status: {u'State': u'Enabled', u'Health': u'OK'}
-Name: BIOS
-SoftwareId: 159
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-159-1.3.7
-@odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
-Updateable: True
-Version: 1.3.7
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: BIOS
-VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS%23741__BIOS.Setup.1-1
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
-ComponentType: BIOS
-HashValue: 71d37e770302168bfc3347d38153950f7025a0e7a8bb64ab987cbbaf0ae83022
-InstallationDate: NA
+Status: Installed
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__USC.Embedded.1:LC.Embedded.1
+impactsTPMmeasurements: False
 DeviceID: None
+MajorVersion: 4
+SubDeviceID: None
 SubVendorID: None
-ComponentID: 159
-RevisionNumber: 7
-Id: Previous-159-1.3.7
+IdentityInfoValue: [u'DCIM:firmware:28897']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
+ComponentID: 28897
+Id: Installed-28897-4.00.00.00
 Description: Represents Firmware Inventory
 
-@odata.type: #SoftwareInventory.v1_1_1.SoftwareInventory
+@odata.type: #SoftwareInventory.v1_2_1.SoftwareInventory
 Status: {u'State': u'Enabled', u'Health': u'OK'}
 Name: Integrated Dell Remote Access Controller
 SoftwareId: 25227
-@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-25227-3.32.32.32
+@odata.id: /redfish/v1/UpdateService/FirmwareInventory/Previous-25227-4.22.00.53
 @odata.context: /redfish/v1/$metadata#SoftwareInventory.SoftwareInventory
+ReleaseDate: 2019-11-20T00:00:00Z
 Updateable: True
-Version: 3.32.32.32
-@odata.type: #DellSoftwareInventory.v1_0_0.DellSoftwareInventory
-Status: AvailableForInstallation
-ElementName: Integrated Dell Remote Access Controller
+Version: 4.22.00.53
 VendorID: None
-SubDeviceID: None
-IsEntity: True
-@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS%23iDRAC.Embedded.1-1%23IDRACinfo
-@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
 ComponentType: FRMW
-HashValue: None
+@odata.context: /redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory
+@odata.type: #DellSoftwareInventory.v1_1_0.DellSoftwareInventory
+BuildNumber: 3
+ElementName: Integrated Dell Remote Access Controller
+MinorVersion: 22
+IsEntity: True
+IdentityInfoType@odata.count: 1
+HashValue: ce559ce8fd16cc0d026d130817552cc13b464918b3d8e1350c923bb4a7fcb8f1
 InstallationDate: NA
+Classifications@odata.count: 1
+RevisionNumber: 0
+Status: AvailableForInstallation
+Classifications: [u'Firmware']
+RevisionString: None
+@odata.id: /redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo
+impactsTPMmeasurements: False
 DeviceID: None
+MajorVersion: 4
+SubDeviceID: None
 SubVendorID: None
+IdentityInfoValue: [u'DCIM:firmware:25227']
+IdentityInfoValue@odata.count: 1
+IdentityInfoType: [u'OrgID:ComponentType:ComponentID']
 ComponentID: 25227
-RevisionNumber: 32
-Id: Previous-25227-3.32.32.32
+Id: Previous-25227-4.22.00.53
 Description: Represents Firmware Inventory

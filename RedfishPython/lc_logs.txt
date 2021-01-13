@@ -1,0 +1,753 @@
+- Data collection timestamp: 10-27-2020  7:47:17
+
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144158
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:45:03-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144158
+Id: 144158
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144158
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144157
+Links: {}
+Created: 2020-10-27T05:45:03-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144157
+Id: 144157
+MessageArgs: [u'12']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 12 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144157
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144156
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:31:26-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144156
+Id: 144156
+MessageArgs: [u'ja07657', u'10.134.205.75', u'REDFISH']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using ja07657, from 10.134.205.75 and REDFISH.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144156
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144155
+Links: {}
+Created: 2020-10-27T05:31:26-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144155
+Id: 144155
+MessageArgs: [u'9']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 9 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144155
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144154
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:30:04-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144154
+Id: 144154
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144154
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144153
+Links: {}
+Created: 2020-10-27T05:30:04-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144153
+Id: 144153
+MessageArgs: [u'19']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 19 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144153
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144152
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:17:49-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144152
+Id: 144152
+MessageArgs: [u'ja07657', u'10.134.205.75', u'REDFISH']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using ja07657, from 10.134.205.75 and REDFISH.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144152
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144151
+Links: {}
+Created: 2020-10-27T05:17:49-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144151
+Id: 144151
+MessageArgs: [u'9']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 9 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144151
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144150
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:15:03-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144150
+Id: 144150
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144150
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144149
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:09:06-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144149
+Id: 144149
+MessageArgs: [u'ja07657', u'10.134.205.75', u'REDFISH']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using ja07657, from 10.134.205.75 and REDFISH.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144149
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144148
+Links: {}
+Created: 2020-10-27T05:09:06-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144148
+Id: 144148
+MessageArgs: [u'3']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 3 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144148
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144147
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:04:49-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144147
+Id: 144147
+MessageArgs: [u'root', u'100.79.7.63', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.63 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144147
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144146
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:54-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144146
+Id: 144146
+MessageArgs: [u'ja07657', u'10.134.205.75', u'GUI']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using ja07657, from 10.134.205.75 and GUI.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144146
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144145
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:34-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144145
+Id: 144145
+MessageArgs: [u'benjamin_vu', u'100.79.7.91', u'WS-MAN']
+MessageId: USR0031
+OemRecordFormat: Dell
+Message: Unable to log in for benjamin_vu from 100.79.7.91 using WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144145
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144144
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:23-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144144
+Id: 144144
+MessageArgs: [u'root', u'100.79.7.17', u'RACADM']
+MessageId: USR0032
+OemRecordFormat: Dell
+Message: The session for root from 100.79.7.17 using RACADM is logged off.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144144
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144143
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:21-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144143
+Id: 144143
+MessageArgs: [u'ja07657', u'100.79.7.87', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using ja07657, from 100.79.7.87 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144143
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144142
+Links: {}
+Created: 2020-10-27T05:01:19-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144142
+Id: 144142
+MessageArgs: [u'root', u'100.79.7.17', u'cfgUserAdmin', u'RACADM']
+MessageId: RAC1195
+OemRecordFormat: Dell
+Message: User root via IP 100.79.7.17 requested state / configuration change to cfgUserAdmin using RACADM.
+MessageArgs@odata.count: 4
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144142
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144141
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:18-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144141
+Id: 144141
+MessageArgs: [u'ja07657', u'100.79.7.87', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using ja07657, from 100.79.7.87 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144141
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144140
+Links: {}
+Created: 2020-10-27T05:01:18-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144140
+Id: 144140
+MessageArgs: [u'2']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 2 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144140
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144139
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:09-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144139
+Id: 144139
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144139
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144138
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:09-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144138
+Id: 144138
+MessageArgs: [u'root', u'100.79.7.17', u'RACADM']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.17 and RACADM.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144138
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144137
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:09-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144137
+Id: 144137
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144137
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144136
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:01:06-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144136
+Id: 144136
+MessageArgs: [u'root', u'100.79.7.17', u'RACADM']
+MessageId: USR0032
+OemRecordFormat: Dell
+Message: The session for root from 100.79.7.17 using RACADM is logged off.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144136
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144135
+Links: {}
+Created: 2020-10-27T05:01:06-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144135
+Id: 144135
+MessageArgs: [u'2']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 2 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144135
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144134
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:58-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144134
+Id: 144134
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144134
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144133
+Links: {}
+Created: 2020-10-27T05:00:57-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144133
+Id: 144133
+MessageArgs: [u'root', u'100.79.7.17', u'cfgUserAdmin', u'RACADM']
+MessageId: RAC1195
+OemRecordFormat: Dell
+Message: User root via IP 100.79.7.17 requested state / configuration change to cfgUserAdmin using RACADM.
+MessageArgs@odata.count: 4
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144133
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144132
+Links: {}
+Created: 2020-10-27T05:00:57-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144132
+Id: 144132
+MessageArgs: [u'2']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 2 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144132
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144131
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:47-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144131
+Id: 144131
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144131
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144130
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:45-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144130
+Id: 144130
+MessageArgs: [u'root', u'100.79.7.17', u'RACADM']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.17 and RACADM.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144130
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144129
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:43-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144129
+Id: 144129
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144129
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144128
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:40-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144128
+Id: 144128
+MessageArgs: [u'root', u'100.79.7.17', u'RACADM']
+MessageId: USR0032
+OemRecordFormat: Dell
+Message: The session for root from 100.79.7.17 using RACADM is logged off.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144128
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144127
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:39-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144127
+Id: 144127
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144127
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144126
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:36-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144126
+Id: 144126
+MessageArgs: [u'15']
+MessageId: SWC1911
+OemRecordFormat: Dell
+Message: User ID 15 User Password has been changed.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144126
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144125
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:32-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144125
+Id: 144125
+MessageArgs: [u'benjamin_vu', u'100.79.7.91', u'WS-MAN', u'60']
+MessageId: USR0034
+OemRecordFormat: Dell
+Message: Login attempt alert for benjamin_vu from 100.79.7.91 using WS-MAN, IP will be blocked for 60 seconds.
+MessageArgs@odata.count: 4
+Severity: Warning
+EntryType: Oem
+Name:  Log Entry 144125
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144124
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:32-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144124
+Id: 144124
+MessageArgs: [u'benjamin_vu', u'100.79.7.91', u'WS-MAN']
+MessageId: USR0031
+OemRecordFormat: Dell
+Message: Unable to log in for benjamin_vu from 100.79.7.91 using WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144124
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144123
+Links: {}
+Created: 2020-10-27T05:00:29-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144123
+Id: 144123
+MessageArgs: [u'root', u'100.79.7.17', u'cfgUserAdmin', u'RACADM']
+MessageId: RAC1195
+OemRecordFormat: Dell
+Message: User root via IP 100.79.7.17 requested state / configuration change to cfgUserAdmin using RACADM.
+MessageArgs@odata.count: 4
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144123
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144122
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:24-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144122
+Id: 144122
+MessageArgs: [u'root', u'100.79.7.17', u'RACADM']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.17 and RACADM.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144122
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144121
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:22-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144121
+Id: 144121
+MessageArgs: [u'root', u'100.79.7.17', u'RACADM']
+MessageId: USR0032
+OemRecordFormat: Dell
+Message: The session for root from 100.79.7.17 using RACADM is logged off.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144121
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144120
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:21-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144120
+Id: 144120
+MessageArgs: [u'15']
+MessageId: SWC1910
+OemRecordFormat: Dell
+Message: User ID 15 User Name has been changed.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144120
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144119
+Links: {}
+Created: 2020-10-27T05:00:19-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144119
+Id: 144119
+MessageArgs: [u'root', u'100.79.7.17', u'cfgUserAdmin', u'RACADM']
+MessageId: RAC1195
+OemRecordFormat: Dell
+Message: User root via IP 100.79.7.17 requested state / configuration change to cfgUserAdmin using RACADM.
+MessageArgs@odata.count: 4
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144119
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144118
+Links: {}
+Created: 2020-10-27T05:00:19-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144118
+Id: 144118
+MessageArgs: [u'1']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 1 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144118
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144117
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:18-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144117
+Id: 144117
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144117
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144116
+Links: {}
+Created: 2020-10-27T05:00:18-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144116
+Id: 144116
+MessageArgs: [u'1']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 1 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144116
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144115
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:18-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144115
+Id: 144115
+MessageArgs: [u'oseadmin', u'100.79.7.75', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using oseadmin, from 100.79.7.75 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144115
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144114
+Links: {}
+Created: 2020-10-27T05:00:18-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144114
+Id: 144114
+MessageArgs: [u'1']
+MessageId: LOG007
+OemRecordFormat: Dell
+Message: The previous log entry was repeated 1 times.
+MessageArgs@odata.count: 1
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144114
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144113
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:17-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144113
+Id: 144113
+MessageArgs: [u'oseadmin', u'100.79.7.96', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using oseadmin, from 100.79.7.96 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144113
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144112
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:17-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144112
+Id: 144112
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144112
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144111
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:17-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144111
+Id: 144111
+MessageArgs: [u'oseadmin', u'100.79.7.75', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using oseadmin, from 100.79.7.75 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144111
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144110
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:17-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144110
+Id: 144110
+MessageArgs: [u'root', u'100.79.7.15', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using root, from 100.79.7.15 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144110
+
+@odata.type: #LogEntry.v1_4_0.LogEntry
+Description:  Log Entry 144109
+Links: {u'OriginOfCondition': {u'@odata.id': u'/redfish/v1/Managers/iDRAC.Embedded.1'}}
+Created: 2020-10-27T05:00:16-06:00
+@odata.id: /redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/144109
+Id: 144109
+MessageArgs: [u'oseadmin', u'100.79.7.75', u'WS-MAN']
+MessageId: USR0030
+OemRecordFormat: Dell
+Message: Successfully logged in using oseadmin, from 100.79.7.75 and WS-MAN.
+MessageArgs@odata.count: 3
+Severity: OK
+EntryType: Oem
+Name:  Log Entry 144109
+

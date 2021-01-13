@@ -50,7 +50,7 @@ if args.p is not None :
  def doit(process):
      os.system(f'{ process }')
 
- process_pool = multiprocessing.Pool(processes = 8)
+ process_pool = multiprocessing.Pool(processes = 40)
  process_pool.map(doit, proglist)
  print('Done.')
 else :

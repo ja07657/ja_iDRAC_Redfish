@@ -1,3 +1,10 @@
+#Boot to network ISO
+  python BootToNetworkIsoOsdREDFISH.py -ip 10.7.2.23 -u root -p passwd -ay     #check if mounted
+  python BootToNetworkIsoOsdREDFISH.py -ip 10.7.2.23 -u root -p passwd -by --ipaddress 192.168.1.11 --sharetype NFS --sharename /export --imagename CentOS-7.iso
+   # this will mount the ISO via NFS or CIFS
+   # then reboot the server, booting from that ISO
+  python BootToNetworkIsoOsdREDFISH.py -ip 10.7.2.23 -u root -p passwd -dy   #detach the ISO
+#
 #---------------
 # create a file, ipfile, with list of iDRAC ip addresses and run the 'main' program to loop through that ipfile while calling the other scripts....
 # there is a main.sh BASH script that uses parallel and sshpass, and a main.py script using python...
@@ -94,3 +101,20 @@
 ##
 
 #./main.py -p 'SetNextOneTimeBootDeviceREDFISH.py -o Pxe -r y'
+#
+###############Virtual Media
+InsertEjectVirtualMediaREDFISH.py -ip 192.168.0.120 -u root -p calvin -o 1 -d 1 -i http://192.168.0.130/esxi_5u1.iso #this example shows booting to CD ISO on HTTP share
+SetNextOneTimeBootVirtualMediaDeviceOemREDFISH.py -ip 192.168.0.120 -u root -p passwd -d 1 -r y # this example will set next next ontime boot device to virtual cd and reboot now
+###################################
+# disable slots
+#biosfile contains:
+Slot1:Disabled
+Slot2:BootDriverDisabled
+#./main.py -p 'BiosGetAttributesREDFISH_ja.py' # to a file
+#./main.py -p 'GetDeleteJobQueueREDFISH_nocheck.py -d JID_CLEARALL'
+#./main.py -p 'ResetIdracREDFISH.py'
+#./main.py -p 'BiosSetAttributeREDFISH_noreboot.withfile.py'
+#./main.py -p 'GetDeleteJobQueueREDFISH.py -g y' #list jobqueue
+#./main.py -p 'SetPowerStateREDFISH.py -r ForceRestart'
+#./main.py -p 'BiosGetAttributesREDFISH_ja.py'
+#------------------------------------------------------------------------

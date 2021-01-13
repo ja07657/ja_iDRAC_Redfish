@@ -1,0 +1,6 @@
+<SystemConfiguration> 
+ <Component FQDD="RAID.Integrated.1-1"> 
+  <Attribute Name="RAIDresetConfig">True</Attribute> 
+  <Attribute Name="EncryptionMode">Secure Enterprise Key Manager</Attribute> 
+ </Component>
+</SystemConfiguration> 

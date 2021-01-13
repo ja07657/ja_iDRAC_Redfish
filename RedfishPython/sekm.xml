@@ -1,0 +1,25 @@
+<SystemConfiguration> 
+<Component FQDD="RAID.Integrated.1-1"> 
+<Attribute Name="RAIDresetConfig">True</Attribute> 
+<Attribute Name="EncryptionMode">Secure Enterprise Key Manager</Attribute> 
+
+<Component FQDD="Disk.Virtual.0:RAID.Integrated.1-1"> 
+<Attribute Name="RAIDaction">Create</Attribute> 
+<Attribute Name="LockStatus">Locked</Attribute> 
+<Attribute Name="BootVD">True</Attribute> 
+<Attribute Name="RAIDinitOperation">None</Attribute> 
+<Attribute Name="DiskCachePolicy">Disabled</Attribute> 
+<Attribute Name="RAIDdefaultWritePolicy">WriteBack</Attribute> 
+<Attribute Name="RAIDdefaultReadPolicy">ReadAhead</Attribute> 
+<Attribute Name="Name">SCP VD</Attribute> 
+<Attribute Name="Size">0</Attribute> 
+<Attribute Name="StripeSize">512</Attribute> 
+<Attribute Name="SpanDepth">1</Attribute> 
+<Attribute Name="SpanLength">2</Attribute> 
+<Attribute Name="RAIDTypes">RAID 1</Attribute> 
+<Attribute Name="IncludedPhysicalDiskID">Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1</Attribute> 
+<Attribute Name="IncludedPhysicalDiskID">Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1</Attribute> 
+</Component> 
+
+</Component>
+</SystemConfiguration> 

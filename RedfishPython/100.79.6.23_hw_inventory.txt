@@ -1,0 +1,758 @@
+- Data collection timestamp: 10-12-2020  8:13:50
+
+---- System Information ----
+
+BiosVersion: 2.6.4
+SKU: C86D0Q2
+PowerState: On
+PCIeFunctions@odata.count: 13
+SerialNumber: CNIVC0085H0344
+BiosBootMode: UEFI
+PCIeDevices@odata.count: 9
+HostingRoles@odata.count: 0
+PartNumber: 0W23H8A02
+ProcessorSummary: {u'Count': 2, u'LogicalProcessorCount': 64, u'Model': u'Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz', u'Status': {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}}
+TrustedModules: [{u'Status': {u'State': u'Disabled'}, u'InterfaceType': u'TPM2_0', u'FirmwareVersion': u'TpmFirmware'}]
+HostName: MINWINPC
+MaxPCIeSlots: 3
+SysMemErrorMethodology: Multi-bitECC
+BladeGeometry: NotApplicable
+IntrusionRollupStatus: OK
+ChassisSystemHeightUnit: 1
+TempRollupStatus: OK
+EstimatedExhaustTemperatureCel: 35
+MaxCPUSockets: 2
+PopulatedPCIeSlots: 0
+EstimatedSystemAirflowCFM: 33
+PSRollupStatus: OK
+CurrentRollupStatus: OK
+SysMemLocation: SystemBoardOrMotherboard
+IsOEMBranded: False
+CPURollupStatus: OK
+ServerAllocationWatts: None
+BatteryRollupStatus: OK
+SystemID: 1814
+SysMemPrimaryStatus: OK
+CMCIP: None
+PowerCapEnabledState: Disabled
+MaxDIMMSlots: 24
+ChassisModel: 
+LicensingRollupStatus: OK
+IDSDMRollupStatus: None
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+VoltRollupStatus: OK
+SystemRevision: I
+PopulatedDIMMSlots: 12
+BIOSReleaseDate: 04/09/2020
+ExpressServiceCode: 26615802602
+smbiosGUID: 44454c4c-3800-1036-8044-c3c04f305132
+SELRollupStatus: OK
+ChassisName: Main System Chassis
+TempStatisticsRollupStatus: OK
+FanRollupStatus: OK
+StorageRollupStatus: OK
+MemoryOperationMode: OptimizerMode
+UUID: 4c4c4544-0038-3610-8044-c3c04f305132
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+NodeID: C86D0Q2
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/DellSystem/System.Embedded.1
+SDCardRollupStatus: None
+SysMemFailOverState: NotInUse
+ChassisServiceTag: C86D0Q2
+SystemGeneration: 14G Monolithic
+BaseBoardChassisSlot: NA
+HostingRoles: []
+TrustedModules@odata.count: 1
+Manufacturer: Dell Inc.
+Status: {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}
+Name: System
+AssetTag: 
+IndicatorLED: Lit
+MemorySummary: {u'Status': {u'HealthRollup': u'OK', u'State': u'Enabled', u'Health': u'OK'}, u'TotalSystemMemoryGiB': 89.407008, u'MemoryMirroring': u'System'}
+Model: PowerEdge R640
+UUID: 4c4c4544-0038-3610-8044-c3c04f305132
+SystemType: Physical
+HostWatchdogTimer: {u'Status': {u'State': u'Disabled'}, u'FunctionEnabled': False, u'TimeoutAction': u'None'}
+Id: System.Embedded.1
+
+---- Memory Information ----
+
+- Memory details for DIMM.Socket.B5 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 927213B4
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B5
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B5
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: B
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B5
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM B5
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.B5
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.B3 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 9272148F
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B3
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B3
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: B
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B3
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM B3
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.B3
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.A4 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 92721416
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A4
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A4
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: A
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A4
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM A4
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.A4
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.A6 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 9272145F
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A6
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A6
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: A
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A6
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM A6
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.A6
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.B2 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 927213D6
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B2
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B2
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: B
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B2
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM B2
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.B2
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.B6 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 927213AF
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B6
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B6
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: B
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B6
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM B6
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.B6
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.A1 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 9272149C
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A1
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A1
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: A
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A1
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM A1
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.A1
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.B1 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 927213E4
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B1
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B1
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: B
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B1
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM B1
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.B1
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.A5 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 9272143A
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A5
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A5
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: A
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A5
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM A5
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.A5
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.A3 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 927213E8
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A3
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A3
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: A
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A3
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM A3
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.A3
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.A2 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 927213E9
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM A2
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM A2
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: A
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A2
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM A2
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.A2
+CapacityMiB: 8192
+
+- Memory details for DIMM.Socket.B4 -
+
+ModuleProductID: None
+NonVolatileSizeMiB: 0
+SerialNumber: 927213AE
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+OperatingMemoryModes: [u'Volatile']
+VolatileSizeMiB: 8192
+MaxTDPMilliWatts: []
+PartNumber: HMA81GR7AFR8N-VK
+DeviceLocator: DIMM B4
+@odata.type: #Memory.v1_8_0.Memory
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: DIMM B4
+LogicalSizeMiB: 0
+AllowedSpeedsMHz: [2666]
+MemoryTechnology: DRAM
+BankLabel: B
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+SystemEraseCapability: NotSupported
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.B4
+ManufactureDate: Mon Jun 04 06:00:00 2018 UTC
+RemainingRatedWriteEndurancePercent: None
+Model: DDR4 DIMM
+CacheSizeMiB: 0
+OperatingSpeedMhz: 2666
+Manufacturer: Hynix Semiconductor
+OperatingMemoryModes@odata.count: 1
+Name: DIMM B4
+AllowedSpeedsMHz@odata.count: 1
+BusWidthBits: 72
+MemoryType: DRAM
+FirmwareRevision: 
+BaseModuleType: None
+DataWidthBits: 64
+RankCount: 1
+MaxTDPMilliWatts@odata.count: 0
+MemorySubsystemControllerManufacturerID: None
+ModuleManufacturerID: None
+ErrorCorrection: MultiBitECC
+MemorySubsystemControllerProductID: None
+MemoryDeviceType: DDR4
+Id: DIMM.Socket.B4
+CapacityMiB: 8192
+
+---- Processor Information ----
+
+- Processor details for CPU.Socket.2 -
+
+ProcessorId: {u'VendorId': u'GenuineIntel', u'IdentificationRegisters': u'0x00050654', u'EffectiveFamily': u'179', u'Step': u'4', u'MicrocodeInfo': u'0x2000069', u'EffectiveModel': u'85'}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+TotalEnabledCores: 16
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+ProcessorArchitecture: x86
+ProcessorType: CPU
+TotalThreads: 32
+MaxSpeedMHz: 4000
+InstructionSet: x86-64
+Cache3WritePolicy: WriteBack
+Cache1Associativity: 8-WaySet-Associative
+VirtualizationTechnologyEnabled: Yes
+Cache2Type: Unified
+Cache2Location: Internal
+Cache3SizeKB: 22528
+Cache1ErrorMethodology: Parity
+Cache2SizeKB: 16384
+Cache1InstalledSizeKB: 1024
+Cache3InstalledSizeKB: 22528
+Cache2ErrorMethodology: Single-bitECC
+Cache1Location: Internal
+Cache1SRAMType: Unknown
+Cache1PrimaryStatus: OK
+Cache3Associativity: FullyAssociative
+Cache3Type: Unified
+CurrentClockSpeedMhz: 2100
+ExternalBusClockSpeedMhz: 10400
+CPUFamily: Intel(R)Xeon(TM)
+Cache3SRAMType: Unknown
+HyperThreadingEnabled: Yes
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+VirtualizationTechnologyCapable: Yes
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Processors/DellProcessor/CPU.Socket.2
+Cache2Associativity: 16-WaySet-Associative
+Cache3ErrorMethodology: Single-bitECC
+Cache2WritePolicy: WriteBack
+CPUStatus: CPUEnabled
+Cache1WritePolicy: WriteBack
+Cache1Type: Unified
+Cache3Location: Internal
+Cache2PrimaryStatus: OK
+TurboModeEnabled: Yes
+Cache2InstalledSizeKB: 16384
+Cache2Level: L2
+Cache3Level: L3
+Cache2SRAMType: Unknown
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+Cache1Level: L1
+Volts: 1.8
+Cache1SizeKB: 1024
+TurboModeCapable: Yes
+Cache3PrimaryStatus: OK
+HyperThreadingCapable: Yes
+Name: CPU 2
+TotalCores: 16
+Model: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Id: CPU.Socket.2
+Socket: CPU.Socket.2
+Manufacturer: Intel
+
+- Processor details for CPU.Socket.1 -
+
+ProcessorId: {u'VendorId': u'GenuineIntel', u'IdentificationRegisters': u'0x00050654', u'EffectiveFamily': u'179', u'Step': u'4', u'MicrocodeInfo': u'0x2000069', u'EffectiveModel': u'85'}
+Assembly: {u'@odata.id': u'/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+TotalEnabledCores: 16
+Status: {u'State': u'Enabled', u'Health': u'OK'}
+ProcessorArchitecture: x86
+ProcessorType: CPU
+TotalThreads: 32
+MaxSpeedMHz: 4000
+InstructionSet: x86-64
+Cache3WritePolicy: WriteBack
+Cache1Associativity: 8-WaySet-Associative
+VirtualizationTechnologyEnabled: Yes
+Cache2Type: Unified
+Cache2Location: Internal
+Cache3SizeKB: 22528
+Cache1ErrorMethodology: Parity
+Cache2SizeKB: 16384
+Cache1InstalledSizeKB: 1024
+Cache3InstalledSizeKB: 22528
+Cache2ErrorMethodology: Single-bitECC
+Cache1Location: Internal
+Cache1SRAMType: Unknown
+Cache1PrimaryStatus: OK
+Cache3Associativity: FullyAssociative
+Cache3Type: Unified
+CurrentClockSpeedMhz: 2100
+ExternalBusClockSpeedMhz: 10400
+CPUFamily: Intel(R)Xeon(TM)
+Cache3SRAMType: Unknown
+HyperThreadingEnabled: Yes
+LastSystemInventoryTime: 2020-10-09T23:05:38+00:00
+VirtualizationTechnologyCapable: Yes
+@odata.id: /redfish/v1/Dell/Systems/System.Embedded.1/Processors/DellProcessor/CPU.Socket.1
+Cache2Associativity: 16-WaySet-Associative
+Cache3ErrorMethodology: Single-bitECC
+Cache2WritePolicy: WriteBack
+CPUStatus: CPUEnabled
+Cache1WritePolicy: WriteBack
+Cache1Type: Unified
+Cache3Location: Internal
+Cache2PrimaryStatus: OK
+TurboModeEnabled: Yes
+Cache2InstalledSizeKB: 16384
+Cache2Level: L2
+Cache3Level: L3
+Cache2SRAMType: Unknown
+LastUpdateTime: 2020-09-21T21:48:21+00:00
+Cache1Level: L1
+Volts: 1.8
+Cache1SizeKB: 1024
+TurboModeCapable: Yes
+Cache3PrimaryStatus: OK
+HyperThreadingCapable: Yes
+Name: CPU 1
+TotalCores: 16
+Model: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Id: CPU.Socket.1
+Socket: CPU.Socket.1
+Manufacturer: Intel
+
+---- Fan Information ----
